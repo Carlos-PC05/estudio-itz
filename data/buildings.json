@@ -1,0 +1,3741 @@
+{
+  "pageCount": 26,
+  "sourceCount": 136,
+  "imageCount": 167,
+  "pdfSha256": "b8b2fdb32cad456e79f6bd3f583eee9c92542c7fbca7f83fefb0bfd145f3a125",
+  "buildings": [
+    {
+      "id": "casa-soe-ker-tie",
+      "sources": [
+        {
+          "sourceId": "p01-01",
+          "page": 1,
+          "pages": [
+            1
+          ],
+          "topic": 2,
+          "name": "CASA SOE KER TIE",
+          "architect": "TYIN TEGNESTUE",
+          "location": "ASIA",
+          "date": "2009"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p01-001.webp",
+          "width": 676,
+          "height": 453,
+          "page": 1
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "refugio-del-bosque",
+      "sources": [
+        {
+          "sourceId": "p01-02",
+          "page": 1,
+          "pages": [
+            1
+          ],
+          "topic": 2,
+          "name": "REFUGIO DEL BOSQUE",
+          "architect": "ESTUDIO CHECO UHLIK ARCHITEKTI",
+          "location": "REPÚBLICA CHECA",
+          "date": "2013"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p01-002.webp",
+          "width": 1600,
+          "height": 1066,
+          "page": 1
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-14-25",
+      "sources": [
+        {
+          "sourceId": "p01-03",
+          "page": 1,
+          "pages": [
+            1
+          ],
+          "topic": 3,
+          "name": "CASA 14-25",
+          "architect": "LE CORBUSIER Y PIERRE JEANERET",
+          "location": "STUTTGART, ALEMANIA",
+          "date": "1957"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p01-003.webp",
+          "width": 520,
+          "height": 590,
+          "page": 1
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "villa-almerico-capra",
+      "sources": [
+        {
+          "sourceId": "p01-04",
+          "page": 1,
+          "pages": [
+            1
+          ],
+          "topic": 3,
+          "name": "VILLA ALMERICO CAPRA",
+          "architect": "ANDREA PALLADIO",
+          "location": "VICENZA, ITALIA",
+          "date": "1566"
+        },
+        {
+          "sourceId": "p16-03",
+          "page": 16,
+          "pages": [
+            16
+          ],
+          "topic": 8,
+          "name": "VILLA CAPRA-LA ROTONDA",
+          "architect": "ANDREA PALLADIO",
+          "location": "VICENZA ITALIA",
+          "date": "SIGLO XVII"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p01-004.webp",
+          "width": 547,
+          "height": 365,
+          "page": 1
+        },
+        {
+          "src": "images/p16-097.webp",
+          "width": 674,
+          "height": 455,
+          "page": 16
+        }
+      ],
+      "notes": [
+        "Las fechas difieren: «1566» en la página 1 y «SIGLO XVII» en la página 16. Ambas se conservan para su revisión.",
+        "El edificio aparece en varias fichas del dosier. Consulta las versiones y sus páginas de origen."
+      ]
+    },
+    {
+      "id": "casa-de-la-cascada",
+      "sources": [
+        {
+          "sourceId": "p02-01",
+          "page": 2,
+          "pages": [
+            2
+          ],
+          "topic": 4,
+          "name": "CASA DE LA CASCADA",
+          "architect": "F.L. WRIGHT",
+          "location": "PENNSYLVANIA",
+          "date": "1936-1939"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p02-005.webp",
+          "width": 597,
+          "height": 335,
+          "page": 2
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "termas-de-vals",
+      "sources": [
+        {
+          "sourceId": "p02-02",
+          "page": 2,
+          "pages": [
+            2
+          ],
+          "topic": 4,
+          "name": "TERMAS DE VALS",
+          "architect": "PETER ZUMTHOR",
+          "location": "ALPES SUIZOS",
+          "date": "1993-1996"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p02-006.webp",
+          "width": 195,
+          "height": 183,
+          "page": 2
+        },
+        {
+          "src": "images/p02-007.webp",
+          "width": 204,
+          "height": 192,
+          "page": 2
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-estudio",
+      "sources": [
+        {
+          "sourceId": "p02-03",
+          "page": 2,
+          "pages": [
+            2
+          ],
+          "topic": 4,
+          "name": "CASA-ESTUDIO",
+          "architect": "LUIS BARRAGÁN",
+          "location": "CIUDAD-MEXICO",
+          "date": "1948"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p02-008.webp",
+          "width": 415,
+          "height": 481,
+          "page": 2
+        },
+        {
+          "src": "images/p02-009.webp",
+          "width": 1600,
+          "height": 1200,
+          "page": 2
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "espacio-de-meditacion-sede-de-la-unesco",
+      "sources": [
+        {
+          "sourceId": "p02-04",
+          "page": 2,
+          "pages": [
+            2
+          ],
+          "topic": 4,
+          "name": "ESPACIO DE MEDITACIÓN - SEDE DE LA UNESCO",
+          "architect": "TADAO ANDO",
+          "location": "PARÍS",
+          "date": "1994-1995"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p02-010.webp",
+          "width": 239,
+          "height": 320,
+          "page": 2
+        },
+        {
+          "src": "images/p02-011.webp",
+          "width": 516,
+          "height": 387,
+          "page": 2
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "pabellon-escuchar",
+      "sources": [
+        {
+          "sourceId": "p03-01",
+          "page": 3,
+          "pages": [
+            3
+          ],
+          "topic": 4,
+          "name": "PABELLÓN ESCUCHAR",
+          "architect": "ANNETTE GIGON Y MIKE GUYER",
+          "location": "PARQUE MUSEO KALKRIESE, ALEMANIA",
+          "date": "1999-2002"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p03-012.webp",
+          "width": 597,
+          "height": 335,
+          "page": 3
+        },
+        {
+          "src": "images/p03-013.webp",
+          "width": 461,
+          "height": 433,
+          "page": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "el-organo-del-mar",
+      "sources": [
+        {
+          "sourceId": "p03-02",
+          "page": 3,
+          "pages": [
+            3
+          ],
+          "topic": 4,
+          "name": "EL ÓRGANO DEL MAR",
+          "architect": "NIKOLA BASIC",
+          "location": "COSTA DE ZADAR RIVA, CROACIA",
+          "date": "2005"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p03-014.webp",
+          "width": 678,
+          "height": 452,
+          "page": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "deborah-domingo-aulario-3-universidad-de-alicante",
+      "sources": [
+        {
+          "sourceId": "p03-03",
+          "page": 3,
+          "pages": [
+            3
+          ],
+          "topic": 4,
+          "name": "DEBORAH DOMINGO, AULARIO 3, UNIVERSIDAD DE ALICANTE",
+          "architect": "JAVIER GARCÍA SOLERA",
+          "location": "ALICANTE",
+          "date": "1999"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p03-015.webp",
+          "width": 597,
+          "height": 335,
+          "page": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "san-carlos-de-las-4-fuentes",
+      "sources": [
+        {
+          "sourceId": "p03-04",
+          "page": 3,
+          "pages": [
+            3
+          ],
+          "topic": 4,
+          "name": "SAN CARLOS DE LAS 4 FUENTES",
+          "architect": "FRANCESCO BORROMINI",
+          "location": "ITALIA",
+          "date": "1599-1667"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p03-016.webp",
+          "width": 413,
+          "height": 742,
+          "page": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-tassel",
+      "sources": [
+        {
+          "sourceId": "p03-05",
+          "page": 3,
+          "pages": [
+            3
+          ],
+          "topic": 4,
+          "name": "CASA TASSEL",
+          "architect": "VICTOR HORTA",
+          "location": "BRUSELAS",
+          "date": "1892-1893"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p03-017.webp",
+          "width": 355,
+          "height": 563,
+          "page": 3
+        },
+        {
+          "src": "images/p03-018.webp",
+          "width": 492,
+          "height": 624,
+          "page": 3
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-batllo",
+      "sources": [
+        {
+          "sourceId": "p04-01",
+          "page": 4,
+          "pages": [
+            4
+          ],
+          "topic": 4,
+          "name": "CASA BATLLÓ",
+          "architect": "ANTONIO GAUDÍ",
+          "location": "BARCELONA, ESPAÑA",
+          "date": "1904"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p04-019.webp",
+          "width": 554,
+          "height": 554,
+          "page": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "mayolicahaus",
+      "sources": [
+        {
+          "sourceId": "p04-02",
+          "page": 4,
+          "pages": [
+            4
+          ],
+          "topic": 4,
+          "name": "MAYOLICAHAUS",
+          "architect": "OTTO WAGNER",
+          "location": "VIENNA",
+          "date": "1898"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p04-020.webp",
+          "width": 547,
+          "height": 365,
+          "page": 4
+        },
+        {
+          "src": "images/p04-021.webp",
+          "width": 472,
+          "height": 423,
+          "page": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "loohaus-goldan-salatsch",
+      "sources": [
+        {
+          "sourceId": "p04-03",
+          "page": 4,
+          "pages": [
+            4
+          ],
+          "topic": 4,
+          "name": "LOOHAUS / GOLDAN & SALATSCH",
+          "architect": "ADOLF LOOS",
+          "location": "VIENA",
+          "date": "1910"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p04-022.webp",
+          "width": 528,
+          "height": 378,
+          "page": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-scheu",
+      "sources": [
+        {
+          "sourceId": "p04-04",
+          "page": 4,
+          "pages": [
+            4
+          ],
+          "topic": 4,
+          "name": "CASA SCHEU",
+          "architect": "ADOLF LOOS",
+          "location": "VIENA",
+          "date": "1912-1923"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p04-023.webp",
+          "width": 1200,
+          "height": 836,
+          "page": 4
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "intervencion-en-el-instituto-tecnologico-iit",
+      "sources": [
+        {
+          "sourceId": "p04-05",
+          "page": 4,
+          "pages": [
+            4
+          ],
+          "topic": 4,
+          "name": "INTERVENCIÓN EN EL INSTITUTO TECNOLÓGICO (IIT)",
+          "architect": "MIES VAN DER ROHE",
+          "location": "NUEVA YORK",
+          "date": "2003"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p04-024.webp",
+          "width": 427,
+          "height": 406,
+          "page": 4
+        }
+      ],
+      "notes": [
+        "La imagen de esta ficha es un retrato, tal como aparece en el dosier."
+      ]
+    },
+    {
+      "id": "vinedo-gantenbein",
+      "sources": [
+        {
+          "sourceId": "p05-01",
+          "page": 5,
+          "pages": [
+            5
+          ],
+          "topic": 4,
+          "name": "VIÑEDO GANTENBEIN",
+          "architect": "MARTHA Y DANIEL GANTENBEIN",
+          "location": "SUIZA",
+          "date": "2006"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p05-025.webp",
+          "width": 680,
+          "height": 451,
+          "page": 5
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "la-nube",
+      "sources": [
+        {
+          "sourceId": "p05-02",
+          "page": 5,
+          "pages": [
+            5
+          ],
+          "topic": 4,
+          "name": "LA NUBE",
+          "architect": "MRDV",
+          "location": "SEÚL, COREA",
+          "date": "2015"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p05-026.webp",
+          "width": 462,
+          "height": 663,
+          "page": 5
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "l-hemisferic-primer-edificio-de-la-ciudad-de-las-artes-y-las-ciencias",
+      "sources": [
+        {
+          "sourceId": "p05-03",
+          "page": 5,
+          "pages": [
+            5
+          ],
+          "topic": 4,
+          "name": "L¨HEMISFERIC ( PRIMER EDIFICIO DE LA CIUDAD DE LAS ARTES Y LAS CIENCIAS )",
+          "architect": "SANTIAGO CALATRAVA",
+          "location": "VALENCIA, ESPAÑA",
+          "date": "1998"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p05-027.webp",
+          "width": 547,
+          "height": 365,
+          "page": 5
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "catedral-de-brasilea",
+      "sources": [
+        {
+          "sourceId": "p05-04",
+          "page": 5,
+          "pages": [
+            5
+          ],
+          "topic": 4,
+          "name": "CATEDRAL DE BRASILEA",
+          "architect": "OSCAR NIEMEYER",
+          "location": "BRASIL",
+          "date": "1958-1970n"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p05-028.webp",
+          "width": 697,
+          "height": 439,
+          "page": 5
+        }
+      ],
+      "notes": [
+        "La fecha aparece como «1958-1970n» en el documento. El carácter final necesita revisión."
+      ]
+    },
+    {
+      "id": "templo-del-lotto",
+      "sources": [
+        {
+          "sourceId": "p05-05",
+          "page": 5,
+          "pages": [
+            5
+          ],
+          "topic": 4,
+          "name": "TEMPLO DEL LOTTO",
+          "architect": "FARIBORZ SAHBA",
+          "location": "INDIA",
+          "date": "1980-1986"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p05-029.webp",
+          "width": 479,
+          "height": 253,
+          "page": 5
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "lego-house",
+      "sources": [
+        {
+          "sourceId": "p05-06",
+          "page": 5,
+          "pages": [
+            5
+          ],
+          "topic": 4,
+          "name": "LEGO HOUSE",
+          "architect": "ESTUDIO BIG",
+          "location": "DINAMARCA",
+          "date": "2014-2017"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p05-030.webp",
+          "width": 401,
+          "height": 498,
+          "page": 5
+        },
+        {
+          "src": "images/p05-031.webp",
+          "width": 640,
+          "height": 479,
+          "page": 5
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "montana-tindaya",
+      "sources": [
+        {
+          "sourceId": "p06-01",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "topic": 5,
+          "name": "MONTAÑA TINDAYA",
+          "architect": "EDUARDO CHILLIDA",
+          "location": "LA OLIVA, FUERTEVENTURA, ISLAS CANARIAS",
+          "date": "2003"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p06-032.webp",
+          "width": 638,
+          "height": 480,
+          "page": 6
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "las-canteras-de-mares",
+      "sources": [
+        {
+          "sourceId": "p06-02",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "topic": 5,
+          "name": "LAS CANTERAS DE MARÉS",
+          "architect": "LAETITIA LARA",
+          "location": "MENORCA",
+          "date": "1960-1994"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p06-033.webp",
+          "width": 678,
+          "height": 452,
+          "page": 6
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "centro-de-innovacion-uc",
+      "sources": [
+        {
+          "sourceId": "p06-03",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "topic": 5,
+          "name": "CENTRO DE INNOVACIÓN UC",
+          "architect": "ALEJANDRO ARAVENA",
+          "location": "CAMPUS SAN JOAQUÍN DE LA PONTIFICIA UNIVERSIDAD CATÓLICA DE CHILE",
+          "date": "2014"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p06-034.webp",
+          "width": 402,
+          "height": 497,
+          "page": 6
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-farnsworth",
+      "sources": [
+        {
+          "sourceId": "p06-04",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "topic": 5,
+          "name": "CASA FARNSWORTH",
+          "architect": "MIES VAN DER ROHE",
+          "location": "ILLINOIS, USA",
+          "date": "1946"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p06-035.webp",
+          "width": 678,
+          "height": 452,
+          "page": 6
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-schindler-actualmente-funciona-como-sede-del-mark-center-of-art-and-archi",
+      "sources": [
+        {
+          "sourceId": "p06-05",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "topic": 5,
+          "name": "CASA SCHINDLER (ACTUALMENTE FUNCIONA COMO SEDE DEL MARK CENTER OF ART AND ARCHI. )",
+          "architect": "RUDOLF M. SCHINDLER",
+          "location": "WEST HOLLYWOOD, CALIFORNIA",
+          "date": "1922"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p06-036.webp",
+          "width": 650,
+          "height": 396,
+          "page": 6
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "cementerio-finisterre",
+      "sources": [
+        {
+          "sourceId": "p06-06",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "topic": 5,
+          "name": "CEMENTERIO FINISTERRE",
+          "architect": "CÉSAR PORTELA",
+          "location": "PORTELA, LA CORUÑA",
+          "date": "1800"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p06-037.webp",
+          "width": 597,
+          "height": 335,
+          "page": 6
+        },
+        {
+          "src": "images/p06-038.webp",
+          "width": 432,
+          "height": 462,
+          "page": 6
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-ugalde",
+      "sources": [
+        {
+          "sourceId": "p07-01",
+          "page": 7,
+          "pages": [
+            7
+          ],
+          "topic": 5,
+          "name": "CASA UGALDE",
+          "architect": "JOSÉ ANTONIO CODERCH",
+          "location": "CALDES D´ESTRAC, BARCELONA",
+          "date": "1951"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p07-039.webp",
+          "width": 625,
+          "height": 490,
+          "page": 7
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "bloque-de-viviendas-calle-j-s-bach",
+      "sources": [
+        {
+          "sourceId": "p07-02",
+          "page": 7,
+          "pages": [
+            7
+          ],
+          "topic": 5,
+          "name": "BLOQUE DE VIVIENDAS CALLE J.S BACH",
+          "architect": "JOSÉ ANTONIO CODERCH",
+          "location": "CARRER JOHANN SEBASTIAN DE BACH, BARCELONA",
+          "date": "1958"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p07-040.webp",
+          "width": 549,
+          "height": 364,
+          "page": 7
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "the-shocking-tei-tea-house",
+      "sources": [
+        {
+          "sourceId": "p07-03",
+          "page": 7,
+          "pages": [
+            7
+          ],
+          "topic": 5,
+          "name": "THE SHOCKING - TEI TEA HOUSE",
+          "architect": "JOSÉ ANTONIO CODERCH",
+          "location": "VILLA IMPERIAL KATSURA, KIOTO, JAPÓN",
+          "date": "1658"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p07-041.webp",
+          "width": 678,
+          "height": 452,
+          "page": 7
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "serpentine-gallery-pavilion",
+      "sources": [
+        {
+          "sourceId": "p07-04",
+          "page": 7,
+          "pages": [
+            7
+          ],
+          "topic": 5,
+          "name": "SERPENTINE GALLERY PAVILION",
+          "architect": "SANAA",
+          "location": "LONDRES",
+          "date": "2009"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p07-042.webp",
+          "width": 547,
+          "height": 365,
+          "page": 7
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "ayuntamiento-de-murcia",
+      "sources": [
+        {
+          "sourceId": "p07-05",
+          "page": 7,
+          "pages": [
+            7
+          ],
+          "topic": 5,
+          "name": "AYUNTAMIENTO DE MURCIA",
+          "architect": "RAFAEL MONEO",
+          "location": "MURCIA, ESPAÑA",
+          "date": "1998"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p07-043.webp",
+          "width": 447,
+          "height": 447,
+          "page": 7
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "parque-guell",
+      "sources": [
+        {
+          "sourceId": "p07-06",
+          "page": 7,
+          "pages": [
+            7
+          ],
+          "topic": 5,
+          "name": "PARQUE GÜELL",
+          "architect": "ANTONIO GAUDÍ",
+          "location": "BARCELONA, ESPAÑA",
+          "date": "1900-1914"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p07-044.webp",
+          "width": 554,
+          "height": 554,
+          "page": 7
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "johnson-wax-building",
+      "sources": [
+        {
+          "sourceId": "p08-01",
+          "page": 8,
+          "pages": [
+            8
+          ],
+          "topic": 5,
+          "name": "JOHNSON WAX BUILDING",
+          "architect": "F.L. WRIGHT",
+          "location": "WISCONSIN, USA",
+          "date": "1936-1939"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p08-045.webp",
+          "width": 624,
+          "height": 492,
+          "page": 8
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "pabellon-expo-2008-zaragoza",
+      "sources": [
+        {
+          "sourceId": "p08-02",
+          "page": 8,
+          "pages": [
+            8
+          ],
+          "topic": 5,
+          "name": "PABELLÓN EXPO. 2008 ZARAGOZA",
+          "architect": "FRANCISCO MANGADO",
+          "location": "ZARAGOZA, ESPAÑA",
+          "date": "2008"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p08-046.webp",
+          "width": 507,
+          "height": 394,
+          "page": 8
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "templo-ramses-ii-abu-simbel",
+      "sources": [
+        {
+          "sourceId": "p08-03",
+          "page": 8,
+          "pages": [
+            8
+          ],
+          "topic": 5,
+          "name": "TEMPLO RAMSÉS II, ABU SIMBEL",
+          "architect": "NO TIENE, FUE CONSTRUIDO BAJO MANDATO DEL FARAÓN RAMSÉS II",
+          "location": "EGIPTO",
+          "date": "1264 A.C. - 1244 A.C."
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p08-047.webp",
+          "width": 678,
+          "height": 452,
+          "page": 8
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "piazza-del-campo",
+      "sources": [
+        {
+          "sourceId": "p08-04",
+          "page": 8,
+          "pages": [
+            8
+          ],
+          "topic": 5,
+          "name": "PIAZZA DEL CAMPO",
+          "architect": "LOUIS KAHN",
+          "location": "SIENNA, ITALIA",
+          "date": "1959"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p08-048.webp",
+          "width": 576,
+          "height": 432,
+          "page": 8
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "villa-savoye",
+      "sources": [
+        {
+          "sourceId": "p08-05",
+          "page": 8,
+          "pages": [
+            8
+          ],
+          "topic": 5,
+          "name": "VILLA SAVOYE",
+          "architect": "LE CORBUSIER",
+          "location": "PARÍS, FRANCIA",
+          "date": "1929"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p08-049.webp",
+          "width": 678,
+          "height": 452,
+          "page": 8
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-koshino",
+      "sources": [
+        {
+          "sourceId": "p08-06",
+          "page": 8,
+          "pages": [
+            8
+          ],
+          "topic": 5,
+          "name": "CASA KOSHINO",
+          "architect": "TADAO ANDO",
+          "location": "ASHIYA, JAPÓN",
+          "date": "1981"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p08-050.webp",
+          "width": 489,
+          "height": 626,
+          "page": 8
+        },
+        {
+          "src": "images/p08-051.webp",
+          "width": 634,
+          "height": 482,
+          "page": 8
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "capilla-san-bernardo",
+      "sources": [
+        {
+          "sourceId": "p09-01",
+          "page": 9,
+          "pages": [
+            9
+          ],
+          "topic": 5,
+          "name": "CAPILLA SAN BERNARDO",
+          "architect": "NICOLÁS CAMPODONICO",
+          "location": "CÓRDOBA, ARGENTINA",
+          "date": "2012-2015"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p09-052.webp",
+          "width": 658,
+          "height": 465,
+          "page": 9
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "barragan-torres-satelite",
+      "sources": [
+        {
+          "sourceId": "p09-02",
+          "page": 9,
+          "pages": [
+            9
+          ],
+          "topic": 7,
+          "name": "BARRAGÁN, TORRES SATELITE",
+          "architect": "MATHIAS GOERITZ",
+          "location": "MEXICO",
+          "date": "1957"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p09-053.webp",
+          "width": 398,
+          "height": 502,
+          "page": 9
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "templo-kandariya-mahadeva",
+      "sources": [
+        {
+          "sourceId": "p09-03",
+          "page": 9,
+          "pages": [
+            9
+          ],
+          "topic": 7,
+          "name": "TEMPLO KANDARIYA MAHADEVA",
+          "architect": "MAESTROS CONDUCTORES DE LA DINASTÍA CHANDELA",
+          "location": "INDIA",
+          "date": "1030 D.C."
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p09-054.webp",
+          "width": 499,
+          "height": 361,
+          "page": 9
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "complejo-educacional-ambiental",
+      "sources": [
+        {
+          "sourceId": "p09-04",
+          "page": 9,
+          "pages": [
+            9
+          ],
+          "topic": 7,
+          "name": "COMPLEJO EDUCACIONAL AMBIENTAL",
+          "architect": "JOAO ÁLVARO ROCHA",
+          "location": "CASTELO DA MAIA, PORTUGAL",
+          "date": "1999-2008"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p09-055.webp",
+          "width": 499,
+          "height": 400,
+          "page": 9
+        },
+        {
+          "src": "images/p09-056.webp",
+          "width": 508,
+          "height": 393,
+          "page": 9
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "wall-house-2",
+      "sources": [
+        {
+          "sourceId": "p09-05",
+          "page": 9,
+          "pages": [
+            9
+          ],
+          "topic": 7,
+          "name": "WALL HOUSE 2",
+          "architect": "JOHN HEJDUK",
+          "location": "(MUSEO GRONINGA) PAÍSES BAJOS",
+          "date": "2001"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p09-057.webp",
+          "width": 629,
+          "height": 458,
+          "page": 9
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-weinstein",
+      "sources": [
+        {
+          "sourceId": "p10-01",
+          "page": 10,
+          "pages": [
+            10
+          ],
+          "topic": 7,
+          "name": "CASA WEINSTEIN",
+          "architect": "RICHARD MEIER",
+          "location": "NUEVA YORK, USA",
+          "date": "1969-1971 (AÑOS 60-70)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p10-058.webp",
+          "width": 947,
+          "height": 775,
+          "page": 10
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "piazza-del-popolo",
+      "sources": [
+        {
+          "sourceId": "p10-02",
+          "page": 10,
+          "pages": [
+            10
+          ],
+          "topic": 7,
+          "name": "PIAZZA DEL POPOLO",
+          "architect": "URBANISTA GIUSEPPE VALADIER",
+          "location": "ROMA, ITALIA",
+          "date": "SIGLO XIX"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p10-059.webp",
+          "width": 554,
+          "height": 554,
+          "page": 10
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "crown-hall-iit",
+      "sources": [
+        {
+          "sourceId": "p10-03",
+          "page": 10,
+          "pages": [
+            10
+          ],
+          "topic": 7,
+          "name": "CROWN HALL IIT",
+          "architect": "MIES VAN DER ROHE",
+          "location": "CHICAGO, USA",
+          "date": "1952 (AÑOS 50)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p10-060.webp",
+          "width": 678,
+          "height": 452,
+          "page": 10
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "montreal-biosphere-previamente-fue-el-pabellon-para-la-expo-del-67-en-estados-unidos",
+      "sources": [
+        {
+          "sourceId": "p10-04",
+          "page": 10,
+          "pages": [
+            10
+          ],
+          "topic": 7,
+          "name": "MONTREAL BIOSPHERE (PREVIAMENTE FUE EL PABELLÓN PARA LA EXPO. DEL 67 EN ESTADOS UNIDOS )",
+          "architect": "RICHARD BUCKMINSTER",
+          "location": "MONTREAL, FRANCIA",
+          "date": "1967 ( INCENDIO 1976 )"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p10-061.webp",
+          "width": 678,
+          "height": 452,
+          "page": 10
+        }
+      ],
+      "notes": [
+        "La ubicación figura como «MONTREAL, FRANCIA» en el dosier. Conviene verificar este dato antes de memorizarlo."
+      ]
+    },
+    {
+      "id": "taj-mahal",
+      "sources": [
+        {
+          "sourceId": "p10-05",
+          "page": 10,
+          "pages": [
+            10
+          ],
+          "topic": 7,
+          "name": "TAJ MAHAL",
+          "architect": "USTAD AHMAD",
+          "location": "AGRA, INDIA",
+          "date": "SIGLO XVII"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p10-062.webp",
+          "width": 700,
+          "height": 438,
+          "page": 10
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "pabellon-expo-internacional-barcelona",
+      "sources": [
+        {
+          "sourceId": "p10-06",
+          "page": 10,
+          "pages": [
+            10
+          ],
+          "topic": 7,
+          "name": "PABELLÓN EXPO. INTERNACIONAL BARCELONA",
+          "architect": "MIES VAN DER ROHE",
+          "location": "BARCELONA, ESPAÑA",
+          "date": "1929"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p10-063.webp",
+          "width": 554,
+          "height": 554,
+          "page": 10
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-kaufman",
+      "sources": [
+        {
+          "sourceId": "p11-01",
+          "page": 11,
+          "pages": [
+            11
+          ],
+          "topic": 7,
+          "name": "CASA KAUFMAN",
+          "architect": "RICHARD NEUTRA",
+          "location": "CALIFORNIA, USA",
+          "date": "1946 (AÑOS 40)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p11-064.webp",
+          "width": 554,
+          "height": 554,
+          "page": 11
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-schroder",
+      "sources": [
+        {
+          "sourceId": "p11-02",
+          "page": 11,
+          "pages": [
+            11
+          ],
+          "topic": 7,
+          "name": "CASA SCHRöDER",
+          "architect": "GERRIT RIETVELD",
+          "location": "UTRECHT, PAÍSES BAJOS",
+          "date": "1923-1924 (AÑOS 20)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p11-065.webp",
+          "width": 500,
+          "height": 333,
+          "page": 11
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "villa-shodan",
+      "sources": [
+        {
+          "sourceId": "p11-03",
+          "page": 11,
+          "pages": [
+            11
+          ],
+          "topic": 7,
+          "name": "VILLA SHODAN",
+          "architect": "LE CORBUSIER",
+          "location": "AHMEDABAD, INDIA (REALIZA UN CONJUNTO DE OPERACIONES)",
+          "date": "1956 (AÑOS 50)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p11-066.webp",
+          "width": 679,
+          "height": 450,
+          "page": 11
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "national-gallery-berlin",
+      "sources": [
+        {
+          "sourceId": "p11-04",
+          "page": 11,
+          "pages": [
+            11
+          ],
+          "topic": 7,
+          "name": "NATIONAL GALLERY BERLÍN",
+          "architect": "MIES VAN DER ROHE",
+          "location": "BERLÍN, ALEMANIA",
+          "date": "1962-1968 (AÑOS 60)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p11-067.webp",
+          "width": 620,
+          "height": 474,
+          "page": 11
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "museo-universitario-alicante-mua",
+      "sources": [
+        {
+          "sourceId": "p11-05",
+          "page": 11,
+          "pages": [
+            11
+          ],
+          "topic": 7,
+          "name": "MUSEO UNIVERSITARIO ALICANTE ( MUA )",
+          "architect": "ALFREDO PAYÁ",
+          "location": "ALICANTE, ESPAÑA",
+          "date": "1999 (FINAL S. XX)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p11-068.webp",
+          "width": 1600,
+          "height": 1066,
+          "page": 11
+        },
+        {
+          "src": "images/p11-069.webp",
+          "width": 523,
+          "height": 382,
+          "page": 11
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "villa-sarabhai",
+      "sources": [
+        {
+          "sourceId": "p11-06",
+          "page": 11,
+          "pages": [
+            11
+          ],
+          "topic": 7,
+          "name": "VILLA SARABHAI",
+          "architect": "LE CORBUSIER",
+          "location": "AHMEDABAD, INDIA",
+          "date": "1951-1956 (AÑOS 50)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p11-070.webp",
+          "width": 1200,
+          "height": 950,
+          "page": 11
+        },
+        {
+          "src": "images/p11-071.webp",
+          "width": 900,
+          "height": 675,
+          "page": 11
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-kook",
+      "sources": [
+        {
+          "sourceId": "p12-01",
+          "page": 12,
+          "pages": [
+            12
+          ],
+          "topic": 7,
+          "name": "CASA KOOK",
+          "architect": "LE CORBUSIER Y PIERRE JEANNERET",
+          "location": "PARÍS, FRANCIA",
+          "date": "1926 (AÑOS 20)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p12-072.webp",
+          "width": 447,
+          "height": 447,
+          "page": 12
+        },
+        {
+          "src": "images/p12-073.webp",
+          "width": 656,
+          "height": 467,
+          "page": 12
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "one-half-house-proyecto-conceptual",
+      "sources": [
+        {
+          "sourceId": "p12-02",
+          "page": 12,
+          "pages": [
+            12
+          ],
+          "topic": 7,
+          "name": "ONE HALF HOUSE (PROYECTO CONCEPTUAL)",
+          "architect": "JOHN HEJDUK",
+          "location": "ESTADOS UNIDOS",
+          "date": "1966 (AÑOS 60)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p12-074.webp",
+          "width": 250,
+          "height": 250,
+          "page": 12
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "torre-einstein",
+      "sources": [
+        {
+          "sourceId": "p12-03",
+          "page": 12,
+          "pages": [
+            12
+          ],
+          "topic": 7,
+          "name": "TORRE EINSTEIN",
+          "architect": "MENDELSOHN",
+          "location": "POTSDAM, ALEMANI",
+          "date": "1924 (AÑOS 20)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p12-075.webp",
+          "width": 678,
+          "height": 452,
+          "page": 12
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "panteon-de-agripa",
+      "sources": [
+        {
+          "sourceId": "p12-04",
+          "page": 12,
+          "pages": [
+            12
+          ],
+          "topic": 7,
+          "name": "PANTEÓN (BASÍLICA DE SANTA MARÍA DE MARTYRES)",
+          "architect": "MARCO AGRIPA",
+          "location": "ROMA, ITALIA",
+          "date": "27 A.C."
+        },
+        {
+          "sourceId": "p19-01",
+          "page": 19,
+          "pages": [
+            18,
+            19
+          ],
+          "topic": 9,
+          "name": "PANTEÓN DE AGRIPA",
+          "architect": "",
+          "location": "ROMA, ITALIA",
+          "date": "125 D.C."
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p12-076.webp",
+          "width": 430,
+          "height": 344,
+          "page": 12
+        },
+        {
+          "src": "images/p18-113.webp",
+          "width": 270,
+          "height": 312,
+          "page": 18
+        }
+      ],
+      "notes": [
+        "Las fichas dan fechas distintas: «27 A.C.» en la página 12 y «125 D.C.» en la página 19. La segunda no indica arquitecto.",
+        "Hay campos sin dato en el dosier. Se conservan tal como aparecen.",
+        "El edificio aparece en varias fichas del dosier. Consulta las versiones y sus páginas de origen."
+      ]
+    },
+    {
+      "id": "torre-de-los-vientos",
+      "sources": [
+        {
+          "sourceId": "p12-05",
+          "page": 12,
+          "pages": [
+            12
+          ],
+          "topic": 7,
+          "name": "TORRE DE LOS VIENTOS",
+          "architect": "TOYO ITO",
+          "location": "YOKOHAMA, JAPÓN",
+          "date": "1986 (AÑOS 80)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p12-077.webp",
+          "width": 446,
+          "height": 687,
+          "page": 12
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-turegano",
+      "sources": [
+        {
+          "sourceId": "p13-01",
+          "page": 13,
+          "pages": [
+            13
+          ],
+          "topic": 7,
+          "name": "CASA TURÉGANO",
+          "architect": "ALBERTO CAMPO BAEZA",
+          "location": "MADRID, ESPAÑA",
+          "date": "1988 (FINAL DEL SIGLO XX)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p13-078.webp",
+          "width": 554,
+          "height": 554,
+          "page": 13
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "caja-granada",
+      "sources": [
+        {
+          "sourceId": "p13-02",
+          "page": 13,
+          "pages": [
+            13
+          ],
+          "topic": 7,
+          "name": "CAJA GRANADA",
+          "architect": "ALBERTO CAMPO BAEZA",
+          "location": "GRANADA, ESPAÑA",
+          "date": "1999-2001 (FINAL DEL SIGLO XX- PRINC. DEL S.XIX )"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p13-079.webp",
+          "width": 597,
+          "height": 335,
+          "page": 13
+        }
+      ],
+      "notes": [
+        "El dosier combina «1999-2001» con «PRINC. DEL S.XIX». Se conserva esa discrepancia."
+      ]
+    },
+    {
+      "id": "museum-naoshima",
+      "sources": [
+        {
+          "sourceId": "p13-03",
+          "page": 13,
+          "pages": [
+            13
+          ],
+          "topic": 7,
+          "name": "MUSEUM NAOSHIMA",
+          "architect": "TADAO ANDO",
+          "location": "NAOSHIMA, JAPÓN",
+          "date": "1995"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p13-080.webp",
+          "width": 640,
+          "height": 359,
+          "page": 13
+        },
+        {
+          "src": "images/p13-081.webp",
+          "width": 236,
+          "height": 314,
+          "page": 13
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "edificio-via",
+      "sources": [
+        {
+          "sourceId": "p13-04",
+          "page": 13,
+          "pages": [
+            13
+          ],
+          "topic": 7,
+          "name": "EDIFICIO VIA",
+          "architect": "BIG ESTUDIO",
+          "location": "NUEVA YORK, USA",
+          "date": "2017"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p13-082.webp",
+          "width": 401,
+          "height": 498,
+          "page": 13
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-malaparte",
+      "sources": [
+        {
+          "sourceId": "p14-01",
+          "page": 14,
+          "pages": [
+            14
+          ],
+          "topic": 8,
+          "name": "CASA MALAPARTE",
+          "architect": "CURZIO MALAPARTE - ADALBERTO LIBERA",
+          "location": "CAPRI, ITALIA",
+          "date": "1938-1943 (AÑOS 40)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p14-083.webp",
+          "width": 678,
+          "height": 452,
+          "page": 14
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "biblioteca-universitaria-de-aveiro",
+      "sources": [
+        {
+          "sourceId": "p14-02",
+          "page": 14,
+          "pages": [
+            14
+          ],
+          "topic": 8,
+          "name": "BIBLIOTECA UNIVERSITARIA DE AVEIRO",
+          "architect": "ÁLVARO SIZA",
+          "location": "AVEIRO, PORTUGAL",
+          "date": "1995 (FINAL DEL SIGLOXX)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p14-084.webp",
+          "width": 547,
+          "height": 365,
+          "page": 14
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "restaurante-boa-nova",
+      "sources": [
+        {
+          "sourceId": "p14-03",
+          "page": 14,
+          "pages": [
+            14
+          ],
+          "topic": 8,
+          "name": "RESTAURANTE BOA NOVA",
+          "architect": "ÁLVARO SIZA",
+          "location": "PORTUGAL",
+          "date": "AÑOS 60"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p14-085.webp",
+          "width": 549,
+          "height": 364,
+          "page": 14
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "museo-guggenheim",
+      "sources": [
+        {
+          "sourceId": "p14-04",
+          "page": 14,
+          "pages": [
+            14
+          ],
+          "topic": 8,
+          "name": "MUSEO GUGGENHEIM",
+          "architect": "F.L. WRIGHT",
+          "location": "NUEVA YORK, USA",
+          "date": "1939"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p14-086.webp",
+          "width": 690,
+          "height": 443,
+          "page": 14
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "villa-mairea",
+      "sources": [
+        {
+          "sourceId": "p14-05",
+          "page": 14,
+          "pages": [
+            14
+          ],
+          "topic": 8,
+          "name": "VILLA MAIREA",
+          "architect": "ALVAR AALTO",
+          "location": "FINLANDIA",
+          "date": "1939 ( AÑOS 30-40)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p14-087.webp",
+          "width": 678,
+          "height": 452,
+          "page": 14
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "palacio-de-congresos-de-tenerife",
+      "sources": [
+        {
+          "sourceId": "p14-06",
+          "page": 14,
+          "pages": [
+            14
+          ],
+          "topic": 8,
+          "name": "PALACIO DE CONGRESOS DE TENERIFE",
+          "architect": "MAGMA ARTE & CONGRESOS",
+          "location": "TENERIFE, ESPAÑA",
+          "date": "2005"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p14-088.webp",
+          "width": 350,
+          "height": 232,
+          "page": 14
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "camouflage-house",
+      "sources": [
+        {
+          "sourceId": "p15-01",
+          "page": 15,
+          "pages": [
+            15
+          ],
+          "topic": 8,
+          "name": "CAMOUFLAGE HOUSE",
+          "architect": "JOHNSEN SCHMALING",
+          "location": "WISCONSIN",
+          "date": "2007"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p15-089.webp",
+          "width": 738,
+          "height": 303,
+          "page": 15
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "cementerio-en-el-bosque",
+      "sources": [
+        {
+          "sourceId": "p15-02",
+          "page": 15,
+          "pages": [
+            15
+          ],
+          "topic": 8,
+          "name": "CEMENTERIO EN EL BOSQUE",
+          "architect": "GUNNAR ASPLUND Y SIGURD LEWERENTZ",
+          "location": "ESTOCOLMO",
+          "date": "1923 (AÑOS 20)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p15-090.webp",
+          "width": 605,
+          "height": 330,
+          "page": 15
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "opera-de-sidney",
+      "sources": [
+        {
+          "sourceId": "p15-03",
+          "page": 15,
+          "pages": [
+            15
+          ],
+          "topic": 8,
+          "name": "ÓPERA DE SIDNEY",
+          "architect": "JORN UTZON",
+          "location": "SIDNEY, AUSTRALIA",
+          "date": "1959-1973 (AÑOS 60-70)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p15-091.webp",
+          "width": 549,
+          "height": 364,
+          "page": 15
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "paseo-maritimo-benidorm",
+      "sources": [
+        {
+          "sourceId": "p15-04",
+          "page": 15,
+          "pages": [
+            15
+          ],
+          "topic": 8,
+          "name": "PASEO MARÍTIMO BENIDORM",
+          "architect": "CARLOS FERRATER",
+          "location": "BENIDORM, ESPAÑA",
+          "date": "2009"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p15-092.webp",
+          "width": 597,
+          "height": 335,
+          "page": 15
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "jardin-botanico",
+      "sources": [
+        {
+          "sourceId": "p15-05",
+          "page": 15,
+          "pages": [
+            15
+          ],
+          "topic": 8,
+          "name": "JARDÍN BOTÁNICO",
+          "architect": "CARLOS FERRATER",
+          "location": "BARCELONA, ESPAÑA",
+          "date": "2000"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p15-093.webp",
+          "width": 620,
+          "height": 494,
+          "page": 15
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "vulcania",
+      "sources": [
+        {
+          "sourceId": "p16-01",
+          "page": 16,
+          "pages": [
+            16
+          ],
+          "topic": 8,
+          "name": "VULCANIA",
+          "architect": "HANS HOLLEIN",
+          "location": "AUVERNIA, FRANCIA",
+          "date": "2002"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p16-094.webp",
+          "width": 693,
+          "height": 442,
+          "page": 16
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-tugendhat",
+      "sources": [
+        {
+          "sourceId": "p16-02",
+          "page": 16,
+          "pages": [
+            16
+          ],
+          "topic": 8,
+          "name": "CASA TUGENDHAT",
+          "architect": "MIES VAN DER ROHE",
+          "location": "CHEQUIA",
+          "date": "1930"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p16-095.webp",
+          "width": 516,
+          "height": 387,
+          "page": 16
+        },
+        {
+          "src": "images/p16-096.webp",
+          "width": 701,
+          "height": 436,
+          "page": 16
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-herbert-jacobs-2",
+      "sources": [
+        {
+          "sourceId": "p16-04",
+          "page": 16,
+          "pages": [
+            16
+          ],
+          "topic": 8,
+          "name": "CASA HERBERT JACOBS 2",
+          "architect": "F.L. WRIGHT",
+          "location": "WISCONSIN, USA",
+          "date": "1944-1948 (AÑOS 40)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p16-098.webp",
+          "width": 622,
+          "height": 493,
+          "page": 16
+        },
+        {
+          "src": "images/p16-099.webp",
+          "width": 600,
+          "height": 400,
+          "page": 16
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "pabellon-finlandia-expo-paris",
+      "sources": [
+        {
+          "sourceId": "p16-05",
+          "page": 16,
+          "pages": [
+            16
+          ],
+          "topic": 8,
+          "name": "PABELLÓN FINLANDIA EXPO. PARÍS",
+          "architect": "ALVAR AALTO",
+          "location": "PARÍS, FRANCIA",
+          "date": "1937(AÑOS 30)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p16-100.webp",
+          "width": 400,
+          "height": 281,
+          "page": 16
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "malator-house",
+      "sources": [
+        {
+          "sourceId": "p16-06",
+          "page": 16,
+          "pages": [
+            16
+          ],
+          "topic": 8,
+          "name": "MALATOR HOUSE",
+          "architect": "FUTURE SYSTEMS",
+          "location": "GALES",
+          "date": "1998 (FINALES SIGLO XX)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p16-101.webp",
+          "width": 678,
+          "height": 452,
+          "page": 16
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "villa-vals",
+      "sources": [
+        {
+          "sourceId": "p16-07",
+          "page": 16,
+          "pages": [
+            16
+          ],
+          "topic": 8,
+          "name": "VILLA VALS",
+          "architect": "SUIZA ARQUITECTOS (seARCH)",
+          "location": "VALS, SUIZA",
+          "date": "2009"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p16-102.webp",
+          "width": 738,
+          "height": 414,
+          "page": 16
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "piscinas-des-mares",
+      "sources": [
+        {
+          "sourceId": "p17-01",
+          "page": 17,
+          "pages": [
+            17
+          ],
+          "topic": 8,
+          "name": "PISCINAS DES MARES",
+          "architect": "ALVARO SIZA",
+          "location": "OPORTO, PORTUGAL",
+          "date": "1961-1966 (AÑOS 60)"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p17-103.webp",
+          "width": 643,
+          "height": 476,
+          "page": 17
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-moledo",
+      "sources": [
+        {
+          "sourceId": "p17-02",
+          "page": 17,
+          "pages": [
+            17
+          ],
+          "topic": 8,
+          "name": "CASA MOLEDO",
+          "architect": "EDUARDO SOUTO",
+          "location": "PORTUGAL",
+          "date": "1991-1997"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p17-104.webp",
+          "width": 201,
+          "height": 250,
+          "page": 17
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "estadio-de-braga",
+      "sources": [
+        {
+          "sourceId": "p17-03",
+          "page": 17,
+          "pages": [
+            17
+          ],
+          "topic": 8,
+          "name": "ESTADIO DE BRAGA",
+          "architect": "EDUARDO SOUTO",
+          "location": "PORTUGAL",
+          "date": "2003"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p17-105.webp",
+          "width": 259,
+          "height": 194,
+          "page": 17
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "moderna-musset",
+      "sources": [
+        {
+          "sourceId": "p17-04",
+          "page": 17,
+          "pages": [
+            17
+          ],
+          "topic": 8,
+          "name": "MODERNA MUSSET",
+          "architect": "RAFAEL MONEO",
+          "location": "ESTOCOLMO, SUECIA",
+          "date": "1991-198"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p17-106.webp",
+          "width": 452,
+          "height": 678,
+          "page": 17
+        }
+      ],
+      "notes": [
+        "La fecha «1991-198» parece incompleta en el dosier. Compruébala antes de memorizarla."
+      ]
+    },
+    {
+      "id": "museo-teatro-romano",
+      "sources": [
+        {
+          "sourceId": "p17-05",
+          "page": 17,
+          "pages": [
+            17
+          ],
+          "topic": 8,
+          "name": "MUSEO TEATRO ROMANO",
+          "architect": "RAFAEL MONEO",
+          "location": "CARTAGENA, ESPAÑA",
+          "date": "2008"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p17-107.webp",
+          "width": 515,
+          "height": 388,
+          "page": 17
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "museo-del-hombre",
+      "sources": [
+        {
+          "sourceId": "p18-01",
+          "page": 18,
+          "pages": [
+            18
+          ],
+          "topic": 8,
+          "name": "MUSEO DEL HOMBRE",
+          "architect": "ARATA ISOZAKI",
+          "location": "A CORUÑA, ESPAÑA",
+          "date": "1995"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p18-108.webp",
+          "width": 675,
+          "height": 453,
+          "page": 18
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "auditorio-del-kursaal",
+      "sources": [
+        {
+          "sourceId": "p18-02",
+          "page": 18,
+          "pages": [
+            18
+          ],
+          "topic": 8,
+          "name": "AUDITORIO DEL KURSAAL",
+          "architect": "RAFAEL MONEO",
+          "location": "SAN SEBASTIÁN, ESPAÑA",
+          "date": "1996-1999"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p18-109.webp",
+          "width": 738,
+          "height": 414,
+          "page": 18
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-de-los-pinos-montepinar",
+      "sources": [
+        {
+          "sourceId": "p18-03",
+          "page": 18,
+          "pages": [
+            18
+          ],
+          "topic": 8,
+          "name": "CASA DE LOS PINOS, MONTEPINAR",
+          "architect": "JAVIER PEÑA",
+          "location": "MURCIA, ESPAÑA",
+          "date": "2007"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p18-110.webp",
+          "width": 611,
+          "height": 502,
+          "page": 18
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "centro-de-agroecologia",
+      "sources": [
+        {
+          "sourceId": "p18-04",
+          "page": 18,
+          "pages": [
+            18
+          ],
+          "topic": 8,
+          "name": "CENTRO DE AGROECOLOGÍA",
+          "architect": "FERNANDO DE RETES",
+          "location": "LAS BULLAS,MURCIA, ESPAÑA",
+          "date": "2007"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p18-111.webp",
+          "width": 678,
+          "height": 452,
+          "page": 18
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "torre-de-senalizacion",
+      "sources": [
+        {
+          "sourceId": "p18-05",
+          "page": 18,
+          "pages": [
+            18
+          ],
+          "topic": 8,
+          "name": "TORRE DE SEÑALIZACIÓN",
+          "architect": "HERZOG & DE MEURON",
+          "location": "BASILEA, SUIZA",
+          "date": "1989-1994"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p18-112.webp",
+          "width": 599,
+          "height": 900,
+          "page": 18
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "catedral-de-notre-dame",
+      "sources": [
+        {
+          "sourceId": "p19-02",
+          "page": 19,
+          "pages": [
+            19
+          ],
+          "topic": 9,
+          "name": "CATEDRAL DE NOTRE DAME",
+          "architect": "",
+          "location": "PARÍS, FRANCIA",
+          "date": "SIGLO XII - XIV"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p19-114.webp",
+          "width": 638,
+          "height": 480,
+          "page": 19
+        }
+      ],
+      "notes": [
+        "Hay campos sin dato en el dosier. Se conservan tal como aparecen."
+      ]
+    },
+    {
+      "id": "iglesia-de-la-luz",
+      "sources": [
+        {
+          "sourceId": "p19-03",
+          "page": 19,
+          "pages": [
+            19
+          ],
+          "topic": 9,
+          "name": "IGLESIA DE LA LUZ",
+          "architect": "TADAO ANDO",
+          "location": "JAPÓN",
+          "date": "1989"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p19-115.webp",
+          "width": 398,
+          "height": 502,
+          "page": 19
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-new-canaan",
+      "sources": [
+        {
+          "sourceId": "p19-04",
+          "page": 19,
+          "pages": [
+            19
+          ],
+          "topic": 9,
+          "name": "CASA NEW CANAAN",
+          "architect": "PHILIP JOHNSON",
+          "location": "EEUU",
+          "date": "1950"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p19-116.webp",
+          "width": 597,
+          "height": 335,
+          "page": 19
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-blas",
+      "sources": [
+        {
+          "sourceId": "p19-05",
+          "page": 19,
+          "pages": [
+            19
+          ],
+          "topic": 9,
+          "name": "CASA BLAS",
+          "architect": "A. CAMPO BAEZA",
+          "location": "MADRID, ESPAÑA",
+          "date": "2000"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p19-117.webp",
+          "width": 701,
+          "height": 285,
+          "page": 19
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "catedral-de-viterbo",
+      "sources": [
+        {
+          "sourceId": "p19-06",
+          "page": 19,
+          "pages": [
+            19
+          ],
+          "topic": 9,
+          "name": "CATEDRAL DE VITERBO",
+          "architect": "-",
+          "location": "ITALIA",
+          "date": "SIGLO XII"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p19-118.webp",
+          "width": 367,
+          "height": 544,
+          "page": 19
+        }
+      ],
+      "notes": [
+        "Hay campos sin dato en el dosier. Se conservan tal como aparecen."
+      ]
+    },
+    {
+      "id": "convento-de-tourette",
+      "sources": [
+        {
+          "sourceId": "p19-07",
+          "page": 19,
+          "pages": [
+            19,
+            20
+          ],
+          "topic": 9,
+          "name": "CONVENTO DE TOURETTE",
+          "architect": "LE CORBUSIER",
+          "location": "FRANCIA",
+          "date": "AÑOS 50-60"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p19-119.webp",
+          "width": 678,
+          "height": 452,
+          "page": 19
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iglesia-donaucity",
+      "sources": [
+        {
+          "sourceId": "p20-01",
+          "page": 20,
+          "pages": [
+            20
+          ],
+          "topic": 9,
+          "name": "IGLESIA DONAUCITY",
+          "architect": "HEINZ TESAR",
+          "location": "AUSTRIA",
+          "date": "2009"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p20-120.webp",
+          "width": 401,
+          "height": 498,
+          "page": 20
+        },
+        {
+          "src": "images/p20-121.webp",
+          "width": 597,
+          "height": 335,
+          "page": 20
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "santa-sofia-de-constantinopla",
+      "sources": [
+        {
+          "sourceId": "p20-02",
+          "page": 20,
+          "pages": [
+            20
+          ],
+          "topic": 9,
+          "name": "SANTA SOFÍA DE CONSTANTINOPLA",
+          "architect": "-",
+          "location": "TURQUÍA",
+          "date": "537 D.C."
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p20-122.webp",
+          "width": 678,
+          "height": 452,
+          "page": 20
+        }
+      ],
+      "notes": [
+        "Hay campos sin dato en el dosier. Se conservan tal como aparecen."
+      ]
+    },
+    {
+      "id": "palacio-de-congresos-y-expo-de-castilla-y-leon",
+      "sources": [
+        {
+          "sourceId": "p20-03",
+          "page": 20,
+          "pages": [
+            20
+          ],
+          "topic": 9,
+          "name": "PALACIO DE CONGRESOS Y EXPO. DE CASTILLA Y LEÓN",
+          "architect": "JUAN NAVARRO BALDEWEG",
+          "location": "SALAMANCA",
+          "date": "AÑOS 90"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p20-123.webp",
+          "width": 678,
+          "height": 452,
+          "page": 20
+        },
+        {
+          "src": "images/p20-124.webp",
+          "width": 515,
+          "height": 388,
+          "page": 20
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "biblio-puerta-de-toledo",
+      "sources": [
+        {
+          "sourceId": "p20-04",
+          "page": 20,
+          "pages": [
+            20
+          ],
+          "topic": 9,
+          "name": "BIBLIO. PUERTA DE TOLEDO",
+          "architect": "J.N.BALDEWEG",
+          "location": "MADRID",
+          "date": "AÑOS 90"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p20-125.webp",
+          "width": 619,
+          "height": 323,
+          "page": 20
+        },
+        {
+          "src": "images/p20-126.webp",
+          "width": 547,
+          "height": 365,
+          "page": 20
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-gilardi",
+      "sources": [
+        {
+          "sourceId": "p20-05",
+          "page": 20,
+          "pages": [
+            20
+          ],
+          "topic": 9,
+          "name": "CASA GILARDI",
+          "architect": "LUIS BARRAGÁN",
+          "location": "MEXICO",
+          "date": "AÑOS 70"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p20-127.webp",
+          "width": 658,
+          "height": 466,
+          "page": 20
+        },
+        {
+          "src": "images/p20-128.webp",
+          "width": 452,
+          "height": 678,
+          "page": 20
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "capilla-capuchinas",
+      "sources": [
+        {
+          "sourceId": "p21-01",
+          "page": 21,
+          "pages": [
+            21
+          ],
+          "topic": 9,
+          "name": "CAPILLA CAPUCHINAS",
+          "architect": "LUIS BARRAGÁN",
+          "location": "MEXICO",
+          "date": "AÑOS 60"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p21-129.webp",
+          "width": 656,
+          "height": 467,
+          "page": 21
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "catedral-de-rouen",
+      "sources": [
+        {
+          "sourceId": "p21-02",
+          "page": 21,
+          "pages": [
+            21
+          ],
+          "topic": 9,
+          "name": "CATEDRAL DE ROUEN",
+          "architect": "-",
+          "location": "FRANCIA",
+          "date": "1030-1876"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p21-130.webp",
+          "width": 353,
+          "height": 566,
+          "page": 21
+        }
+      ],
+      "notes": [
+        "Hay campos sin dato en el dosier. Se conservan tal como aparecen."
+      ]
+    },
+    {
+      "id": "fachada-hospital-de-conxo",
+      "sources": [
+        {
+          "sourceId": "p21-03",
+          "page": 21,
+          "pages": [
+            21
+          ],
+          "topic": 9,
+          "name": "FACHADA HOSPITAL DE CONXO",
+          "architect": "ÁNGEL CID Y JOSÉ SANTOS",
+          "location": "SANTIAGO DE COMPOSTELA",
+          "date": "2008-2011"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p21-131.webp",
+          "width": 399,
+          "height": 250,
+          "page": 21
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "hotel-yas-abu-dabi",
+      "sources": [
+        {
+          "sourceId": "p21-04",
+          "page": 21,
+          "pages": [
+            21
+          ],
+          "topic": 9,
+          "name": "HOTEL YAS ABU DABI",
+          "architect": "ASYMPTOTE ARCHITECTURE",
+          "location": "EMIRATOS ÁRABES",
+          "date": "2007-2009"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p21-132.webp",
+          "width": 678,
+          "height": 452,
+          "page": 21
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "auditorio-el-batel",
+      "sources": [
+        {
+          "sourceId": "p21-05",
+          "page": 21,
+          "pages": [
+            21
+          ],
+          "topic": 9,
+          "name": "AUDITORIO EL BATEL",
+          "architect": "JOSÉ SELGAS Y LUCÍA CANO",
+          "location": "CARTAGENA",
+          "date": "2004-2011"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p21-133.webp",
+          "width": 371,
+          "height": 299,
+          "page": 21
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "l-umbracle",
+      "sources": [
+        {
+          "sourceId": "p21-06",
+          "page": 21,
+          "pages": [
+            21
+          ],
+          "topic": 9,
+          "name": "L'UMBRACLE",
+          "architect": "SANTIAGO CALATRAVA",
+          "location": "CARTAGENA",
+          "date": "2001"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p21-134.webp",
+          "width": 515,
+          "height": 388,
+          "page": 21
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "templo-de-zeus-en-olimpia",
+      "sources": [
+        {
+          "sourceId": "p22-01",
+          "page": 22,
+          "pages": [
+            22
+          ],
+          "topic": 10,
+          "name": "TEMPLO DE ZEUS EN OLIMPIA",
+          "architect": "-",
+          "location": "GRECIA",
+          "date": "456 A.C."
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p22-135.webp",
+          "width": 678,
+          "height": 452,
+          "page": 22
+        }
+      ],
+      "notes": [
+        "Hay campos sin dato en el dosier. Se conservan tal como aparecen."
+      ]
+    },
+    {
+      "id": "san-martin-de-florista",
+      "sources": [
+        {
+          "sourceId": "p22-02",
+          "page": 22,
+          "pages": [
+            22
+          ],
+          "topic": 10,
+          "name": "SAN MARTÍN DE FLORISTA",
+          "architect": "-",
+          "location": "PALENCIA",
+          "date": "SIGLO XII"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p22-136.webp",
+          "width": 547,
+          "height": 365,
+          "page": 22
+        },
+        {
+          "src": "images/p22-137.webp",
+          "width": 499,
+          "height": 400,
+          "page": 22
+        }
+      ],
+      "notes": [
+        "Hay campos sin dato en el dosier. Se conservan tal como aparecen."
+      ]
+    },
+    {
+      "id": "santuario-de-san-juan-ortega",
+      "sources": [
+        {
+          "sourceId": "p22-03",
+          "page": 22,
+          "pages": [
+            22
+          ],
+          "topic": 10,
+          "name": "SANTUARIO DE SAN JUAN ORTEGA",
+          "architect": "-",
+          "location": "BURGOS, ESP.",
+          "date": "SIGLO XII"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p22-138.webp",
+          "width": 738,
+          "height": 414,
+          "page": 22
+        },
+        {
+          "src": "images/p22-139.webp",
+          "width": 547,
+          "height": 365,
+          "page": 22
+        }
+      ],
+      "notes": [
+        "Hay campos sin dato en el dosier. Se conservan tal como aparecen."
+      ]
+    },
+    {
+      "id": "sainte-chapelle",
+      "sources": [
+        {
+          "sourceId": "p22-04",
+          "page": 22,
+          "pages": [
+            22
+          ],
+          "topic": 10,
+          "name": "SAINTE - CHAPELLE",
+          "architect": "PIERRE DE MONTREUIL",
+          "location": "PARÍS, FRANCIA",
+          "date": "SIGLO XIII"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p22-140.webp",
+          "width": 709,
+          "height": 432,
+          "page": 22
+        },
+        {
+          "src": "images/p22-141.webp",
+          "width": 317,
+          "height": 630,
+          "page": 22
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "cupula-de-santa-maria-del-fiore",
+      "sources": [
+        {
+          "sourceId": "p22-05",
+          "page": 22,
+          "pages": [
+            22
+          ],
+          "topic": 10,
+          "name": "CÚPULA DE SANTA MARÍA DEL FIORE",
+          "architect": "FILIPO BRUNELLESCHI",
+          "location": "FLORENCIA ITALIA",
+          "date": "SIGLO XV"
+        },
+        {
+          "sourceId": "p23-01",
+          "page": 23,
+          "pages": [
+            23
+          ],
+          "topic": 10,
+          "name": "CÚPULA DE SANTA MARÍA DEL FIORE",
+          "architect": "FILIPPO BRUNELLESCHI",
+          "location": "FLORENCIA ITALIA",
+          "date": "SIGLO XV"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p22-142.webp",
+          "width": 700,
+          "height": 438,
+          "page": 22
+        },
+        {
+          "src": "images/p23-143.webp",
+          "width": 515,
+          "height": 388,
+          "page": 23
+        },
+        {
+          "src": "images/p23-144.webp",
+          "width": 547,
+          "height": 365,
+          "page": 23
+        }
+      ],
+      "notes": [
+        "El edificio aparece en varias fichas del dosier. Consulta las versiones y sus páginas de origen."
+      ]
+    },
+    {
+      "id": "cenotafio-de-newton",
+      "sources": [
+        {
+          "sourceId": "p23-02",
+          "page": 23,
+          "pages": [
+            23
+          ],
+          "topic": 10,
+          "name": "CENOTAFIO DE NEWTON",
+          "architect": "ÉTIENNE-LOUIS BOULLÉE",
+          "location": "FLORENCIA ITALIA",
+          "date": "SIGLO XVIII"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p23-145.webp",
+          "width": 592,
+          "height": 337,
+          "page": 23
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "banco-de-inglaterra",
+      "sources": [
+        {
+          "sourceId": "p23-03",
+          "page": 23,
+          "pages": [
+            23
+          ],
+          "topic": 10,
+          "name": "BANCO DE INGLATERRA",
+          "architect": "JOHN SOANE",
+          "location": "LONDRES",
+          "date": "SIGLO XVII-XVIII"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p23-146.webp",
+          "width": 582,
+          "height": 343,
+          "page": 23
+        },
+        {
+          "src": "images/p23-147.webp",
+          "width": 640,
+          "height": 479,
+          "page": 23
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "casa-museo",
+      "sources": [
+        {
+          "sourceId": "p23-04",
+          "page": 23,
+          "pages": [
+            23
+          ],
+          "topic": 10,
+          "name": "CASA-MUSEO",
+          "architect": "JOHN SOANE",
+          "location": "LONDRES",
+          "date": "SIGLO XVII-XVIII"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p23-148.webp",
+          "width": 339,
+          "height": 589,
+          "page": 23
+        },
+        {
+          "src": "images/p23-149.webp",
+          "width": 400,
+          "height": 512,
+          "page": 23
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "unity-temple",
+      "sources": [
+        {
+          "sourceId": "p23-05",
+          "page": 23,
+          "pages": [
+            23
+          ],
+          "topic": 10,
+          "name": "UNITY TEMPLE",
+          "architect": "FRANK LLOYD WRIGHT",
+          "location": "ILLINOIS, EEUU",
+          "date": "PRINCIPIOS SIGLO XX"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p23-150.webp",
+          "width": 515,
+          "height": 388,
+          "page": 23
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "capilla-de-notre-dame-du-haut",
+      "sources": [
+        {
+          "sourceId": "p24-01",
+          "page": 24,
+          "pages": [
+            24
+          ],
+          "topic": 10,
+          "name": "CAPILLA DE NOTRE DAME DU HAUT",
+          "architect": "LE CORBUSIER",
+          "location": "RONCHAMP, FRANCIA",
+          "date": "AÑOS 50"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p24-151.webp",
+          "width": 520,
+          "height": 520,
+          "page": 24
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "iglesia-de-saint-pierre-de-firminy",
+      "sources": [
+        {
+          "sourceId": "p24-02",
+          "page": 24,
+          "pages": [
+            24
+          ],
+          "topic": 10,
+          "name": "IGLESIA DE SAINT - PIERRE DE FIRMINY",
+          "architect": "LE CORBUSIER - JOSÉ OUBRERIE",
+          "location": "RONCHAMP, FRANCIA",
+          "date": "AÑOS 60-2006"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p24-152.webp",
+          "width": 599,
+          "height": 399,
+          "page": 24
+        },
+        {
+          "src": "images/p24-153.webp",
+          "width": 442,
+          "height": 452,
+          "page": 24
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "biblioteca-academia-philips-exeter",
+      "sources": [
+        {
+          "sourceId": "p24-03",
+          "page": 24,
+          "pages": [
+            24
+          ],
+          "topic": 10,
+          "name": "BIBLIOTECA ACADEMIA PHILIPS EXETER",
+          "architect": "LOUIS KAHN",
+          "location": "EEUU",
+          "date": "AÑOS 60-70"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p24-154.webp",
+          "width": 678,
+          "height": 452,
+          "page": 24
+        },
+        {
+          "src": "images/p24-155.webp",
+          "width": 683,
+          "height": 447,
+          "page": 24
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "museo-de-arte-kimbell",
+      "sources": [
+        {
+          "sourceId": "p24-04",
+          "page": 24,
+          "pages": [
+            24
+          ],
+          "topic": 10,
+          "name": "MUSEO DE ARTE KIMBELL",
+          "architect": "LOUIS KAHN",
+          "location": "TEXAS, EEUU",
+          "date": "AÑOS 60-70"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p24-156.webp",
+          "width": 638,
+          "height": 480,
+          "page": 24
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "oficina-de-d-e-shaw",
+      "sources": [
+        {
+          "sourceId": "p24-05",
+          "page": 24,
+          "pages": [
+            24
+          ],
+          "topic": 10,
+          "name": "OFICINA DE D.E. SHAW",
+          "architect": "STEVEN HOLL",
+          "location": "NUEVA YORK, EEUU",
+          "date": "AÑOS 90"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p24-157.webp",
+          "width": 468,
+          "height": 654,
+          "page": 24
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "capilla-de-san-ignacio",
+      "sources": [
+        {
+          "sourceId": "p25-01",
+          "page": 25,
+          "pages": [
+            25
+          ],
+          "topic": 10,
+          "name": "CAPILLA DE SAN IGNACIO",
+          "architect": "STEVEN HOLL",
+          "location": "SEATTLE, EEUU",
+          "date": "AÑOS 90"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p25-158.webp",
+          "width": 620,
+          "height": 494,
+          "page": 25
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "molinos-de-martos",
+      "sources": [
+        {
+          "sourceId": "p25-02",
+          "page": 25,
+          "pages": [
+            25
+          ],
+          "topic": 10,
+          "name": "MOLINOS DE MARTOS",
+          "architect": "JUAN NAVARRO BALDEWEG",
+          "location": "CÓRDOBA, ESPAÑA",
+          "date": "AÑOS 2002-2005"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p25-159.webp",
+          "width": 447,
+          "height": 447,
+          "page": 25
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "museo-nacional-y-centro-de-investigacion-de-altamira",
+      "sources": [
+        {
+          "sourceId": "p25-03",
+          "page": 25,
+          "pages": [
+            25
+          ],
+          "topic": 10,
+          "name": "MUSEO NACIONAL Y CENTRO DE INVESTIGACIÓN DE ALTAMIRA",
+          "architect": "J.N.BALDEWEG",
+          "location": "CANTABRIA",
+          "date": "2001"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p25-160.webp",
+          "width": 678,
+          "height": 452,
+          "page": 25
+        },
+        {
+          "src": "images/p25-161.webp",
+          "width": 597,
+          "height": 335,
+          "page": 25
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "catedral-de-nuestra-senora-de-los-angeles",
+      "sources": [
+        {
+          "sourceId": "p25-04",
+          "page": 25,
+          "pages": [
+            25
+          ],
+          "topic": 10,
+          "name": "CATEDRAL DE NUESTRA SEÑORA DE LOS ÁNGELES",
+          "architect": "R. MONEO",
+          "location": "CALIFORNIA",
+          "date": "PRINC. SIGLO XXI"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p25-162.webp",
+          "width": 463,
+          "height": 309,
+          "page": 25
+        },
+        {
+          "src": "images/p25-163.webp",
+          "width": 1600,
+          "height": 1196,
+          "page": 25
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "capilla-parroquial-de-la-milagrosa",
+      "sources": [
+        {
+          "sourceId": "p25-05",
+          "page": 25,
+          "pages": [
+            25
+          ],
+          "topic": 10,
+          "name": "CAPILLA PARROQUIAL DE LA MILAGROSA",
+          "architect": "MARTÍN LEJARRAGA",
+          "location": "LOS CAMACHOS, CARTAGENA, MURCIA",
+          "date": "PRINC. SIGLO XXI"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p25-164.webp",
+          "width": 606,
+          "height": 900,
+          "page": 25
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "capilla-funeraria-cementerio-de-espinardo",
+      "sources": [
+        {
+          "sourceId": "p26-01",
+          "page": 26,
+          "pages": [
+            26
+          ],
+          "topic": 10,
+          "name": "CAPILLA FUNERARIA CEMENTERIO DE ESPINARDO",
+          "architect": "CLAVEL ARQUITECTOS",
+          "location": "MURCIA",
+          "date": "2010"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p26-165.webp",
+          "width": 708,
+          "height": 432,
+          "page": 26
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "museo-arqueologico-municipal-jeronimo-molina",
+      "sources": [
+        {
+          "sourceId": "p26-02",
+          "page": 26,
+          "pages": [
+            26
+          ],
+          "topic": 10,
+          "name": "MUSEO ARQUEOLÓGICO MUNICIPAL “JERÓNIMO MOLINA”",
+          "architect": "FERNANDO DE RETES",
+          "location": "JUMILLA, MURCIA",
+          "date": "AÑOS 90"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/p26-166.webp",
+          "width": 553,
+          "height": 346,
+          "page": 26
+        },
+        {
+          "src": "images/p26-167.webp",
+          "width": 553,
+          "height": 346,
+          "page": 26
+        }
+      ],
+      "notes": []
+    }
+  ]
+}

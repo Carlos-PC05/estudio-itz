@@ -1,0 +1,20 @@
+{
+  "aliases": {
+    "p01-04": "villa-almerico-capra",
+    "p16-03": "villa-almerico-capra",
+    "p12-04": "panteon-de-agripa",
+    "p19-01": "panteon-de-agripa"
+  },
+  "imageMoves": [
+    { "image": "images/p18-113.webp", "from": "p18-05", "to": "p19-01" }
+  ],
+  "notes": {
+    "intervencion-en-el-instituto-tecnologico-iit": ["La imagen de esta ficha es un retrato, tal como aparece en el dosier."],
+    "villa-almerico-capra": ["Las fechas difieren: «1566» en la página 1 y «SIGLO XVII» en la página 16. Ambas se conservan para su revisión."],
+    "panteon-de-agripa": ["Las fichas dan fechas distintas: «27 A.C.» en la página 12 y «125 D.C.» en la página 19. La segunda no indica arquitecto."],
+    "catedral-de-brasilea": ["La fecha aparece como «1958-1970n» en el documento. El carácter final necesita revisión."],
+    "moderna-musset": ["La fecha «1991-198» parece incompleta en el dosier. Compruébala antes de memorizarla."],
+    "caja-granada": ["El dosier combina «1999-2001» con «PRINC. DEL S.XIX». Se conserva esa discrepancia."],
+    "montreal-biosphere-previamente-fue-el-pabellon-para-la-expo-del-67-en-estados-unidos": ["La ubicación figura como «MONTREAL, FRANCIA» en el dosier. Conviene verificar este dato antes de memorizarlo."]
+  }
+}
