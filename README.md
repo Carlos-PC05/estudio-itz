@@ -65,6 +65,6 @@ Configuración inicial del repositorio:
 
 La URL prevista es `https://carlos-pc05.github.io/estudio-itz/`; solo estará disponible después de un despliegue correcto. Si cambia el nombre del repositorio, ajustar `base` en `vite.config.js` y la URL de las pruebas en `playwright.config.js`.
 
-La sesión de terminal comprobada durante la implementación (`cparra05`) solo tiene lectura. El plugin de GitHub identifica a `Carlos-PC05`, pero su integración devuelve 403 al intentar escribir. Para publicar se necesita una conexión con escritura y seleccionar GitHub Actions en Settings → Pages. La configuración de Pages no está disponible en el plugin.
+GitHub Pages ya está configurado con GitHub Actions como fuente. Los pushes a `main` ejecutan el workflow automáticamente. Para subir cambios desde este proyecto, el remoto utiliza HTTPS con la cuenta activa de GitHub CLI.
 
 Referencias: [workflows de GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) y [despliegue de Vite en GitHub Pages](https://vite.dev/guide/static-deploy#github-pages).

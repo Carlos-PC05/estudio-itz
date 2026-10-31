@@ -10,4 +10,4 @@
 
 El usuario ha seleccionado GitHub Actions como fuente de Pages. La API confirma `has_pages: true` y `build_type: workflow`.
 
-No se ha podido verificar un despliegue real: la sesión de terminal no tiene escritura y la integración del plugin de GitHub devuelve 403 al escribir. El workflow está preparado para publicar en cuanto se suba a `main`. Se ha solicitado autenticar la terminal con la cuenta propietaria para completar el push y verificar el resultado.
+Tras autenticar la terminal como `Carlos-PC05`, los commits se han subido a `main` y GitHub Actions ha iniciado el workflow automáticamente. El resultado de las pruebas y del despliegue de cada versión se consulta en [Actions](https://github.com/Carlos-PC05/estudio-itz/actions/workflows/deploy.yml).

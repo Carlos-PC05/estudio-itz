@@ -27,12 +27,12 @@ Las decisiones de estudio, presentación y destino de despliegue están acordada
 ## Destino y acceso de despliegue
 
 - Repositorio: `Carlos-PC05/estudio-itz`, público, con rama predeterminada `main`.
-- El usuario ha activado GitHub Pages. La API confirma `build_type: workflow` y la dirección `https://carlos-pc05.github.io/estudio-itz/`. El workflow local está pendiente de subir.
-- La sesión actual de GitHub y el alias SSH del remoto corresponden a `cparra05`, que solo tiene lectura en ese repositorio.
-- El plugin de GitHub identifica a `Carlos-PC05` y los metadatos muestran permisos del propietario, pero la integración devuelve 403 «Resource not accessible by integration» al intentar crear un blob. No se publicó ningún archivo. Se necesita una conexión con escritura y la selección inicial de GitHub Actions en Settings → Pages, operación que el plugin no expone.
+- El usuario ha activado GitHub Pages. La API confirma `build_type: workflow` y la dirección `https://carlos-pc05.github.io/estudio-itz/`.
+- La implementación y el workflow están subidos a `main` y el push inicia la publicación automáticamente.
+- La terminal está autenticada como `Carlos-PC05`. El remoto utiliza HTTPS y la configuración local del repositorio usa las credenciales de GitHub CLI, evitando la regla SSH de la cuenta anterior.
 
 ## Observaciones de la revisión del material
 
 El PDF tiene 26 páginas y 136 fichas; una ficha del documento no equivale necesariamente a un edificio distinto. Hay fichas con varias imágenes y edificios repetidos.
 
-Villa Almerico Capra / Villa Capra-La Rotonda aparece con fechas diferentes. La extracción deberá conservar la procedencia de los datos para que esas diferencias puedan revisarse. El número definitivo de edificios se determinará al revisar las equivalencias.
+Villa Almerico Capra / Villa Capra-La Rotonda aparece con fechas diferentes. La extracción conserva la procedencia de los datos para que esas diferencias puedan revisarse. Las equivalencias revisadas dan un total de 133 edificios.
