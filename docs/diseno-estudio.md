@@ -27,7 +27,7 @@ Las decisiones de estudio, presentación y destino de despliegue están acordada
 ## Destino y acceso de despliegue
 
 - Repositorio: `Carlos-PC05/estudio-itz`, público, con rama predeterminada `main`.
-- GitHub Pages todavía no está activado y no existen workflows.
+- El usuario ha activado GitHub Pages. La API confirma `build_type: workflow` y la dirección `https://carlos-pc05.github.io/estudio-itz/`. El workflow local está pendiente de subir.
 - La sesión actual de GitHub y el alias SSH del remoto corresponden a `cparra05`, que solo tiene lectura en ese repositorio.
 - El plugin de GitHub identifica a `Carlos-PC05` y los metadatos muestran permisos del propietario, pero la integración devuelve 403 «Resource not accessible by integration» al intentar crear un blob. No se publicó ningún archivo. Se necesita una conexión con escritura y la selección inicial de GitHub Actions en Settings → Pages, operación que el plugin no expone.
 

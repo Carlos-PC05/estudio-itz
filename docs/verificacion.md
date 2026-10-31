@@ -8,4 +8,6 @@
 - Se conserva el texto continuado entre páginas para el Convento de Tourette y se separan correctamente los campos que comparten línea en el PDF.
 - `git diff --check`: sin problemas de espacios.
 
-No se ha podido verificar un despliegue real: la sesión de terminal no tiene escritura y la integración del plugin de GitHub devuelve 403 al escribir. El workflow está preparado para publicar en cuanto se suba a `main` y se seleccione GitHub Actions como fuente de Pages.
+El usuario ha seleccionado GitHub Actions como fuente de Pages. La API confirma `has_pages: true` y `build_type: workflow`.
+
+No se ha podido verificar un despliegue real: la sesión de terminal no tiene escritura y la integración del plugin de GitHub devuelve 403 al escribir. El workflow está preparado para publicar en cuanto se suba a `main`. Se ha solicitado autenticar la terminal con la cuenta propietaria para completar el push y verificar el resultado.
