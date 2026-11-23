@@ -98,3 +98,25 @@ test('un límite temporal de OpenRouter permite reintentar con cuatro opciones',
   await page.getByRole('button', { name: 'Ver resultado' }).click();
   await expect(page.getByRole('heading', { name: '1 de 2 respuestas correctas' })).toBeVisible();
 });
+
+test('el timeout de OpenRouter se distingue de una respuesta truncada', async ({ page }) => {
+  await page.addInitScript(() => {
+    const fetchActual = window.fetch;
+    let attempts = 0;
+    window.fetch = (url, options) => {
+      if (url !== 'https://openrouter.ai/api/v1/chat/completions') return fetchActual(url, options);
+      if (++attempts > 1) return fetchActual(url, options);
+      return Promise.reject(new DOMException('Timeout', 'TimeoutError'));
+    };
+  });
+  await page.route('https://openrouter.ai/api/v1/chat/completions', route =>
+    route.fulfill({ json: { choices: [{ finish_reason: 'length' }] } }));
+
+  await page.goto('./instalaciones/');
+  await page.getByLabel('Clave de OpenRouter').fill('clave-de-prueba');
+  const generate = page.getByRole('button', { name: 'Generar cuestionario' });
+  await generate.click();
+  await expect(page.getByRole('status').filter({ hasText: 'OpenRouter agotó el tiempo de espera' })).toBeVisible({ timeout: 2000 });
+  await generate.click();
+  await expect(page.getByRole('status').filter({ hasText: 'El modelo cortó la respuesta' })).toBeVisible();
+});

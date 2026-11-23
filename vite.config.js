@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises';
 import { defineConfig, loadEnv } from 'vite';
-import { generateQuiz } from './src/quiz.js';
+import { generateQuiz, QUIZ_TIMEOUT_MESSAGE } from './src/quiz.js';
 
 const base = '/estudio-itz/';
 
@@ -50,8 +50,9 @@ export default defineConfig(({ mode }) => {
             const questions = await generateQuiz({ key, count, optionCount, instructions, source: await source });
             res.end(JSON.stringify({ questions }));
           } catch (error) {
-            res.statusCode = 502;
-            res.end(JSON.stringify({ error: error.message }));
+            const timedOut = error.name === 'TimeoutError';
+            res.statusCode = timedOut ? 504 : 502;
+            res.end(JSON.stringify({ error: timedOut ? QUIZ_TIMEOUT_MESSAGE : error.message }));
           }
         });
       },

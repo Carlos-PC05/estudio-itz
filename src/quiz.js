@@ -1,3 +1,6 @@
+export const QUIZ_TIMEOUT_MS = 90_000;
+export const QUIZ_TIMEOUT_MESSAGE = 'OpenRouter agotó el tiempo de espera. Vuelve a intentarlo o pide menos preguntas.';
+
 const nonEmpty = value => typeof value === 'string' && Boolean(value.trim());
 const normalize = value => value.trim().replace(/\s+/g, ' ').toLocaleLowerCase('es');
 
@@ -22,7 +25,7 @@ export async function generateQuiz({ key, count, optionCount, instructions, sour
   const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
     method: 'POST',
     headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
-    signal: AbortSignal.timeout(90000),
+    signal: AbortSignal.timeout(QUIZ_TIMEOUT_MS),
     body: JSON.stringify({
       model: 'openrouter/free',
       response_format: { type: 'json_object' },
@@ -35,6 +38,7 @@ export async function generateQuiz({ key, count, optionCount, instructions, sour
     }),
   });
 
+  if (response.status === 408 || response.status === 504) throw new DOMException(QUIZ_TIMEOUT_MESSAGE, 'TimeoutError');
   if (response.status === 401 || response.status === 403) throw new Error('OpenRouter rechazó la clave. Comprueba que sea válida y esté activa.');
   if (response.status === 429) throw new Error('OpenRouter ha alcanzado un límite de uso gratuito. Espera antes de volver a intentarlo.');
   if (!response.ok) throw new Error('OpenRouter no pudo generar el test. Vuelve a intentarlo en unos minutos.');

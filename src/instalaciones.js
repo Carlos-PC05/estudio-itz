@@ -1,6 +1,6 @@
 import './quiz.css';
 import source from '../data/instalaciones.txt?raw';
-import { generateQuiz } from './quiz.js';
+import { generateQuiz, QUIZ_TIMEOUT_MESSAGE, QUIZ_TIMEOUT_MS } from './quiz.js';
 
 const sample = [
   {
@@ -141,7 +141,7 @@ form.addEventListener('submit', async event => {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(settings),
-        signal: AbortSignal.timeout(95000),
+        signal: AbortSignal.timeout(QUIZ_TIMEOUT_MS + 5_000),
       });
       const result = await response.json();
       if (!response.ok) throw new Error(result.error);
@@ -152,10 +152,13 @@ form.addEventListener('submit', async event => {
     status.textContent = '';
     begin(questions, 'Test generado con IA');
   } catch (error) {
-    const connectionError = error instanceof SyntaxError || error instanceof TypeError || error.name === 'TimeoutError';
-    status.textContent = connectionError
-      ? 'No se pudo obtener un cuestionario válido. Revisa tu conexión y vuelve a intentarlo.'
-      : error.message;
+    if (error.name === 'TimeoutError') {
+      status.textContent = QUIZ_TIMEOUT_MESSAGE;
+    } else if (error instanceof SyntaxError || error instanceof TypeError) {
+      status.textContent = 'No se pudo obtener un cuestionario válido. Revisa tu conexión y vuelve a intentarlo.';
+    } else {
+      status.textContent = error.message;
+    }
   } finally {
     generate.disabled = demo.disabled = false;
   }
