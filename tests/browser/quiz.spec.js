@@ -31,8 +31,7 @@ test('Instalaciones envía la configuración y corrige el cuestionario', async (
   });
 
   await page.goto('./');
-  await page.getByText('Instalaciones', { exact: true }).click();
-  await page.getByRole('link', { name: /Cuestionarios interactivos/ }).click();
+  await page.getByRole('link', { name: /Practicar Instalaciones/ }).click();
   await page.getByLabel('Preguntas', { exact: true }).fill('1');
   await page.getByLabel('Opciones por pregunta').selectOption('3');
   await page.getByLabel('Instrucciones').fill('Preguntas sobre la LGA');

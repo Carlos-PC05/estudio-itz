@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f5f2ec" />
+    <meta name="theme-color" content="#1e1b25" />
     <meta name="description" content="Elige una asignatura y accede a sus materiales de estudio." />
     <title>Estudio de Itziar</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -14,28 +14,18 @@
     <main class="hub">
       <header class="hub-heading">
         <h1>Estudio de Itziar<span class="brand-dot">.</span></h1>
-        <p>Elige una asignatura para ver sus materiales de estudio.</p>
+        <p>Elige una asignatura para empezar.</p>
       </header>
-      <section id="asignaturas" aria-labelledby="subjects-title">
-        <h2 id="subjects-title">Asignaturas</h2>
-        <details class="subject">
-          <summary>
-            <img src="/images/p02-005.webp" alt="" width="597" height="335" />
-            <span class="subject-name">Arquitectura</span>
-          </summary>
-          <a class="subject-resource" href="./arquitectura/">
-            <span><strong>Primer parcial</strong><span>Fichas para reconocer edificios</span></span>
-            <span class="subject-arrow" aria-hidden="true">→</span>
-          </a>
-        </details>
-        <details class="subject">
-          <summary class="subject-text"><span class="subject-name">Instalaciones</span></summary>
-          <a class="subject-resource" href="./instalaciones/">
-            <span><strong>Cuestionarios interactivos</strong><span>Instalaciones eléctricas en edificios de viviendas</span></span>
-            <span class="subject-arrow" aria-hidden="true">→</span>
-          </a>
-        </details>
-      </section>
+      <nav id="asignaturas" aria-label="Asignaturas">
+        <a class="subject-link" href="./arquitectura/">
+          <span><strong>Estudiar Arquitectura</strong><span>Primer parcial · Fichas para reconocer edificios</span></span>
+          <span class="subject-arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="subject-link" href="./instalaciones/">
+          <span><strong>Practicar Instalaciones</strong><span>Cuestionarios interactivos de instalaciones eléctricas</span></span>
+          <span class="subject-arrow" aria-hidden="true">→</span>
+        </a>
+      </nav>
     </main>
   </body>
 </html>

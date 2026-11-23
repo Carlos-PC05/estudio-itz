@@ -111,10 +111,8 @@ test('el almacenamiento corrupto y la imposibilidad de guardar tienen recuperaci
 test('desde el menú se puede elegir Arquitectura y volver a las asignaturas', async ({ page }) => {
   await page.goto('./');
   await expect(page.getByRole('heading', { name: 'Estudio de Itziar.' })).toBeVisible();
-  await expect(page.getByRole('link', { name: /Primer parcial/ })).toBeHidden();
-  await page.getByText('Arquitectura', { exact: true }).click();
-  await page.getByRole('link', { name: /Primer parcial/ }).click();
+  await page.getByRole('link', { name: /Estudiar Arquitectura/ }).click();
   await expect(page.getByRole('button', { name: 'Ver respuestas' })).toBeVisible();
   await page.getByRole('link', { name: 'Volver a las asignaturas' }).click();
-  await expect(page.getByRole('heading', { name: 'Asignaturas' })).toBeVisible();
+  await expect(page.getByRole('navigation', { name: 'Asignaturas' })).toBeVisible();
 });

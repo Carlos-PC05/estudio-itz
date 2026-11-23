@@ -1,5 +1,3 @@
-import '@fontsource-variable/dm-sans';
-import '@fontsource-variable/newsreader';
 import './style.css';
 import dossier from '../data/buildings.json';
 import { STORAGE_KEY, createRound, restoreProgress, rateCurrent, statistics } from './study.js';
@@ -61,7 +59,7 @@ function study(building) {
     </section>
     <section class="recall-panel ${revealed ? 'is-revealed' : ''}" aria-label="Ficha de identificación">
       <div class="recall-top"><span class="study-position">Ficha ${position} <span>/ ${state.round.ids.length}</span></span>${mark ? `<span class="mark-label ${mark === 'known' ? 'mark-known' : ''}">${icon(mark === 'known' ? 'check' : 'repeat')}${mark === 'known' ? 'Lo sabías' : 'Para repasar'}</span>` : '<span class="mark-label">Sin valorar</span>'}</div>
-      ${revealed ? answer(building) : `<div class="question-content"><span class="question-symbol" aria-hidden="true">?</span><h2 id="question-title">¿Qué edificio<br>estás viendo?</h2><p>Intenta recordar su nombre, arquitecto, ubicación y fecha.</p><button class="button primary reveal-button" data-action="reveal">${icon('eye')} Ver respuestas</button><span class="keyboard-hint">También puedes pulsar <kbd>Espacio</kbd></span></div>`}
+      ${revealed ? answer(building) : `<div class="question-content"><h2 id="question-title">¿Qué edificio estás viendo?</h2><p>Intenta recordar su nombre, arquitecto, ubicación y fecha.</p><button class="button primary reveal-button" data-action="reveal">${icon('eye')} Ver respuestas</button><span class="keyboard-hint">También puedes pulsar <kbd>Espacio</kbd></span></div>`}
     </section>
   </div>`;
 }
@@ -80,14 +78,14 @@ function render() {
   const total = state.round.ids.length;
   const percentage = total ? (state.round.index / total) * 100 : 0;
   app.innerHTML = `<header class="site-header"><a class="brand" href="${import.meta.env.BASE_URL}" aria-label="Volver a las asignaturas">${icon('arrow', 'point-left')}<span>Asignaturas<span class="brand-dot">.</span></span></a><span class="course-label">Arquitectura <span>/</span> Primer parcial</span><span class="save-indicator"><span class="status-dot"></span>${storageAvailable ? 'Progreso guardado en este navegador' : 'Progreso solo en esta sesión'}</span></header>
-    <main id="study"><div class="page-heading"><div><h1>Aprende a reconocer.</h1><p>Una imagen, un edificio. Mira, recuerda y comprueba.</p></div><div class="collection-size"><strong>${buildings.length}</strong><span>edificios<br>por descubrir</span></div></div>
+    <main id="study"><div class="page-heading"><h1>Reconoce el edificio</h1></div>
     <section class="study-toolbar" aria-label="Opciones de estudio"><div class="mode-tabs" role="group" aria-label="Modo de estudio"><button data-action="all" aria-pressed="${state.mode === 'all'}">Todos <span>${buildings.length}</span></button><button data-action="review" aria-pressed="${state.mode === 'review'}">Necesito repasarlos <span>${stats.review}</span></button></div><div class="round-options"><label for="order">Orden</label><select id="order" aria-describedby="order-hint"><option value="random" ${state.order === 'random' ? 'selected' : ''}>Aleatorio</option><option value="dossier" ${state.order === 'dossier' ? 'selected' : ''}>Del dosier</option></select><button class="restart-button" data-action="restart" aria-label="Iniciar una nueva ronda">${icon('repeat')}<span>Nueva ronda</span></button></div></section>
     <div class="progress-line" role="progressbar" aria-label="Recorrido de la ronda" aria-valuemin="0" aria-valuemax="${Math.max(total, 1)}" aria-valuenow="${state.round.index}" aria-valuetext="${state.round.index} de ${total} edificios recorridos"><span style="width:${percentage}%"></span></div>
     <p id="order-hint" class="options-hint">Cambiar el modo o el orden inicia una nueva ronda y conserva tus valoraciones.</p>
     ${!storageAvailable ? '<p class="storage-warning" role="status">El navegador no permite guardar el progreso. Puedes seguir estudiando, pero los cambios se perderán al cerrar esta página.</p>' : ''}
     ${building ? study(building) : roundEnd()}
     <nav class="study-navigation" aria-label="Navegación de la ronda"><button class="button text-button" data-action="previous" ${state.round.index === 0 ? 'disabled' : ''}>${icon('arrow', 'point-left')} Anterior</button><span>${building ? `Edificio <strong>${state.round.index + 1}</strong> de ${total}` : total ? 'Ronda terminada' : 'Sin edificios pendientes'}</span><button class="button text-button" data-action="next" ${!building ? 'disabled' : ''}>Siguiente ${icon('arrow')}</button></nav>
-    <footer class="study-footer"><div class="learning-totals"><span><i class="legend-dot known-dot"></i><strong>${stats.known}</strong> aprendidos</span><span><i class="legend-dot review-dot"></i><strong>${stats.review}</strong> para repasar</span><span><i class="legend-dot unseen-dot"></i><strong>${stats.unseen}</strong> sin valorar</span></div><p>A tu ritmo. Una ficha cada vez.</p></footer></main>
+    <footer class="study-footer"><div class="learning-totals"><span><i class="legend-dot known-dot"></i><strong>${stats.known}</strong> aprendidos</span><span><i class="legend-dot review-dot"></i><strong>${stats.review}</strong> para repasar</span><span><i class="legend-dot unseen-dot"></i><strong>${stats.unseen}</strong> sin valorar</span></div></footer></main>
     <dialog class="image-dialog" aria-label="Imagen ampliada"><div class="dialog-toolbar"><span id="zoom-label"></span><div><button class="dialog-arrow" data-action="zoom-previous" aria-label="Imagen anterior">${icon('arrow', 'point-left')}</button><button class="dialog-arrow" data-action="zoom-next" aria-label="Imagen siguiente">${icon('arrow')}</button><button class="dialog-close" data-action="close" aria-label="Cerrar imagen ampliada">${icon('close')}</button></div></div><div class="zoom-content"></div><p>Usa las flechas para cambiar de imagen. Escape para cerrar.</p></dialog>`;
   app.querySelectorAll('.gallery img').forEach(img => img.addEventListener('error', () => {
     img.closest('button').insertAdjacentHTML('beforeend', '<span class="image-error">No se ha podido cargar esta imagen. Recarga la página para reintentarlo.</span>');

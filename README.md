@@ -1,6 +1,6 @@
 # Estudio de Itziar
 
-La portada reúne las asignaturas y sus materiales. En **Arquitectura → Primer parcial** puedes practicar con el dosier.
+La portada reúne las asignaturas y sus materiales. En **Estudiar Arquitectura** puedes practicar con el dosier.
 
 Las fichas se basan en `DOSIER EDIFICIOS PRIMER PARCIAL .pdf`: 133 edificios, 136 fichas de origen y 167 imágenes. Las imágenes del mismo edificio se muestran juntas y los datos se revelan con «Ver respuestas».
 
@@ -73,7 +73,7 @@ Referencias: [workflows de GitHub Pages](https://docs.github.com/en/pages/gettin
 
 ## Cuestionarios de Instalaciones
 
-Desde **Instalaciones → Cuestionarios interactivos**, elige entre 1 y 20 preguntas, 3 o 4 opciones por pregunta y, si quieres, un enfoque. Usa una clave personal de [OpenRouter](https://openrouter.ai/settings/keys) para generar el test con Particle-1 gratuito. Si ese modelo no está disponible, OpenRouter puede usar Ling 3.2 Flash gratuito. La clave se conserva en memoria mientras la página está abierta. La generación envía a OpenRouter el texto del temario y las instrucciones. El botón **Probar test de ejemplo** permite practicar sin clave.
+Desde **Practicar Instalaciones**, elige entre 1 y 20 preguntas, 3 o 4 opciones por pregunta y, si quieres, un enfoque. Usa una clave personal de [OpenRouter](https://openrouter.ai/settings/keys) para generar el test con Particle-1 gratuito. Si ese modelo no está disponible, OpenRouter puede usar Ling 3.2 Flash gratuito. La clave se conserva en memoria mientras la página está abierta. La generación envía a OpenRouter el texto del temario y las instrucciones. El botón **Probar test de ejemplo** permite practicar sin clave.
 
 El temario procede de *Instalaciones eléctricas en edificios de viviendas*, de Gemma Vázquez Arenas (UPCT). `data/instalaciones.txt` contiene el texto extraído hasta la página física 67 con marcadores del visor. Se omiten portada, índice y páginas sin texto. Las figuras quedan fuera de la extracción. Las explicaciones muestran la página citada.
 

@@ -1,11 +1,7 @@
-# Diseño visual
+# Modo concentración
 
-La dirección respeta la interfaz clara, en español y centrada en imágenes que el usuario confirmó durante la entrevista. Se implementa directamente como pantalla de estudio.
+La aplicación usa un fondo grafito, texto marfil y lila para las acciones principales. DM Sans autoalojada se usa en titulares y controles. Las superficies elevadas agrupan contenido y los bordes delimitan campos, opciones y paneles. El texto acompaña al color en los estados de corrección.
 
-Papel cálido y tinta oscura, con terracota para la acción principal y verde para lo aprendido. Titulares en Newsreader y controles en DM Sans, ambas autoalojadas. La composición mantiene una galería amplia junto a una columna de recuerdo; en móvil pasan a una columna.
+La portada da acceso directo a cada asignatura. En Arquitectura, una columna centra la ficha. La galería muestra las imágenes completas y mantiene su posición al revelar los datos. El diálogo de ampliación admite teclado y Escape. La ronda, las valoraciones y el repaso conservan sus controles.
 
-Las imágenes conservan su proporción y se muestran completas. La firma de interacción es el paso de una pregunta visual a una ficha de identificación en el mismo espacio; no se simula un giro que oculte las fotos. La ampliación usa un diálogo con foco y cierre mediante Escape.
-
-Los estados de práctica, respuesta, ronda terminada y repaso vacío tienen acciones claras. El progreso utiliza cantidades reales. El nombre del edificio nunca aparece en atributos accesibles de las imágenes antes de revelar la respuesta.
-
-En Instalaciones, la configuración usa una columna de trabajo y una referencia lateral al temario. En móvil se apilan. El cuestionario centra una pregunta a la vez y distingue la corrección mediante texto y color. La explicación y la página de referencia aparecen debajo de las opciones tras responder.
+En Instalaciones, la configuración ocupa una columna y el temario queda junto al test de ejemplo. La práctica muestra una pregunta por pantalla. Tras responder, la explicación y la página del PDF aparecen debajo de las opciones, antes de la acción para avanzar.
