@@ -19,7 +19,7 @@
 
 .planner { display: grid; gap: 24px; margin-top: 24px; }
 
-#quiz-form { display: grid; gap: 17px; }
+#quiz-form:not([hidden]) { display: grid; gap: 17px; }
 .quiz-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 
 #quiz-form label:not([hidden]) {

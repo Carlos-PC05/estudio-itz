@@ -18,7 +18,7 @@
       <section id="setup" aria-labelledby="setup-title">
         <h1 id="setup-title" tabindex="-1">Prepara tu cuestionario.</h1>
         <div class="planner">
-          <form id="quiz-form">
+          <form id="quiz-form" hidden>
             <div class="quiz-fields">
               <label for="count">Preguntas
                 <input id="count" name="count" type="number" min="1" max="20" step="1" value="10" required />
@@ -33,13 +33,11 @@
             <label for="instructions">Instrucciones <span class="optional">· Opcional</span>
               <textarea id="instructions" name="instructions" rows="3" maxlength="1200" placeholder="Por ejemplo, céntrate en las instalaciones de enlace y plantea casos prácticos."></textarea>
             </label>
-            <label for="key">Clave de OpenRouter
-              <input id="key" type="password" required autocomplete="off" spellcheck="false" aria-describedby="key-help" />
-            </label>
-            <p class="field-help" id="key-help">La clave se usa en esta sesión. Al generar, OpenRouter recibe el temario y tus instrucciones. <a href="https://openrouter.ai/settings/keys" target="_blank" rel="noopener noreferrer">Conseguir una clave</a></p>
+            <p class="field-help">Al generar, OpenRouter recibe el temario y tus instrucciones.</p>
             <button class="button primary" id="generate" type="submit">Generar cuestionario</button>
             <p id="generation-status" role="status"></p>
           </form>
+          <p id="generation-unavailable" class="field-help">La generación de nuevos tests está disponible en la versión local con OpenRouter configurado. Aquí puedes practicar con el test de ejemplo.</p>
           <aside class="quiz-source" aria-labelledby="source-title">
             <h2 id="source-title">Temario del examen</h2>
             <p>Instalaciones eléctricas en edificios de viviendas</p>

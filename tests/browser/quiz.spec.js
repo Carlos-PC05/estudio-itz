@@ -1,41 +1,27 @@
 import { test, expect } from '@playwright/test';
 
+const local = 'http://127.0.0.1:4174/estudio-itz/';
+const api = `${local}api/quiz`;
+
 test('Instalaciones envía la configuración y corrige el cuestionario', async ({ page }) => {
-  await page.route('https://openrouter.ai/api/v1/chat/completions', async route => {
-    const request = route.request();
-    const payload = request.postDataJSON();
-    expect(payload.models).toEqual([
-      'particle-ai/particle-1:free',
-      'inclusionai/ling-3.2-flash:free',
-    ]);
-    expect(payload.response_format.json_schema.schema.properties.questions).toMatchObject({
-      minItems: 1,
-      maxItems: 1,
-      items: { properties: { options: { minItems: 3, maxItems: 3 } } },
-    });
-    expect(payload.reasoning).toEqual({ enabled: false });
-    expect(JSON.parse(payload.messages[1].content)).toEqual({
-      preguntas: 1,
-      opcionesPorPregunta: 3,
-      preferencias: 'Preguntas sobre la LGA',
-    });
-    expect(payload.messages[0].content).toContain('[Página PDF 67]');
-    expect(payload.messages[0].content).not.toContain('[Página PDF 68]');
-    await route.fulfill({ json: { choices: [{ message: { content: JSON.stringify({ questions: [{
+  await page.route(api, async route => {
+    expect(route.request().headers().authorization).toBeUndefined();
+    expect(route.request().postDataJSON()).toEqual({ count: 1, optionCount: 3, instructions: 'Preguntas sobre la LGA' });
+    await route.fulfill({ json: { questions: [{
       question: '¿Qué une la LGA?',
       options: ['La CGP y la centralización de contadores', 'La vivienda y la acometida', 'El diferencial y los circuitos interiores'],
       correctIndex: 0,
       explanation: 'La línea general de alimentación enlaza esos dos elementos.',
       page: 42,
-    }] }) } }] } });
+    }] } });
   });
 
-  await page.goto('./');
+  await page.goto(local);
   await page.getByRole('link', { name: /Practicar Instalaciones/ }).click();
+  await expect(page.locator('input[type="password"]')).toHaveCount(0);
   await page.getByLabel('Preguntas', { exact: true }).fill('1');
   await page.getByLabel('Opciones por pregunta').selectOption('3');
   await page.getByLabel('Instrucciones').fill('Preguntas sobre la LGA');
-  await page.getByLabel('Clave de OpenRouter').fill('clave-de-prueba');
   await page.getByRole('button', { name: 'Generar cuestionario' }).click();
   await expect(page.getByRole('heading', { name: '¿Qué une la LGA?' })).toBeVisible();
   await page.getByRole('button', { name: 'La vivienda y la acometida' }).click();
@@ -50,10 +36,9 @@ test('Instalaciones envía la configuración y corrige el cuestionario', async (
 });
 
 test('un test inválido permite corregir la configuración y probar el ejemplo', async ({ page }) => {
-  await page.route('https://openrouter.ai/api/v1/chat/completions', route =>
-    route.fulfill({ json: { choices: [{ message: { content: '{"questions":[]}' } }] } }));
-  await page.goto('./instalaciones/');
-  await page.getByLabel('Clave de OpenRouter').fill('clave-de-prueba');
+  await page.route(api, route =>
+    route.fulfill({ status: 502, json: { error: 'El modelo devolvió un cuestionario incompleto.' } }));
+  await page.goto(`${local}instalaciones/`);
   await page.getByRole('button', { name: 'Generar cuestionario' }).click();
   await expect(page.getByRole('status').filter({ hasText: 'cuestionario incompleto' })).toBeVisible();
   await page.getByRole('button', { name: 'Probar test de ejemplo' }).click();
@@ -79,20 +64,19 @@ test('un límite temporal de OpenRouter permite reintentar con cuatro opciones',
     },
   ];
   let attempts = 0;
-  await page.route('https://openrouter.ai/api/v1/chat/completions', async route => {
+  await page.route(api, async route => {
     const payload = route.request().postDataJSON();
-    expect(JSON.parse(payload.messages[1].content).opcionesPorPregunta).toBe(4);
+    expect(payload.optionCount).toBe(4);
     attempts += 1;
     if (attempts === 1) {
-      await route.fulfill({ status: 429, json: {} });
+      await route.fulfill({ status: 429, json: { error: 'OpenRouter ha alcanzado un límite de uso gratuito.' } });
       return;
     }
-    await route.fulfill({ json: { choices: [{ message: { content: JSON.stringify({ questions }) } }] } });
+    await route.fulfill({ json: { questions } });
   });
 
-  await page.goto('./instalaciones/');
+  await page.goto(`${local}instalaciones/`);
   await page.getByLabel('Preguntas', { exact: true }).fill('2');
-  await page.getByLabel('Clave de OpenRouter').fill('clave-de-prueba');
   const generate = page.getByRole('button', { name: 'Generar cuestionario' });
   await generate.click();
   await expect(page.getByRole('status').filter({ hasText: 'límite de uso gratuito' })).toBeVisible();
@@ -108,23 +92,27 @@ test('un límite temporal de OpenRouter permite reintentar con cuatro opciones',
 });
 
 test('el timeout de OpenRouter se distingue de una respuesta truncada', async ({ page }) => {
-  await page.addInitScript(() => {
-    const fetchActual = window.fetch;
-    let attempts = 0;
-    window.fetch = (url, options) => {
-      if (url !== 'https://openrouter.ai/api/v1/chat/completions') return fetchActual(url, options);
-      if (++attempts > 1) return fetchActual(url, options);
-      return Promise.reject(new DOMException('Timeout', 'TimeoutError'));
-    };
+  let attempts = 0;
+  await page.route(api, route => {
+    attempts += 1;
+    return attempts === 1
+      ? route.fulfill({ status: 504, json: { error: 'OpenRouter agotó el tiempo de espera.' } })
+      : route.fulfill({ status: 502, json: { error: 'El modelo cortó la respuesta.' } });
   });
-  await page.route('https://openrouter.ai/api/v1/chat/completions', route =>
-    route.fulfill({ json: { choices: [{ finish_reason: 'length' }] } }));
 
-  await page.goto('./instalaciones/');
-  await page.getByLabel('Clave de OpenRouter').fill('clave-de-prueba');
+  await page.goto(`${local}instalaciones/`);
   const generate = page.getByRole('button', { name: 'Generar cuestionario' });
   await generate.click();
   await expect(page.getByRole('status').filter({ hasText: 'OpenRouter agotó el tiempo de espera' })).toBeVisible({ timeout: 2000 });
   await generate.click();
   await expect(page.getByRole('status').filter({ hasText: 'El modelo cortó la respuesta' })).toBeVisible();
+});
+
+test('la compilación estática ofrece el test de ejemplo sin pedir una clave', async ({ page }) => {
+  await page.goto('./instalaciones/');
+  await expect(page.locator('input[type="password"]')).toHaveCount(0);
+  await expect(page.getByRole('button', { name: 'Generar cuestionario' })).toBeHidden();
+  await expect(page.getByText('La generación de nuevos tests', { exact: false })).toBeVisible();
+  await page.getByRole('button', { name: 'Probar test de ejemplo' }).click();
+  await expect(page.getByText('Pregunta 1 de 3')).toBeVisible();
 });

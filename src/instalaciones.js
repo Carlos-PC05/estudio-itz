@@ -1,6 +1,5 @@
 import './quiz.css';
-import source from '../data/instalaciones.txt?raw';
-import { generateQuiz, QUIZ_TIMEOUT_MESSAGE, QUIZ_TIMEOUT_MS } from './quiz.js';
+import { QUIZ_TIMEOUT_MESSAGE, QUIZ_TIMEOUT_MS } from './quiz.js';
 
 const sample = [
   {
@@ -29,13 +28,8 @@ const sample = [
 const byId = id => document.getElementById(id);
 const form = byId('quiz-form');
 const localQuiz = import.meta.env.DEV && __LOCAL_QUIZ__;
-const keyInput = byId('key');
-
-if (localQuiz) {
-  keyInput.required = false;
-  keyInput.closest('label').hidden = true;
-  byId('key-help').textContent = 'Se usa la clave de OpenRouter configurada en el servidor local. Al generar, OpenRouter recibe el temario y tus instrucciones.';
-}
+form.hidden = !localQuiz;
+byId('generation-unavailable').hidden = localQuiz;
 const generate = byId('generate');
 const demo = byId('demo');
 const status = byId('generation-status');
@@ -119,13 +113,7 @@ byId('configure').addEventListener('click', () => {
 
 form.addEventListener('submit', async event => {
   event.preventDefault();
-  if (generate.disabled) return;
-  const key = keyInput.value.trim();
-  if (!localQuiz && !key) {
-    status.textContent = 'Introduce una clave de OpenRouter.';
-    keyInput.focus();
-    return;
-  }
+  if (!localQuiz || generate.disabled) return;
   const fields = new FormData(form);
   generate.disabled = demo.disabled = true;
   status.textContent = 'OpenRouter está preparando tus preguntas…';
@@ -135,20 +123,14 @@ form.addEventListener('submit', async event => {
       optionCount: Number(fields.get('options')),
       instructions: fields.get('instructions').trim(),
     };
-    let questions;
-    if (localQuiz) {
-      const response = await fetch(`${import.meta.env.BASE_URL}api/quiz`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(settings),
-        signal: AbortSignal.timeout(QUIZ_TIMEOUT_MS + 5_000),
-      });
-      const result = await response.json();
-      if (!response.ok) throw new Error(result.error);
-      questions = result.questions;
-    } else {
-      questions = await generateQuiz({ ...settings, key, source });
-    }
+    const response = await fetch(`${import.meta.env.BASE_URL}api/quiz`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(settings),
+      signal: AbortSignal.timeout(QUIZ_TIMEOUT_MS + 5_000),
+    });
+    const { questions, error } = await response.json();
+    if (!response.ok) throw new Error(error);
     status.textContent = '';
     begin(questions, 'Test generado con IA');
   } catch (error) {
