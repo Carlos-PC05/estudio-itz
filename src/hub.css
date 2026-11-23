@@ -1,0 +1,105 @@
+@import '@fontsource-variable/dm-sans';
+@import '@fontsource-variable/newsreader';
+@import './style.css';
+
+.hub {
+  width: min(100%, 980px);
+  padding-block: clamp(44px, 10vw, 116px) 44px;
+}
+
+.hub-heading {
+  padding-bottom: clamp(24px, 5vw, 46px);
+  border-bottom: 1px solid var(--line);
+}
+
+.hub-heading h1 {
+  font-size: clamp(44px, 8vw, 88px);
+  text-wrap: initial;
+}
+
+.hub-heading p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.hub section h2 {
+  margin: 30px 0 14px;
+  font-size: 16px;
+  font-weight: 650;
+}
+
+.subject {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+
+.subject summary {
+  display: grid;
+  grid-template-columns: clamp(64px, 16vw, 150px) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: clamp(12px, 3vw, 26px);
+  padding: clamp(10px, 2vw, 16px);
+  border-radius: var(--radius);
+  cursor: pointer;
+  list-style: none;
+}
+
+.subject summary::-webkit-details-marker { display: none; }
+.subject summary:hover, .subject-resource:hover { background: #f0ede5; }
+
+.subject summary::after {
+  content: '';
+  width: 9px;
+  height: 9px;
+  margin-inline: 8px;
+  border: solid var(--accent);
+  border-width: 0 2px 2px 0;
+  transform: translateY(-2px) rotate(45deg);
+}
+
+.subject[open] summary::after { transform: translateY(2px) rotate(225deg); }
+.subject summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+
+.subject summary img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.subject-name {
+  font-family: var(--serif);
+  font-size: clamp(23px, 5vw, 42px);
+  line-height: 1.1;
+}
+
+.subject-resource {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 16px clamp(16px, 3vw, 26px);
+  border-top: 1px solid var(--line);
+  border-radius: 0 0 var(--radius) var(--radius);
+  text-decoration: none;
+}
+
+.subject-resource strong + span {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.subject-arrow { color: var(--accent); font-size: 23px; }
+
+.subject + .subject { margin-top: 14px; }
+
+.subject .subject-text {
+  grid-template-columns: minmax(0, 1fr) auto;
+  min-height: 76px;
+  padding-inline: clamp(16px, 3vw, 26px);
+}

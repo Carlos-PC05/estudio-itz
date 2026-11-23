@@ -1,6 +1,8 @@
-# Arquitectura · Primer parcial
+# Estudio de Itziar
 
-Web de estudio a partir de `DOSIER EDIFICIOS PRIMER PARCIAL .pdf`: 133 edificios, 136 fichas de origen y 167 imágenes. Las imágenes del mismo edificio se muestran juntas y los datos se revelan con «Ver respuestas».
+La portada reúne las asignaturas y sus materiales. En **Arquitectura → Primer parcial** puedes practicar con el dosier.
+
+Las fichas se basan en `DOSIER EDIFICIOS PRIMER PARCIAL .pdf`: 133 edificios, 136 fichas de origen y 167 imágenes. Las imágenes del mismo edificio se muestran juntas y los datos se revelan con «Ver respuestas».
 
 ## Desarrollo
 

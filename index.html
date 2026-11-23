@@ -4,15 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f5f2ec" />
-    <meta name="description" content="Estudia los edificios del primer parcial: reconoce sus imágenes, revela sus datos y repasa a tu ritmo." />
-    <title>Arquitectura · Estudio del primer parcial</title>
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="description" content="Elige una asignatura y accede a sus materiales de estudio." />
+    <title>Estudio de Itziar</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/src/hub.css" />
   </head>
   <body>
-    <a class="skip-link" href="#study">Ir a la ficha de estudio</a>
-    <div id="app"></div>
-    <p id="announcer" class="sr-only" aria-live="polite" aria-atomic="true"></p>
-    <noscript>Activa JavaScript para practicar con las fichas de arquitectura.</noscript>
-    <script type="module" src="/src/main.js"></script>
+    <a class="skip-link" href="#asignaturas">Ir a las asignaturas</a>
+    <main class="hub">
+      <header class="hub-heading">
+        <h1>Estudio de Itziar<span class="brand-dot">.</span></h1>
+        <p>Elige una asignatura para ver sus materiales de estudio.</p>
+      </header>
+      <section id="asignaturas" aria-labelledby="subjects-title">
+        <h2 id="subjects-title">Asignaturas</h2>
+        <details class="subject">
+          <summary>
+            <img src="/images/p02-005.webp" alt="" width="597" height="335" />
+            <span class="subject-name">Arquitectura</span>
+          </summary>
+          <a class="subject-resource" href="./arquitectura/">
+            <span><strong>Primer parcial</strong><span>Fichas para reconocer edificios</span></span>
+            <span class="subject-arrow" aria-hidden="true">→</span>
+          </a>
+        </details>
+      </section>
+    </main>
   </body>
 </html>

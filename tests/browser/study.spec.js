@@ -10,7 +10,7 @@ async function startAt(page, id, extra = {}) {
   await page.addInitScript(({ key, progress }) => {
     if (!localStorage.getItem(key)) localStorage.setItem(key, JSON.stringify(progress));
   }, { key, progress });
-  await page.goto('./');
+  await page.goto('./arquitectura/');
 }
 
 test('se estudia, se valora y se retoma sin revelar respuestas', async ({ page }, testInfo) => {
@@ -99,11 +99,22 @@ test('cambiar de orden conserva las marcas y crea una ronda completa sin repetic
 
 test('el almacenamiento corrupto y la imposibilidad de guardar tienen recuperación', async ({ page }) => {
   await page.addInitScript(key => localStorage.setItem(key, '{incorrecto'), key);
-  await page.goto('./');
+  await page.goto('./arquitectura/');
   await expect(page.getByRole('button', { name: 'Ver respuestas', exact: true })).toBeVisible();
   await page.addInitScript(() => { Storage.prototype.setItem = () => { throw new Error('Storage blocked'); }; });
   await page.reload();
   await expect(page.getByRole('status').filter({ hasText: 'El navegador no permite guardar' })).toBeVisible();
   await page.getByRole('button', { name: 'Ver respuestas', exact: true }).click();
   await expect(page.getByRole('button', { name: 'Lo sabía', exact: true })).toBeVisible();
+});
+
+test('desde el menú se puede elegir Arquitectura y volver a las asignaturas', async ({ page }) => {
+  await page.goto('./');
+  await expect(page.getByRole('heading', { name: 'Estudio de Itziar.' })).toBeVisible();
+  await expect(page.getByRole('link', { name: /Primer parcial/ })).toBeHidden();
+  await page.getByText('Arquitectura', { exact: true }).click();
+  await page.getByRole('link', { name: /Primer parcial/ }).click();
+  await expect(page.getByRole('button', { name: 'Ver respuestas' })).toBeVisible();
+  await page.getByRole('link', { name: 'Volver a las asignaturas' }).click();
+  await expect(page.getByRole('heading', { name: 'Asignaturas' })).toBeVisible();
 });
