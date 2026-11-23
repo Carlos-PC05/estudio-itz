@@ -6,3 +6,7 @@ playwright-report/
 __pycache__/
 .impeccable/
 DOSIER EDIFICIOS PRIMER PARCIAL .pdf
+
+.env
+.env.*
+!.env.example

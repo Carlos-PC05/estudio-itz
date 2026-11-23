@@ -1,0 +1,1571 @@
+[Página PDF 5]
+Capı́tulo 1
+Normativa
+La normativa que define las condiciones que deben cumplir las instalacio-
+nes eléctricas de baja tensión en la edificación es:
+Reglamento Electrotécnico de Baja Tensión (REBT). 51 Instrucciones
+Técnicas Complementarias (ITC BT 01 - ITC BT 51).
+Normativa de la Empresa Suministradora (Iberdrola).
+Normas UNE.
+Guı́as de aplicación del REBT.
+Normativas Municipales y Autonómicas.
+La normativa principal de aplicación es el REBT. En la actualidad se
+aplica desde el año 2002 (Real Decreto 842/2002 de 2 de agosto de 2002) que
+entró en vigencia en el año 2003 y cuyo principal objeto es: ’Establecer las
+condiciones técnicas y garantı́as que deben reunir las instalaciones eléctricas
+conectadas a una fuente de suministro en los lı́mites de baja tensión’ [6]. Y
+cuya finalidad es:
+’Preservar la seguridad de las personas y los bienes.
+Asegurar el normal funcionamiento de dichas instalaciones y prevenir
+las perturbaciones en otras instalaciones y servicios.
+Contribuir a la fiabilidad técnica y a la eficiencia económica de las
+instalaciones. Por lo que se establece un cuadro de inspecciones por
+organismos de control.’ [6]
+Las principales novedades que aportó esta normativa con respecto a la
+anterior fueron:
+Remisión a distintas Normas sin indicar la fecha de publicación, obli-
+gando ası́ a su aplicación en su última versión.
+
+[Página PDF 6]
+4 Normativa
+Permite que se puedan conceder excepciones a sus prescripciones en los
+casos en que se justifique debidamente su imposibilidad material y se
+aporten medidas compensatorias.
+Realiza una recopilación de las diferentes normas UNE, listándolas en
+su instrucción ITC BT-02.
+Queda definido de forma más precisa las figuras de los instaladores y
+empresas autorizadas
+Se introducen nuevos tipos de instalaciones: agrı́colas, hortı́colas, au-
+tomatizadas, de gestión de energı́a, para seguridad en viviendas, para
+instalación de piscinas, caravanas, etc.
+Se aumenta el número mı́nimo de circuitos de viviendas, lo que impli-
+cará en un mayor confort de las mismas.
+Para la ejecución y puesta en servicio de las instalaciones se requiere
+en todos los casos la elaboración de una documentación técnica, ya sea
+en forma de proyecto o memoria técnica de diseño.
+Se exige la entrega al titular de una instalación de una documentación
+donde se reflejen sus caracterı́sticas fundamentales, trazado, instruccio-
+nes y precauciones de uso.
+Se establece un cuadro de inspecciones por organismos de control, en
+el caso de instalaciones cuya seguridad exija una particular relevancia.
+Es necesario destacar en este apartado el artı́culo 2 de dicho reglamento
+el cual indica los campos de aplicación en los que se ve involucrado el REBT
+y que es necesario conocer para el buen desarrollo de la práctica profesional.
+Artı́culo 2: Campo de Aplicación. [6]
+Se aplicará a instalaciones de distribución, generadoras para consumo
+propio y a las receptoras, en los siguientes lı́mites de tensiones nomi-
+nales:
+• Corriente alterna: igual o inferior a 1.000 V.
+• Corriente continua: igual o inferior a 1.500 V.
+A nuevas instalaciones, a sus modificaciones y a sus aplicaciones.
+A las instalaciones existentes antes de su entrada en vigor que sean
+objeto de modificaciones y reparaciones de importancia y a sus amplia-
+ciones.
+A las instalaciones existentes antes de su entrada en vigor, en lo refe-
+rente a las inspecciones, con arreglo a la reglamentación con la que se
+aprobaron.
+
+[Página PDF 7]
+5
+Se entenderá por modificación o reparación de importancia las que
+afecten:
+• A más del 50 % de la potencia instalada.
+• A lı́neas completas de procesos productivos con nuevos circuitos
+y cuadros, aún con reducción de potencia.
+Igualmente se aplicará a las instalaciones existentes antes de su entra-
+da en vigor, cuando su estado, situación o caracterı́sticas impliquen un
+riesgo grave para las personas o bienes, o cuando se produzcan pertur-
+baciones importantes.
+Tensiones nominales:
+• 230 V entre fases para redes trifásicas de tres conductores.
+• 230 V entre fases y neutro y 400 V entre fases para redes trifásicas
+de cuatro conductores.
+Artı́culo 4: Clasificación de las tensiones y frecuencia de redes. [2,
+6] Las instalaciones eléctricas de baja tensión se clasifican en función de
+las tensiones nominales que se asignen, tal y como se puede ver en la tabla
+siguiente:
+c.a c.c
+(Valor Eficaz) (Valor Medio Aritmético)
+Muy Baja Tensión Un ≤ 50 V Un ≤ 75 V
+Tensión Usual 50 V < Un ≤ 500 V 75 V < Un ≤ 750 V
+Tensión Especial 500 V < Un ≤ 1000 V 750 V < Un ≤ 1500 V
+Tabla 1.1: Tensiones nominales
+Las tensiones utilizadas en las distribuciones de corriente alterna serán:
+(a) 230 V entre fases para redes trifásicas de tres conductores.
+(b) 230 V entre fase y neutro, y 400 V entre fases para las redes trifásicas de
+4 conductores.
+La frecuencia empleada en la red será de 50 Hz, con una tolerancia entre
+49.85 Hz y 50.15 Hz. Se podrán utilizar otras frecuencias y tensiones, siempre
+y cuando estén autorizadas por el órgano competente de la Administración
+Pública, cuando se justifiquen en el proyecto, no produzca perturbaciones
+significativas en el funcionamiento de otras instalaciones y no se reduzca el
+nivel de seguridad para los usuarios y equipos.
+
+[Página PDF 8]
+6 Normativa
+1.1. Simbologı́a
+Los sı́mbolos eléctricos están normalizados y recogidos en las normas
+UNE-EN-60617. A continuación se recogen parte de la simbologı́a más utili-
+zada en las instalaciones eléctricas de baja tensión en edificación [9]. En dicha
+simbologı́a se puede ver fı́sicamente al elemento que representa, la descrip-
+ción del mismo y su representación para esquemas unifilares y para esquemas
+multifilares.
+(a) (b)
+(c) (d)
+Figura 1.1: Alguna simbologı́a adoptada [9]
+Es posible que en la práctica sea utilizada otro tipo de simbologı́a diferente
+
+[Página PDF 9]
+1.1 Simbologı́a 7
+a la expuesta e incluso a la definida por las normas UNE, esto implica la
+necesidad de indicar siempre en los planos la simbologı́a utilizada.
+
+[Página PDF 11]
+Capı́tulo 2
+Objetivos y Medios Materiales
+En primer lugar se definirán los objetivos que debe de cumplir la insta-
+lación eléctrica de baja tensión en el interior de la edificación, pero para ello
+primero es necesario definir y clasificar dichas edificaciones.
+El Reglamento en su instrucción ITC-BT-10, establece la siguiente clasi-
+ficación de los lugares de consumo [6]:
+1. Edificios destinados principalmente o viviendas.
+2. Edificios comerciales o de oficinas.
+3. Edificios destinados o una industria especı́fica.
+4. Edificios destinados o una concentración de industrias.
+Otra posible clasificación se puede realizar en función de la potencia de-
+mandada por el edificio y de su necesidad de integrar un centro de transfor-
+mación según como sea esta. Esta necesidad vendrá definida por los lı́mites
+de potencia a suministrar que establezcan las Empresas Suministradoras, que
+en el caso de Iberdrola está limitada a 100 kW [1]. Es decir por encima de
+ese valor el edificio tendrá que disponer de un centro de transformación. Lo
+cual se definirá en el capı́tulo siguiente.
+Una vez realizada la clasificación podemos decir que en cualquiera que
+sea la edificación para que se diseñe la instalación eléctrica los objetivos
+principales de esta son:
+El control de la energı́a eléctrica, y
+La discriminación del posible fallo eléctrico.
+Para poder cumplir estos objetivos se utilizarán elementos materiales para
+el control de la energı́a y estos serán: conductores, seccionadores, y proteccio-
+nes de variada ı́ndole. Mientras que para la discriminación del fallo eléctrico
+se preverán una serie de circuitos y protecciones independientes que asegu-
+rarán el suministro incluso en situaciones que puedan llegar a ser lı́mites
+
+[Página PDF 12]
+10 Objetivos y Medios Materiales
+en la instalación, como pueden ser calentamientos, sobrecargas o una gran
+demanda de potencia en la instalación.
+Todos los elementos que forman parte de la instalación como pueden ser
+las canalizaciones, cajas y armarios, junto a los conductores y mecanismos
+de protección compartirán varias caracterı́sticas que se van a describir a con-
+tinuación:
+(A) Deben ser materiales no propagadores de la llama, lo que también se
+conoce como autoextinguibles.
+(B) Todos ellos deben estar identificados o ser identificables atendiendo a
+las referencias que le sean de aplicación.
+(C) Además toda la instalación debe ejecutarse de manera que posibilite las
+verificaciones y ensayos oportunos de obra,
+(D) Ser capaces de permitir todas aquellas operaciones de mantenimiento
+que sean propias de ellas.
+
+[Página PDF 13]
+Capı́tulo 3
+Suministro de Energı́a
+Eléctrica.
+En este capı́tulo se va a definir las caracterı́sticas que tiene el Sistema
+Eléctrico Español, en la generación y distribución de la energı́a eléctrica.
+La estructura general que presenta el Sistema Eléctrico se divide en:
+Centrales generadoras de energı́a eléctrica.
+Estaciones elevadoras de tensión.
+Lı́neas eléctricas de transporte.
+Subestaciones transformadoras reductoras.
+Redes de distribución.
+Estaciones transformadoras de distribución o Centros de Transforma-
+ción.
+Redes de distribución de Baja Tensión.
+Figura 3.1: Esquema básico de generación y transporte de energı́a eléctrica
+[7].
+
+[Página PDF 14]
+12 Suministro de Energı́a Eléctrica.
+La energı́a eléctrica se obtiene a partir de la centrales generadoras
+donde la electricidad tendrá unos valores de 6-25 kV, posteriormente a esta
+fase la energı́a eléctrica es elevada en las estaciones elevadoras alcanzándo-
+se valores entre 60-110 kV en un primer estadio y hasta 220-440 kV en un
+segundo, para ser distribuida por grandes lı́neas de transporte de AT. Al
+llegar a las zonas cercanas a los núcleos urbanos se reducen las tensiones de
+la energı́a eléctrica, obteniendo redes de distribución de Media Tensión
+(15-20-25-30 kV) a partir de subestaciones repartidoras o reductoras.
+Por último, al llegar a los puntos de utilización en núcleos urbanos estas
+tensiones se reducen definitivamente a los valores de consumo de 230-400 V
+a partir de los centros de transformación y es repartida a través de la
+red de distribución de Baja Tensión.
+A continuación se describirá brevemente cada una de estas partes, indi-
+cando su funcionamiento, tipos y caracterı́sticas.
+3.1. Centrales Generadoras de Energı́a Eléctri-
+ca.
+En esta sección se van a definir las principales centrales generadoras de
+electricidad, las cuales son [12]:
+1. Centrales Térmicas.
+2. Centrales Hidroeléctricas.
+3. Centrales Nucleares.
+4. Centrales Eólicas.
+5. Centrales Solares.
+Dentro de estas las tres primeras son las principales generadoras de energı́a
+eléctrica en España, quedando en segundo lugar las centrales de energı́as re-
+novables, aunque en los últimos años estas últimas están siendo bastante
+promovidas tanto por el gobierno como por las inversiones realizadas por las
+compañı́as suministradoras en investigación.
+3.1.1. Centrales Térmicas.
+En este tipo de centrales (figura 3.2)la energı́a eléctrica se obtiene a partir
+la transformación de la energı́a calorı́fica de un combustible, ya sea fuel-oil,
+carbón o gas. Se realiza la combustión generando el suficiente calor para trans-
+formar agua en vapor de agua y que dicho vapor pase a través de una turbina
+generando un movimiento mecánico. Gracias a este movimiento y asociado
+a un generador o alternador (generador de energı́a eléctrica alterna) [13],
+se produce la energı́a eléctrica. Su principal desventaja es la contaminación
+debida a la combustión y las pérdidas de calor.
+
+[Página PDF 15]
+3.1 Centrales Generadoras de Energı́a Eléctrica. 13
+Figura 3.2: Central térmica de Escombreras (Cartagena, Murcia).
+Figura 3.3: Central hidroeléctrica Piedra del Águila (Argentina).
+3.1.2. Centrales Hidroeléctricas.
+En este caso la generación de la energı́a eléctrica se debe a un salto de
+agua que hace girar una turbina y al igual que en caso de la térmicas el
+movimiento de la turbina asociada a un generador o alternador da lugar a la
+energı́a eléctrica. En la figura 3.3 se puede ver una vista aérea de una de estas
+centrales. El mayor inconveniente de estas centrales es su mantenimiento y
+su posible ubicación sin alterar el entorno medioambiental.
+Existen dentro de estas centrales otras llamadas centrales de bombeo, las
+cuales tiene dos embales situados a diferentes cotas. Durante las horas punta
+estas centrales trabajan como una hidraúlica convencional pero en las horas
+más bajas de consumo, el agua del embalse inferior es bombeada al superior
+para recuperar el estado inicial. Para este tipo de centrales es necesario la
+utilización de moto-bombas que eleven el agua o que la turbina sea reversible
+y el alternador haga las funciones de motor [13]
+3.1.3. Centrales Nucleares.
+El procedimiento de estas centrales es parecido al de la centrales térmicas,
+con la diferencia que la obtención de calor no se realiza mediante combustión,
+sino que se obtiene a través de la fisión de uranio, el cual es utilizado como
+combustible. Por lo que este tipo de centrales en su generación de energı́a son
+más limpias (figura 3.4) pero tienen el gran inconveniente que los residuos
+generados durante la fisión son radiactivos, además de ser muy peligrosas en
+el caso de fugas en el núcleo.
+
+[Página PDF 16]
+14 Suministro de Energı́a Eléctrica.
+Figura 3.4: Central nuclear de Trillo (Guadalajara).
+3.1.4. Centrales Eólicas.
+Con estas centrales se obtiene la energı́a eléctrica debido al movimien-
+to de las aspas de las turbinas-generadores. Cada vez es mayor la aparición
+de este tipo de elementos en el paisaje español, ya que este tipo de energı́a
+renovable ha sido la de mayor aceptación e inversión por parte de las com-
+pañı́as suministradoras. En las figuras 3.5 y 3.6, se puede una fotografı́a de
+un campo turbinas-generadores y un esquema de los elementos que integran
+una central generadora respectivamente.
+Figura 3.5: Turbinas-generadores de una central eólica.
+Figura 3.6: Elementos que componen una central eólica [8].
+
+[Página PDF 17]
+3.2 Estaciones Elevadoras de Tensión. 15
+3.1.5. Centrales Fotovoltaicas.
+Esta central es otra de las centrales de generación de energı́a a partir de
+energı́as renovables, como es el sol. La luz solar es transformada en energı́a so-
+lar gracias a unas células fotovoltaicas que integran los paneles solares(figura
+3.7). El principal problema de estas centrales radica en la baja efectividad
+que siguen teniendo los paneles, pero muchos grupos de investigación y com-
+pañı́as suministradoras están invirtiendo para su mejora, ya que se trata de
+proceso de obtención de energı́a sin ningún tipo de generación de residuos.
+En la figura 3.8, se puede ver un esquema con los diferentes elementos que
+componen una central de este tipo.
+Figura 3.7: Estructura con varios paneles solares de una central fotovoltaica.
+Figura 3.8: Elementos que componen una central fotovoltaica [8].
+3.2. Estaciones Elevadoras de Tensión.
+Como ya se ha indicado anteriormente, una vez generada la energı́a eléctri-
+ca es necesario elevar la tensión hasta valores de Alta Tensión para ser trans-
+portada. El objeto de esta elevación de la tensión es debido a que si tenemos
+en cuenta la expresión de la potencia eléctrica:
+√
+P = 3 U I cosϕ (3.1)
+
+[Página PDF 18]
+16 Suministro de Energı́a Eléctrica.
+Al aumentar la tensión, la intensidad necesaria para transportar una po-
+tencia determinada se ve disminuida, por lo que las pérdidas por efecto Joule
+y la sección de los conductores disminuye.
+De esta manera se puede transportar una gran cantidad de energı́a eléctri-
+ca con pérdidas pequeñas y con unos conductores de sección menor.
+Figura 3.9: Subestación Elevadora de Tensión.
+3.3. Redes de Transporte
+Se denominan redes de transporta a aquellas lı́neas que partes de las
+estaciones elevadoras y llevan la energı́a eléctrica en Alta Tensión hasta las
+proximidades de los diferentes lugares de consumo.
+Como se ha dicho anteriormente el que estas redes sean de alta tensión,
+significa que las pérdidas por calentamiento (Efecto Joule) sean menores y
+que las secciones de los conductores sean menores lo que disminuyen su peso
+para poder ser soportados por las torretas de transporte (figura 3.10)
+Figura 3.10: Red de transporte de Alta Tensión.
+
+[Página PDF 19]
+3.4 Subestación Reductora de Tensión. 17
+Además de esto es necesario tener en cuenta que cuanto más alta sea la
+tensión de transporte, el nivel de aislamiento debe de ser mayor por lo que
+la lı́nea resultará más cara.
+Estas lı́neas se adaptan al tipologı́a del terreno para llevar la energı́a
+eléctrica aunque hay que seguir unos criterios de seguridad, despejando de
+maleza y arbustos los espacios próximos por donde es llevado el tendido y
+también criterios fı́sicos para la sustentación de la lı́nea, lo cual no se llevará a
+cabo en este tema.
+Las torretas o postes de este tipo de redes serán metálicos y de hormigón
+dependiendo de la lı́nea y de los criterios de la compañı́a suministradora.
+3.4. Subestación Reductora de Tensión.
+Al llegar cerca de los lugares de consumo es necesario acercar la tensión
+de transporte a la tensión de consumo, por lo que es necesario la ubicación de
+estas subestaciones(figura 3.11 para transformar los valores de alta tensión a
+valores del orden de los 15-45 kV denominadas de Media Tensión.
+Figura 3.11: Subestación Reductora.
+3.5. Redes de Distribución
+Estas redes son semejantes a las de transporte excepto porque el rango
+de tensiones es menor que las anteriores. Estas redes se denominan de Media
+Tensión. A partir de estas redes se alimentan los centros de transformación
+que servirán a los puntos de consumo. Estas redes pueden ser abiertas o
+ramificadas o también en anillo, tal y como puede verse en la figura 3.12.
+De las redes en anillo la más utilizada en la actualidad es la huso, en la
+que existen un máximo de 6 circuitos alimentados entre dos subestaciones y
+unidas a través de un cable denominado circuito cero.
+
+[Página PDF 20]
+18 Suministro de Energı́a Eléctrica.
+(a) (b)
+(c)
+Figura 3.12: Esquemas básicos de diferentes tipos de redes de distribución [7].
+3.6. Estaciones transformadoras de distribu-
+ción o CT
+A partir de estos se obtiene las tensiones de consumo de 230/400V. Es-
+tas estaciones o centros de transformación, (CT) están integradas en
+el núcleo urbano, ya sea dentro de los edificios o independientes de ellos en
+sus propias casetas. Dan servicio a zonas definidas, barrios o según cual sea
+la demanda de energı́a por parte de un edificio, a un solo edificio. En este
+último caso también tiene mucho que ver las restricciones y condiciones por
+parte de la empresa suministradora.
+En estos centros de transformación está el origen de las redes de distri-
+bución de baja tensión, y siempre son propiedad, sea cual sea su ubicación
+de la compañı́a suministradora.
+Las estaciones transformadoras o los centros de transformación se pueden
+dividir según su ubicación en:
+De intemperie.
+Exterior.
+• De obra.
+• Con caseta prefabricada.
+• Subterráneo.
+Interior.
+
+[Página PDF 21]
+3.6 Estaciones transformadoras de distribución o CT 19
+Centros de Transformación de Intemperie.
+Estos se encuentran ubicados en zonas rurales y para valores de potencia
+no superiores de 160 KVA. El transformador es colocado sobre un apoyo
+metálico o de hormigón (figura 3.13).
+Figura 3.13: Centro de transformación a intemperie.
+El apoyo donde esté ubicado tendrá dispositivos antiescalada hasta un
+altura de 2 m y con carteles visibles de indicación de peligro.
+Centros de Transformación de Obra.
+Estos tipos de centros de transformación son construidos con una caseta
+de obra fija con las dimensiones adecuadas según las necesidades, unas veces
+integrados con el entorno y en otras ocasiones buscando contrastes. No existe
+un lı́mite de potencia para estas estaciones transformadoras (figura 3.14).
+Figura 3.14: Centro de transformación de obra (Fuente:A. Franco Martı́n
+[13]).
+Los centros de transformación constan de diferentes celdas:
+Celda de entrada y protección.
+
+[Página PDF 22]
+20 Suministro de Energı́a Eléctrica.
+Celda de Medida.
+Celda del transformador.
+Cada una de ellas esta separada de las demás mediante tabiques y con
+un enrejado de protección entre ellas y el pasillo(figura 3.15).
+Figura 3.15: Enrejado de protección en el interior del centro de transforma-
+ción.
+Tienen la ventaja de tener las dimensiones adecuadas para la potencia
+necesaria, ya que se realiza únicamente para esta aplicación [13]. Dispondrán
+de pasillos y recintos anchos para el mantenimiento y entrada y salida de
+transformador y aparellaje. Debido al funcionamiento del transformador es
+necesaria la colocación de rejillas que aseguren la ventilación. Además hay
+que disponer de un pozo colector para recogida de las posibles fugas o cambios
+del aceite proveniente de la refrigeración del transformador.
+Centro de Transformación Prefabricado.
+Consta de los mismos elementos que las estaciones anteriores, pero cuen-
+tan con la ventaja de venir todo junto en un solo bloque desde la empresa
+suministradora(figura 3.16), por lo que tiene un menor coste. Son utilizados
+tanto por particulares como por las Empresas Suministradoras. Los elementos
+constructivos son módulos prefabricados de hormigón armado con acabado
+liso, y cada uno de ellos tienen sistemas patentados por cada una de las ca-
+sas comerciales. Con estos centros de transformación se consigue un mayor
+aprovechamiento del espacio y una mayor facilidad en el montaje, pues solo
+hay que conectar los conductores de entrada y de salida.
+
+[Página PDF 23]
+3.6 Estaciones transformadoras de distribución o CT 21
+(a) (b) (Fuente: Ormazabal)
+Figura 3.16: Centros de transformación prefabricados.
+Centro de Transformación Subterráneo.
+Este tipo de estación transformadora deben de cumplir con los mismos
+requisitos que un centro de transformación interior, aunque su clasificación se
+encuentre dentro de los centros de transformación exteriores. Está dividido
+en las diferentes celdas caracterı́sticas de las que consta los CT [13], tal y
+como puede ver en el esquema que aparece en la figura 3.17.
+Figura 3.17: Planta y alzado de un centro de transformación subterráneo [13].
+La construcción es subterránea teniendo, por tanto que tener en cuenta, el
+acceso del personal y a la posible entrada y salida de material y aparamenta,
+ası́ como una buena ventilación que asegure el buen funcionamiento de los
+equipos (figura 3.18).
+A pesar de ello, que el centro de transformación sea subterráneo tiene
+como ventajas:
+Su ocultación, dejando de ser una molestia para en entorno.
+Son más seguros.
+
+[Página PDF 24]
+22 Suministro de Energı́a Eléctrica.
+Figura 3.18: Ventilación y acceso a CT subterráneo.
+Mejor acceso de las redes de Media Tensión y mejor distribución para
+las de Baja Tensión.
+Todo ello supone un mayor coste en la instalación debido a excavación
+e impermeabilización. Son interesantes en el caso de disponer de terreno y
+teniendo en cuenta que existen también modelos prefabricados, como el que
+se presenta en la figura 3.19.
+Figura 3.19: Centro de transformación subterráneo prefabricado (Fuente: Or-
+mazabal).
+Centros de Transformación Interiores.
+Están integrados en el edificio ya sea en la planta baja o en el primer
+sótano, aunque es preferible que se ubique en el primer caso para darle a la
+empresa suministradora la facilidad de acceso y de intercambio de materia-
+les(figura 3.20)
+Este tipo de centros de transformación se utiliza cuando las condiciones
+del edificio exigen una acometida mayor que la suministrada por una red de
+Baja Tensión. La empresa suministradora es la que pondrá las condiciones
+para indicar cuando la acometida se hará en media o en baja tensión. En
+este caso para una potencia demandada por el edificio sea superior a 100
+kW es necesario disponer de un centro de transformación para recibir el
+suministro. En relación con la ubicación de los centro de transformación
+
+[Página PDF 25]
+3.6 Estaciones transformadoras de distribución o CT 23
+Figura 3.20: Centro de transformación integrado en el edificio [11].
+y algunas exigencias que conlleva su instalación, el R.E.B.T. apenas hace
+referencia al respecto, excepto en lo concerniente a la obligatoriedad de la
+reserva del local (Tabla 3.21), siendo por tanto las propias compañı́as las que
+fijan los correspondientes condicionantes.
+Figura 3.21: Dimensiones del local interior para el CT, según la potencia
+del transformador y valores de tensión de la red de distribución de Media
+Tensión. Siendo: (1)Superficie sin pilares, columnas u otros elementos, (2)
+Distancia entre suelo rematado y techo, o elementos colgantes si los hubiera.
+Lo habitual, como se ha indicado anteriormente, es ubicarlo en planta
+baja; si bien puede hacerse en sótano o semisótano, siendo una solución muy
+una solución muy recomendable hacerlo junto a la rampa de acceso al apar-
+camiento subterráneo del edificio, permitiéndose de esta forma aprovechar un
+espacio poco utilizable y mejorando de esta forma el problema de los ruidos
+
+[Página PDF 26]
+24 Suministro de Energı́a Eléctrica.
+y la ventilación.
+El local destinado al Centro de Transformación, deberá permitir la reali-
+zación de una ventilación natural eficaz, con el fin de asegurar la refrigeración
+de los transformadores y evitar lo eventual formación de condensaciones [3].
+La mencionada ventilación, desembocará al aire libre, bien directamente, o
+bien a través de conductos que posean las siguientes caracterı́sticas:
+1. Los conductos de aireación no podrán desembocar junto a ventanas de
+patios interiores. Sus medidas, ası́ como las de los orificios de salida,
+serán indicadas en cada caso, por la Empresa Suministradora(figura
+3.22).
+2. Ningún conducto de ventilación del inmueble, deberá tener parte común
+con los conductos de ventilación del Centro de Transformación.
+Figura 3.22: Rejillas de ventilación en los Centros de Transformación interio-
+res [11].
+Se van a indicar a continuación algunas Recomendaciones Construc-
+tivas, a tener en cuanta para los locales interiores:
+A. El piso de los locales, cuyo acceso sea directo desde el exterior, deberá es-
+tar elevado una altura mı́nima de 0.10 m. en relación con el piso exterior,
+o por encima del nivel conocido de las aguas más altas, en el caso de zona
+inundable.
+B. Protección contra posibles inundaciones procedentes de las instalaciones
+de los plantas superiores.
+C. No estar atravesado por ninguna canalización o tuberı́a, ni existir ningún
+servicio ajeno al Centro de Transformación.
+
+[Página PDF 27]
+3.7 Redes de distribución de Baja Tensión 25
+D. La solución de los cerramientos exigidos por las Compañı́as consiste en
+realizar una separación del resto del edificio con muros mayores de 30 cm
+de espesor de ladrillo u hormigón con lo cual se asegura el cumplimiento
+de la normativa acústica y los condicionantes de resistencia al fuego.
+E. Deben disponer de cámara de aire, cuando esté contiguo a viviendas.
+F. Previsión de un pozo de recogida de aceites en el sótano más bajo del
+edificio.
+G. Existencia de un punto de toma de tierra también en el nivel inferior del
+mismo.
+H. Acceso directo del personal de la compañı́a desde la vı́a pública
+I. Tener el forjado del piso con una resistencia suficiente, para soportar
+los elementos constituyentes del centro de transformación (aprox. 2.000
+Kg/m2 ), y tenerlo también en cuenta en las posibles zonas de paso de
+este para su colocación o sustitución.
+J. Las dimensiones de los pasos o puertas de acceso hasta el Centro de Trans-
+formación, deben ser adecuadas para permitir el paso de los elementos y
+aparamenta.
+3.7. Redes de distribución de Baja Tensión
+Son las encargadas de distribuir la energı́a eléctrica en el interior del
+núcleo urbano y de realizar el suministro al abonado. Se dividen en redes:
+aéreas.
+subterráneas.
+La tensión de servicio de las redes de Baja Tensión son 230/400 V. Las
+condiciones que deben cumplir estas redes están recogidas en el REBT. De
+hecho están definidas en las Instrucciones Técnicas Complementarias, ITC-
+BT06 en el caso de las aéreas e ITC-BT07 en el caso de las subterráneas.
+A continuación se van a describir de forma abreviada cada una de ellas.
+3.7.1. Redes aéreas de distribución de Baja Tensión
+Estas redes cada vez son más sustituidas por las redes enterradas, pero
+todavı́a podemos encontrarlas en la mayorı́a de los centros urbanos y también
+rurales (Figura 3.23).
+Los conductores, según la ITC-BT07 [6], serán principalmente de cobre
+o aluminio con una tensión asignada de aislante, si lo llevan, no inferior a
+06/1kV. La ejecución de estas lı́neas puede ser mediante:
+Conductores aislados.
+
+[Página PDF 28]
+26 Suministro de Energı́a Eléctrica.
+Figura 3.23: Red aérea de distribución de Baja Tensión.
+• Cables posados. En este caso la red irán apoyada en la fachada.
+• Cables tensados. Colocada sobre apoyos que pueden ser metálicos,
+de hormigón o de madera.
+Conductores desnudos.
+En el caso de los conductores desnudos existen unas determinadas zonas
+de protección en edificación donde no se pueden ubicar este tipo de redes, tal
+y como se puede ver en la figura 3.24.
+Figura 3.24: Zonas de protección en edificios para la instalación de lı́neas de
+Baja Tensión con conductores desnudos.
+
+[Página PDF 29]
+3.7 Redes de distribución de Baja Tensión 27
+3.7.2. Redes subterránea de distribución de Baja Ten-
+sión.
+Este tipo de redes son las que se están utilizando más en los últimos años
+debido a que son más seguras y que no ocupan las fachadas y el paisaje
+de la ciudad. Están definidas por la ITC-BT07, estando las canalizaciones
+ubicadas en el dominio público de la calzada realizando trazados en anillo o
+ramificados (figura 3.25).
+Figura 3.25: Red de distribución subterránea con cables directamente ente-
+rrados.
+Los conductores serán también de cobre o alumninio con una tensión
+asignada de aislante no menor de 0,6/1 kV, y la distribución en el núcleo
+urbano se puede realizar según el REBT:
+a) Con el conductor directamente enterrado (figura 3.25).
+b) Con canalizaciones entubadas (figura 3.26).
+c) Mediante galerı́as.
+d) Mediante canales revisables.
+Figura 3.26: Red de distribución subterránea bajo tubo.
+
+[Página PDF 31]
+Capı́tulo 4
+Partes de la Instalación
+Eléctrica.
+En este capı́tulo se van a describir todos y cada uno de los elementos que
+forman parte de la instalación eléctrica en edificación y más concretamente
+en los edificios de viviendas.
+Las partes principales que componen una instalación eléctrica son:
+Acometida.
+Instalación de Enlace.
+• Caja o Cuadro General de Protección (CGP).
+• Lı́nea General de Protección (LGA).
+• Contadores.
+• Derivaciones Individuales (DI).
+• Interruptor de Control de Potencia (ICP).
+• Cuadro General de Mando y Protección (CGMP).
+Instalación Interior.
+• Circuitos Interiores.
+4.1. Acometida.
+Es el tramo de la instalación que hace de nexo de unión entre la red
+pública de distribución con la instalación del edificio. Finaliza en el linde de
+este, con el cuadro o caja general de protección. Y está definida en la ICT-BT
+10 del REBT.
+De forma general la acometida es una red trifásica de 4 conductores (3
+fases y neutro), pero las compañı́as suministradoras estarán obligados, siem-
+pre que lo solicite el cliente, a efectuar el suministro eléctrico en monofásica
+
+[Página PDF 32]
+30 Partes de la Instalación Eléctrica.
+para potencias menores o iguales a 5.750 W a 230 V, y hasta un suministro
+de potencia máximo de 14.490 W a 230V. Cuando se demande más de 14,49
+kW el suministro tendrá que ser obligatoriamente trifásico. La compañı́a su-
+ministradora es propietaria y responsable de este tramo de la instalación,
+por lo que su ejecución se realizan según la normativa definida por esta y
+por las instrucciones técnicas complementarias (ITC) que las definan. Discu-
+rrirá por dominio público en la mayorı́a de los casos y dibujando un trazado
+lo más rectilı́neo y corto posible. Se evitará la realización de acometidas por
+patios interiores,garajes, jardines privados, o viales de conjuntos cerrados en-
+tre otros. En términos generales se dispondrá de una acometida por edificio,
+aunque en algunos casos esto puede modificarse si la potencia demandada es
+elevada y ası́ lo estime la empresa suministradora. Como es el caso de locales
+de gran superficie (≥ 300m2 ) que tendrán una acometida independiente para
+su suministro. Sus conductores, tubos de conducción y canales, tienen las
+mismas consideraciones que las redes de distribución en Baja Tensión. Según
+cual sea el trazado de la red las acometidas se pueden dividir en:
+Aéreas.
+Subterráneas.
+Mixtas.
+4.1.1. Acometidas Aéreas.
+Este tipo de acometidas tiende a desaparecer frente a las subterráneas.
+Se ejecuta solo cuando la red de distribución también es aérea(Figura 4.1).
+Figura 4.1: Acometida aérea a partir de una red de distribución aérea [13].
+A su vez las acometidas aéreas de subdividen según el sistema de insta-
+lación en:
+
+[Página PDF 33]
+4.1 Acometida. 31
+1. Acometidas posadas sobre fachada.
+2. Acometida tensada sobre poste.
+El tendido más común es sobre fachada, realizando un estudio anterior
+para que quede bien protegida la lı́nea, una vez colocada y respetando unas
+distancias de seguridad (Figura 4.2), no siendo en ninguno de los casos la
+altura mı́nima en cruces sobre calles y carreteras inferior a 6 m.
+Figura 4.2: Ejecución de las acometidas aéreas en función del tipo de tendido
+[11].
+Las caracterı́sticas de los conductores de este tramo de la instalación
+tendrán las mismas caracterı́sticas que la red de distribución aérea y por tanto
+están definidos en la ITC-BT 06. Los cables posados sobre fachada tendrán
+una tensión asignada de 0.6/1kV y su instalación se hará preferentemente
+bajo tubo cerrados o canales protectoras. Si la distancia al suelo en tramos
+de acometida es inferior a 2,5 m, los tubos y canales deben cumplir unos
+requisitos especiales definidos en la ITC-BT 11, y se deben proteger de la
+posible entrada de agua.
+4.1.2. Acometidas Subterráneas.
+Es la más común, actualmente en los núcleos urbanos, cuya distribución
+queda enterrada y fuera de la vista, por lo que es mucho más estética. De
+hecho cada vez hay más zonas de los cascos antiguos que se han ido sustitu-
+yendo las acometidas subterráneas.
+
+[Página PDF 34]
+32 Partes de la Instalación Eléctrica.
+Figura 4.3: Acometida subterránea para un edificio de viviendas [13].
+En la figura 4.3 se puede ver el esquema de acometida subterránea que
+alimenta a un edificio de viviendas.
+Existen diferentes formas de acometer al edificio , en función de como
+sea la alimentación desde la red de distribución, pudiendo ser en derivación
+(figura 4.4(a)) si la red es ramificada o en bucle (figura4.4(b))si la red es en
+anillo o en huso.
+Figura 4.4: Tipos de acometidas subterráneas en función de la red de distri-
+bución [11].
+Queda definida al igual que pasa con la acometida aérea con la red de
+distribución subterránea, ya que tiene que cumplir las mismas caracterı́sticas
+(ITC-BT 07).
+Los conductores y cables serán de cobre o aluminio y deberán ser capaces
+de soportar las intensidades máximas admisibles para el tipo de conductor
+y las condiciones de su instalación. A continuación se puede ver una de las
+tablas de estas intensidades admisibles de la ITC-BT 07 (figura 4.5).
+Existen diferentes tablas para cada una de las configuraciones que se pue-
+den encontrar, enterrados directamente en el terreno, en canaletas, ası́ como
+
+[Página PDF 35]
+4.1 Acometida. 33
+Figura 4.5: Intensidades máximas admisibles para conductores de cobre en-
+terrados [6, 11].
+si los conductores son de cobre o aluminio.
+Por último se van a indicar en la tabla 4.1 las distancias de proximidad
+entre las acometidas subterráneas con el resto de instalaciones con las que
+puede convivir en la red pública.
+Tipos de Canalizaciones Distancias
+Canalización Baja Tensión 0.1 m
+Eléctrica alta Tensión 0.25 m
+Canalización de Telecomunicaciones 0.2 m
+Canalización de Proy. Horizontal 0.2 m
+Agua Entre empalmes eléctricos y juntas de agua 1m
+Canalización BP y MP 0.2 m
+de AP 0.4 m
+Gas Entre empalmes eléctricos y juntas de agua 1m
+Tabla 4.1: Distancias y proximidad entre las canalizaciones eléctricas ente-
+rradas y el resto de instalaciones.
+4.1.3. Acometidas Mixtas.
+Son aquellas acometidas que se realizan parte en instalación aérea y parte
+en instalación subterránea (Figura 4.6).
+
+[Página PDF 36]
+34 Partes de la Instalación Eléctrica.
+Cada tramo se realizará en función de las condiciones de cada trazado,
+es decir, la parte aérea se regirá por las condiciones del trazado aéreo y el
+subterráneo con el suyo. Como se puede ser la distancia mı́nima en la parte
+aérea no puede ser inferior a 2,5 m.
+Figura 4.6: Acometida mixta [11].
+4.2. Instalaciones de Enlace
+Son aquellas partes de la instalación del edificio que unen o enlazan la red
+urbana de distribución con el recinto propio de cada usuario (o abonado), ya
+sea vivienda, oficina, local comercial, o los servicios generales correspondien-
+tes al edificio.
+Como se ha indicado anteriormente los elementos que forman parte de
+la instalación de enlace (según la ITC-BT 12) son: La caja general de pro-
+tección, la lı́nea general de alimentación, la centralización de contadores, las
+derivaciones individuales y los cuadros generales de mando y protección, ya
+sean estos últimos pertenecientes a las viviendas o a los servicios generales
+(cuadros primarios y secundarios).
+En la normativa aparecen diferentes tipos de esquemas en función de tipo
+de edificio a abastecer de energı́a eléctrica y del número de usuarios. Estos
+esquemas son [11]:
+Esquema para un único abonado (Figura 4.7(a)).
+Esquema para dos abonados (Figura 4.7(b)).
+Esquema para varios usuarios con contadores centralizados (Figura
+4.7(c)).
+Esquema para varios usuarios con contadores descentralizados (Figura
+4.7(d)).
+
+[Página PDF 37]
+4.2 Instalaciones de Enlace 35
+(a) Esquema para 1 abonado (b) Esquema para 2 abonados
+(c) Esquema para varios abonados
+con contadores centralizados. (d) Esquema para varios abonados
+con contadores descentralizados.
+(e) Leyenda
+Figura 4.7: Diferentes tipos de esquemas normalizados de la instalación de
+enlace según el REBT [2].
+Como puede apreciarse en la figura 4.7, las disposiciones de la instalación
+de enlace serán diferentes por las caracterı́sticas de los elementos que la in-
+tegran también son diferentes como ya veremos en los apartados posteriores.
+4.2.1. Caja o Cuadro General de Protección, CGP.
+Es el primer elemento privativo del edificio, al que llega la acometida y
+además es la primer elemento de protección eléctrico general del inmueble.
+Si bien su cometido concreto se basa en mantener la integridad fı́sica de la
+Lı́nea General de Alimentación que parte de él.
+Por lo tanto la CGP es el nexo de unión entre la acometida con la insta-
+lación de enlace. Dentro del Reglamento Electrotécnico sus caracterı́sticas se
+definen dentro de la instrucción técnica ITC-BT 13.
+En el interior de la caja o cuadro se encuentran cortacircuito-fusibles para
+cada una de las fases, con poder de corte igual o mayor a la posible corriente
+
+[Página PDF 38]
+36 Partes de la Instalación Eléctrica.
+de cortocircuito ,y un borne de conexión del neutro.
+La ubicación de estos elementos se realizará preferentemente en fachada
+exterior, en lugares de libre y permanente acceso. Su situación se fijará de
+común acuerdo entre la propiedad y la empresa suministradora tal y como
+indica la normativa. Esta situación en algunos casos es problemática ya que
+al estar en fachada, puede tener un nefasto impacto visual, si se trata de
+acometidas aéreas superficiales, con los cable trenzados. En los edificios pro-
+tegidos o catalogados por la normativa urbanı́stica competente suele estar
+proscrita la colocación en fachada de cualquier elemento discordante, por lo
+que en esos casos se obliga a colocar la caja o cajas dentro del portal del
+inmueble.
+Figura 4.8: CGP en fachada con acometida aérea.
+Para acometida aérea la CGP se ubicará en fachada, en hornacina abierta,
+donde termina la canalización de la acometida y a una distancia del pavi-
+mento en la mayorı́a de los casos entre 3 y 4 m, no pudiendo ser por debajo
+de 2.5 m(Figura 4.8). La hornacina debe tener unas medidas suficientes pa-
+ra la instalación y mantenimiento de la caja. En términos generales podrı́a
+establecerse como mı́nimos:0,50 m de ancho por 0,80 m de alto y 0,25 m de
+fondo para cada caja.
+(a) CGP ubicada en la cerca que delimita al (b) CGP en portal
+edificio.
+Figura 4.9: Diferentes ubicaciones de la CGP en edificio [1]
+
+[Página PDF 39]
+4.2 Instalaciones de Enlace 37
+De la misma forma para la acometida subterránea la CGP debe quedarse
+en el cerramiento del inmueble, pero en la fachada exterior (figura 4.9(b))
+y si el edificio tiene cerca exterior esta debe ubicarse en este lugar (figura
+4.9(a)).
+Figura 4.10: Caracterı́sticas del armario de la CGP [11].
+El armario u hornacina que alberga la CGP, debe cumplir unas deter-
+minadas condiciones y dimensiones. Dichas dimensiones quedan reflejadas
+en la figura 4.10, además la puerta debe cumplir unas condiciones frente al
+impacto con un grado de seguridad IK 10(figura 4.11).
+Figura 4.11: Esquema de una CGP, según la guı́a de REBT [2].
+Tipos de CGP
+En función del tipo de edificación y de las necesidad de potencia, existen
+tres tipo de cuadros o cajas generales de protección. Que en esencia realizan
+la misma función, aunque a continuación se va a describir cada uno de ellos.
+Caja General de Protección o CGP convencional. Es que se ha esta-
+do definiendo en las párrafos anteriores. Tiene diferentes esquemas de distri-
+bución o de conexión en función de como se alimente la CGP y como sea la
+
+[Página PDF 40]
+38 Partes de la Instalación Eléctrica.
+acometida, la designación de las conexiones se define mediante unos número
+s determinados tal y como puede verse los esquemas de la figura 4.12.
+Figura 4.12: Tipos de conexiones normalizadas para las cajas generales de
+protección [10].
+En la figura 4.13, se pueden ver varias CGP correspondientes a las cone-
+xiones indicadas anteriormente.
+(a) (b)
+(c) (d)
+Figura 4.13: Aspecto de las CGP en función del tipo de conexión [10]
+Caja General de Protección y Medida, CGPM. Este tipo de pro-
+tección es usada en viviendas unifamiliares y adosadas, donde la CGP y el
+contador comparten el mismo armario. En la figura 4.14 se puede ver el as-
+pecto exterior e interior que tienen estos armarios, quedando el contador en
+el lugar donde están las ventanas para permitir la contabilización por parte
+de la empresa suministradora. La ubicación de la CGPM será la fachada de
+la vivienda o la cerca de la parcela, si la anterior está retranqueada.
+Este tipo de elementos se colocaran en la mayorı́a de los casos en una
+hornacina al igual que lo hacen las CGP, ubicándose los aparatos de medida
+
+[Página PDF 41]
+4.2 Instalaciones de Enlace 39
+Figura 4.14: Caja General de Protección y Medida (CGPM) [2].
+a una altura entre 0.7 a 1.8 m. La envolvente debe tener una vez instalada
+unos grados de protección frente al agua IP43 (UNE 20.324) y una resistencia
+mecánica frente al impacto IK09 (UNE-EN 50.102), además de ser precinta-
+bles. Además la puerta del armario que los aloja debe también tener un grado
+de protección IK09 y elementos transparentes que permitan la medición.
+(a) CGPM monofásica para 1 abonado (b) CGPM trifásica con 2 abonados
+Figura 4.15: Tipos de CGPM [10]
+En la mayorı́a de los casos el fusible es único en formato cilı́ndrico (figura
+4.15(a)), y se intercala en la fase de un tipo de suministro que normalmente
+será monofásico (hasta 14 kW), aunque también existen CGPM trifásicos
+(figura 4.15(b)) para vivienda (hasta 15 kW) y para locales comerciales e
+industriales (>15 kW).
+Bases Tripolares Verticales, BTVs. Cuando las acometidas tienen una
+potencia muy elevada (>320 kW) las cajas generales de protección se sus-
+tituyen por armarios que albergan las denominadas BTV (Bases Tripolares
+Verticales), como las de la figura 4.16 donde sobre una pletina se colocan unos
+zócalos que albergan tres o más trios de fusibles y con una pletina adicional
+para el neutro, permitiendo que existan varias lı́neas de salida y ası́ repartir
+la potencia en el edificio.
+En el esquema unifilar de la figura 4.17, se puede ver la distribución en
+un edificio con la colocación de BTVs en lugar de una Caja General de
+Protección.Cada lı́nes general de alimentación llegará a un cuadro o módulo
+
+[Página PDF 42]
+40 Partes de la Instalación Eléctrica.
+Figura 4.16: Esquema básico de Bases Tripolares Verticales (BTV) [13].
+independiente de contadores, que en la mayorı́a de los casos pueden estar
+ubicados en el mismo lugar.
+Figura 4.17: Esquema de una instalación de enlace en un edificio utilizando
+BTVs [13].
+4.2.2. Lı́nea General de Alimentación, LGA.
+Constituye el tramo comprendido entre la C.G.P. y la centralización de
+contadores. Cuando se parte de un cuadro con capacidad para varias trı́os de
+fusibles(BTVs), cada una de ellos encabezará una lı́nea general de alimen-
+tación diferente, de modo que cada lı́nea une una determinada base tripolar
+con un solo conjunto de módulos de contadores eléctricos(figura 4.17). En el
+caso de viviendas unifamiliares o adosadas, a1 estar en un mismo armario el
+fusible que hace de caja general de protección y el contador correspondiente,
+no existe fı́sicamente la lı́nea general de alimentación, aunque si existan unos
+conductores que unan los fusibles al contador.
+
+[Página PDF 43]
+4.2 Instalaciones de Enlace 41
+Esta lı́nea queda totalmente definida en la normativa en la IT-BT 14.
+Su recorrido natural se ejecutará atravesando el portal del inmueble por
+falso techo, enterrada o mediante rozas hasta alcanzar el cuarto o armario de
+cantadores, utilizando zonas comunes siempre y con una trayectoria lo más
+rectilı́nea y corta posible. No en vano se trata del tramo que soporta toda la
+potencia del edificio y en consecuencia necesitará los conductores más gruesos
+de toda la instalación. Esto ya no solo implica un coste por caı́da de tensión,
+sino sobre todo por las dificultades de manipular secciones importantes. En
+algunos casos puede ir hasta colgada en el forjado de la planta sótano.
+Las dimensiones de las canalizaciones deberán permitir la ampliación de
+la sección de los conductores en un 100 %, y para el caso de utilización de
+tubos se debe ajustar a lo indicado en la tabla 4.2 en función de la sección
+de la fase. La canalización habitual será de tubos de material termoplástico
+rı́gido con uniones roscadas o embutidas, de modo que los extremos de dicha
+unión no puedan separarse. En el caso en que la LGA esté enterada bajo
+tubos se deberá cumplir lo especificado en la ITC-BT 07.
+Secciones (mm2 )
+Diámetro exterior de los tubos (mm)
+Fase Neutro
+10(Cu) 10 75
+16(Cu) 10 75
+16(Al) 16 75
+25 16 110
+35 16 110
+50 25 125
+70 35 140
+95 50 140
+120 70 160
+150 70 160
+185 95 180
+240 120 200
+Tabla 4.2: Tabla 1 (ITC-BT 14).
+Cuando el cambio de dirección sea imprescindible se procurará la utiliza-
+ción de amplias curvas, o mejor de amplias cajas registrables para facultar
+la colocación y el mantenimiento de los conductores.
+Si la LGA discurre verticalmente lo hará por el interior de canaladura o
+conducto de obra (patinillo) empotrado o adosado al hueco de la escalera por
+zona común (figura 4.18). Sus paredes deben cumplir con una integridad(E) y
+aislamiento(I) al fuego de 120 minutos (EI120), y sus tapas de registro de 30
+min, según CTE DB-SI. Además se establecerán cortafuegos cada 3 plantas
+con iguales condiciones a las paredes (EI 120) y se colocarán registros en
+todas las plantas por las que discurra.
+
+[Página PDF 44]
+42 Partes de la Instalación Eléctrica.
+Figura 4.18: Esquema de distribución en vertical de la LGA y caracterı́sticas
+del conducto de obra [2].
+Conductores para la LGA Las lı́neas generales de alimentación, en térmi-
+nos generales van a ser siempre trifásicas y sin conductor de protección o de
+toma de tierra (T.T), por lo tanto tendrán 4 conductores. Si es monofásica,
+en caso excepcionales, sin toma de tierra constará de 2 conductores y de 3
+conductores en el caso de que llevara la protección.
+Tanto las fases como el neutro serán fácilmente identificables a través de
+colores o etiquetas. De utilizar colores serı́an preferiblemente:
+marrón, negro y gris para las fases,
+azul para el neutro.
+(amarillo-verde para la protección o toma de tierra.)
+y en el caso necesario de designarlos, se utilizará la secuencia:
+R, S, y T para las fases, y
+N para el neutro.
+(P ó TT para la protección.)
+Antes de seguir definiendo diferentes aspectos con respecto a las carac-
+terı́sticas de los conductores de LGA, es necesario tener claros que tipos de
+cables existen en las instalaciones. Pudiendo haber conductores unipolares
+y conductores multipolares. Un conductor unipolar es aquel que esta com-
+puesto por el alma de material conductor, con un recubrimiento de aislante y
+en algunos caso con una cubierta exterior(figura 4.19(a)). El alma puede ser
+rı́gida o formada por un haz muchos cables iguales, siendo en ese caso más
+flexibles. Estos tipos de cables van independientes. En el caso de los cables
+multipolares dentro de un mismo cable se encuentra varios conductores di-
+ferentes con sus respectivos aislantes, y en algunos casos con varios tipos de
+cubiertas. En este caso las lı́neas quedan agrupadas con un único cable con-
+ductor, dentro del cual hay desde 2-5 conductores unipolares(figura 4.19(b)).
+
+[Página PDF 45]
+4.2 Instalaciones de Enlace 43
+Pueden llegar a ser difı́ciles de manejar si la sección de los conductores en su
+interior son muy grandes pero superficialmente están más protegidos.
+(a) Cables unipolares
+(b) Cables multipolares
+Figura 4.19: Tipos de cables conductores [11]
+Los conductores pueden ser de cobre(Cu) o de aluminio(Al) con un nivel
+de aislamiento asignado de 100V para el recubrimiento, lo cual se representa
+por: 0.6/1kV. Además tendrán las siguientes caracterı́sticas:
+Serán ’no propagadores del incendio’, y con baja emisión de humos y
+opacidad (parte 4 y 5 norma UNE 21113)y sin emisión de halogenuros
+metálicos.
+La sección de los cables será uniforme en todo su recorrido, y sin empal-
+mes. Siendo la sección mı́nima para conductores de Cu de 10 mm2 ,
+y para el Al 16 mm2 .
+Es necesario también indicar que las conducciones por donde irán los
+cables serán ’no propagadores de llama’ (UNE-EN 500085-1 y UNE-EN
+50086-1).
+Existen diferentes tipos de designaciones para los cables, aunque siempre
+se tiene en cuenta el aislante del conductor, el tipo de cubierta si existe y el
+tipo de conductor. En la que se va a utilizar en este caso un ejemplo serı́a:
+RV 0,6/1kV-K.
+La primera letra desina el tipo de aislante, pudiendo ser:
+• R,polietileno reticulado (XLPE).
+• D, etileno-propileno reticulado (EPR).
+• V, policloruro de vinilo (PVC).
+• ES, aislamiento de compuesto termoplástico a base de poliolefinas
+(Z1).
+La segunda letra designa el tipo de cubierta, y en ese caso puede ser:
+• V, policloruro de vinilo (PVC),
+• Z1, cubierta de compuesto termoplástico a base de poliolefina.
+
+[Página PDF 46]
+44 Partes de la Instalación Eléctrica.
+El valor 0,6/1kV, pertenece a la designación de tensión del aislante, tal
+y como se indicaba en párrafos anteriores, para 1000 V. Es posible que
+en muchos casos no aparezca, indicándose por omisión, que es este el
+valor asignado como serı́a el caso del ejemplo: RV-K.
+Y la letra final después del guión, indica el tipo de conductor utilizado,
+ası́:
+• -K, conductor de cobre flexible.
+• -U, conductor de cobre rı́gido.
+• -R, conductor tipo cuerda.
+• -A ó -Al, conductor de aluminio.
+En la tabla de la figura 4.20, podemos ver diferentes tipos de canalizacio-
+nes y cables para la LGA, utilizando el tipo de nomenclatura definido.
+Figura 4.20: Caracterı́sticas de los cables y sistemas de conducción según la
+Guı́a del REBT ITC-BT 14 [2].
+
+[Página PDF 47]
+4.2 Instalaciones de Enlace 45
+4.2.3. Centralización de Contadores.
+Como parte de la instalación de enlace, en todos los edificios de vivien-
+das se habilitará un espacio común destinado a albergar exclusivamente la
+centralización de los contadores eléctricos.
+La ubicación y la instalación de los contadores está definida en la instruc-
+ción técnica complementaria ITC-BT 16.
+En el caso de viviendas unifamiliares o adosadas, el contador se encuen-
+tra en el exterior de la vivienda dentro de la CGPM (figuras 4.15 y 4.14),
+tal y como se ha indicado anteriormente, cumpliendo con unos grados de
+protección para el contador de IP43 e IK09.
+Figura 4.21: Caracterı́sticas de una centralización de contadores [2].
+En el resto de los casos en vivienda, los contadores se encuentran en el
+interior del edificio centralizados de forma única o parcial. Para la ubicación
+de la centralización se tendrán en cuenta las normativas aplicables por parte
+de la compañı́a suministradora.
+En cualquier caso los contadores se colocan en unos módulos o paneles
+estandarizados (UNE-EN 60439) con ventilación suficiente y con grados de
+protección mı́nimos: IP40 e IK09 (figura 4.21).
+Partes de la centralización de contadores
+Toda centralización de contadores se compone de cuatro unidades funcio-
+nales principales (figura 4.22) diferentes, ya que los contadores no se ubican
+solos, dichas unidades son las siguientes:
+
+[Página PDF 48]
+46 Partes de la Instalación Eléctrica.
+Figura 4.22: Partes principales de una centralización de contadores [2].
+A. Interruptor Seccionador General de Maniobra.
+B. Unidad Funcional de Embarrado de Entrada.
+Embarrado general.
+Fusibles de seguridad.
+C. Unidad Funcional de Medida.
+Aparatos de medida.
+D. Unidad Funcional de Embarrado de Protección y Salida.
+Embarrado general de Protección.
+Bornes de salida.
+A continuación se van a definir cada uno de ellos.
+A. Interruptor Seccionador General de Maniobra:
+Toda centralización de contadores debe incluir un Interruptor Seccionador
+para posibilitar manualmente la conexión o desconexión del suministro
+eléctrico procedente de la lı́nea general de alimentación. Este interruptor
+debe tener la sección del neutro retardado para evitar posibles tensiones
+indeseables en el momento de su maniobra.
+B. Unidad Funcional de Embarrado de Entrada:
+Se encuentra situada en la parte inferior del panel de módulos,a continua-
+ción del interruptor seccionador. Organiza la descomposición de la LGA
+en tantas lı́neas individuales como contratos deban existir. Para ello la
+lı́nea general de alimentación acomete sobre tres barras de fases y una de
+neutro, de ahı́ el nombre de embarrado general. Las barras son de cobre
+de sección 20 x 4 mm.
+
+[Página PDF 49]
+4.2 Instalaciones de Enlace 47
+Sobre las barras se colocan los fusibles de seguridad (D02 o D03) que se
+destinan a la protección de los contadores y derivaciones individuales y
+estarán situados en cada uno de los arranques de todos los conductores
+de fase, con capacidad de corte en función de la máxima corriente de
+cortocircuito que se pueda presentar.
+C. Unidad Funcional de Medida:
+En ella se alojan los contadores, propiamente dichos, de todos los abona-
+dos y servicios del edificio del edificio. Deben tener un espacio reservado
+para la colocación de interruptores horarios.
+D. Unidad Funcional de Protección y Salida:
+De esta unidad parten todas las derivaciones individuales, para ello se
+colocan unos bornes o grapas de conexión a los que llegan los conductores
+de los contadores y de los que salen los conductores de la derivación
+individual.
+Además dentro de esta unidad se encuentra la barra de protección a tierra
+a la que llegará la lı́nea de protección a tierra y de la que partirán todos
+los conductores de protección necesarios en la instalación, tanto para las
+derivaciones individuales como a los elementos que es necesario conectar
+a tierra.
+Estas centralización de contadores pueden ser monofásicas o trifásicas, tal
+y como se puede ver en la figura 4.23, utilizándose en este caso contadores
+digitales en lugar de monofásicos.
+(a) Módulos para contadores monofásicos. (b) Módulos para contadores trifásicos
+Figura 4.23: Módulos de contadores eléctricos de la empresa Uriarte [10].
+Las consideraciones básicas para la centralización de contadores son:
+
+[Página PDF 50]
+48 Partes de la Instalación Eléctrica.
+Cada lı́nea general de alimentación terminará en un interruptor seccio-
+nador general de maniobra.
+Cada suministro monofásica tomará el neutro de la barra correspon-
+diente con una conexión mecánica directa, mientras que la fase se co-
+nectará mediante un mecanismo de porta-fusible que se inserta direc-
+tamente en la barra oportuna.
+Las conexiones de fase deben realizarse para conseguir el equilibrio de
+potencias, es decir, que los suministros distribuyan su demanda entre
+las tres fases disponibles en el embarrado.
+Los cables utilizados en las conexiones deben de ser ’no propagadores
+de incendio’ y con emisión reducida de humos, opacidad reducida y
+libres de emisión de halógenos. Su secciones mı́nimas serán de 6 mm2 ,
+aunque se puede recomendar que se utilice el mismo criterio que para
+la LGA 10 mm2 para Cu y 16 mm2 para Al.
+Se deberá también diponer de cableado para la conexión, en caso ne-
+cesario, para los circuitos de mando y control de tarifación horaria.
+Estos cables tendrán las mismas caracterı́sticas anteriores, el color del
+aislante es rojo de 1,5 mm2 .
+Tipos de contadores
+Se suelen clasificar en los tipos A, B y BCAR, según el tipo de suministro.
+Todos ellos se albergan en armarios de poliéster que suelen tener un ancho
+común, según el tipo y cantidad de contadores que pueda albergar, estando
+en un entorno entre los 48-63 cm.
+Tipo ’A’:Está destinado a suministros monofásicos hasta una potencia
+máxima de 14,49 kW (63 A) con medición exclusiva de energı́a activa.
+Tipo ’B’:Se utiliza para suministros trifásicos hasta los 14,49 kW (21
+A) con medición único de energı́a activa. Se puede utilizar en viviendas,
+locales comerciales y en algunos casos en servicios generales.
+Tipo ’BCAR’:Se utiliza para suministros trifásicos de hasta 43,5 kW
+(63 A). Consta de: contador de energı́a activa con posible discrimina-
+ción tarifaria; de contador de energı́a reactiva; e interruptor horario. Se
+utiliza en locales o servicios generales.
+Según el tipo se contador existen diferentes tipos estandarizados de cua-
+dros o módulos de contadores.
+En las figuras 4.24, 4.25 y 4.26, se van a presentar algunos de los cua-
+dros de centralización que la compañı́a suministradora Iberdrola define en
+sus normas, los cuales pueden ir o no cerrados con una envolvente. Esta en-
+volvente no es más que una carcasa transparente que cierra el conjunto y con
+posibilidad realizar un lacre para evitar la manipulación de los contadores.
+
+[Página PDF 51]
+4.2 Instalaciones de Enlace 49
+(a) Cuadro modular de 48 cm de ancho.
+(b) Cuadro modular de 63 cm de ancho.
+Figura 4.24: Tipos de armarios modulares con o sin envolvente para conta-
+dores monofásicos tipo A [1].
+El cuadro modular tipo A está asignado a contadores monofásicos tipo A
+se define en dos medidas de ancho: de 48 cm o de 63 cm.
+En la figura 4.24(a) se puede ver que en la variante de 48 cm alberga
+desde 2 hasta 11 contadores; mientras que en el caso de las variantes de 68
+cm (figura 4.24(b)) se pueden colocar desde 3 hasta 15 contadores.
+En los armarios tipo B, se colocarán contadores trifásicos tipo B (figura
+4.25) con o sin envolvente y con una anchura del armario de 58 cm.
+Por último en la figura 4.26 se puede ver los armarios normalizados de 58
+cm de ancho para los conjuntos combinados de contadores tipo BCAR.
+
+[Página PDF 52]
+50 Partes de la Instalación Eléctrica.
+Figura 4.25: Armarios modulares con o sin envolvente para contadores trifási-
+cos tipo B [1].
+Figura 4.26: Armarios modulares con o sin envolvente para contadores trifási-
+cos tipo BCAR [1].
+Ubicación de la centralización de contadores.
+Como se ha indicado anteriormente en viviendas unifamiliares y adosadas,
+el contador se encuentra en el exterior en la CGPM.
+En el edificio en REBT realiza una clasificación para la concentración de
+los contadores de viviendas, locales y servicios generales. Podrán ubicarse en
+uno o varios lugares tal y a su vez estos lugares pueden ser un armario o un
+
+[Página PDF 53]
+4.2 Instalaciones de Enlace 51
+local técnico. Los criterios de elección se tienen en cuenta en la tabla 4.3.
+Armario o local No de contadores
+Obligatoriedad en local > 16
+Armario ≤ 16
+Tipo de centralización Número de plantas
+Panta baja, entresuelo o 1er sótano < 12
+Concentrar por plantas intermedias
+Cada 6 o más plantas ≥ 12
+Tabla 4.3: Condiciones para la elección del tipo de ubicación y local para la
+concentración de contadores.
+Figura 4.27: Local de contadores eléctricos centralizados [11].
+Local de contadoresEste espacio será normalmente un local de ta-
+maño apropiado y de dedicación exclusiva(figura 4.27). También pue-
+den albergar dispositivos de telecomunicación y adquisición de datos
+de uso para la compañı́a suministradora, y en la mayorı́a de los casos
+también se encuentra el cuadro de mando y protección principal de los
+servicios generales.
+Las dimensiones del local se adaptarán al número de módulos de con-
+tadores que tengamos a partir de la fórmula:
+LP ≥ 2 · 0, 2 + 0, 36 + L (4.1)
+L = ΣNi · Ai (4.2)
+
+[Página PDF 54]
+52 Partes de la Instalación Eléctrica.
+siendo: N=número de módulos; Ai =Ancho de los módulos.
+Deberán reunir unas caracterı́sticas mı́nimas de las que destacamos
+como más significativas las siguientes:
+• Acceso desde zonas comunes.
+• Altura mı́nima 2,30 m (figura 4.28).
+• Anchura mı́nima en paredes ocupadas por contadores de 1,50 m.
+• Pasillo libre delante de contadores de 1,10 m.
+• Distancia entre la concentración de contadores y la pared lateral
+de 20 cm.
+• Apertura de puerta hacia el exterior, dimensiones mı́nimas 0,70 x
+2 m.
+• Alumbrado de emergencia: Equipo autónomo de alumbrado de
+emergencia (autonomı́a mı́n. 1 hora, mı́n. 5 lux). Dentro del local
+e inmediato a la entrada.
+• Deben tener desagüe o un peldaño sobre el acceso.
+• Según el CTE DB-SI son locales con riesgo especial bajo (EI90).
+• Ventilación suficiente.
+• Debe estar exento de cualquier tipo de instalación y exento de
+humedades.
+• Se colocará en el exterior y próximo a la puerta un extintor de
+eficacia 21B.
+Figura 4.28: Alzado, planta y perfil de un local de contadores eléctricos cen-
+tralizados [13].
+
+[Página PDF 55]
+4.2 Instalaciones de Enlace 53
+Armario de contadores
+Para un pequeño núemro de abonados(< 16 contadores), se colocarán
+los contadores en armario. Situado en planta baja, entresuelo, primer
+sótano o, cuando proceda, en concentraciones de contadores en plantas
+intermedios.
+Las caracterı́sticas principales de estos recintos son:
+• Se pueden ejecutar empotrados o adosados, dejando un pasillo
+libre en frente de 1,50 m (figura 4.29.
+• Sus dimensiones mı́nimas son: 1,50 m de ancho y 0,30 m de fondo;
+aunque se recomiendan 0,45 m de fondo.
+• Se encontrarán en zonas comunes, cerca de la entrada y de las
+derivaciones individuales.
+• Al abrir el armario quedará libre de obstáculos para la lectura y
+posibles instalaciones.
+• Deben tener una resistencia al fuego EI30.
+• Tendrán ventilación e iluminación suficiente.
+• Habrá un extintor móvil de eficacia 21B próximo.
+• En su interior se instalará una base de enchufe de 16A para man-
+tenimiento.
+Figura 4.29: Armario de contadores centralizados [13].
+4.2.4. Derivaciones Individuales
+Es el tramo de lo instalación que enlaza elemento de medida de cada
+abonado alojado en la centralización de contadores, con su interruptor de
+control de potencia(ICP) situado dentro del local o vivienda.
+
+[Página PDF 56]
+54 Partes de la Instalación Eléctrica.
+Está definida en la ITC-BT 15 del reglamento electrotácnico de baja
+tensión.
+Existirán tantas derivaciones individuales como número de abonados y
+locales existan en la derivación, sin contar las derivaciones a los garajes y
+servicios generales.
+Las derivaciones podrán ser trifásicas (3F + N + P ) ó monofásicas (F +
+N + P ) en función de las necesidades del abonado, del local o del servicio a
+alimentar. Utilizarán el mismo tipo de colores identificativos, ya definidos en
+la LGA.
+Figura 4.30: Caracterı́sticas de la derivación individual [2].
+La distribución de las derivaciones individuales se realizará en vertical y se
+hará mediante canaladura o patinillo ubicado en el perı́metro de la caja de la
+escalera. Dentro de esa canaladura se colocarán tantos tubos como abonados,
+siempre con recorridos rectilı́neos y elementos cortafuegos al menos cada tres
+plantas prefabricado o de escayola(figura 4.30). Los tubos deben tener una
+sección que permitan una ampliación de la sección de los cables en el 100 %,
+con un mı́nimo de 32 mm. Se colocará un tubo de reserva cada 10 derivaciones
+individuales o fracción.
+Su trayecto discurrirá siempre por zonas comunes y registrables del edi-
+ficio al igual que el resto de los instalaciones de enlace. Cuando el cambio de
+dirección sea imprescindible se procurarán amplias curvas con amplias cajas
+registrables para facilitar la colocación y el mantenimiento de los conducto-
+res.
+En cada planta se colocarán cajas de registro para facilitar el cambio
+de dirección a aquellas derivaciones gue tengan como destino la mencionada
+planta. Dichas cajas estarán o serán precintables para evitar manipulaciones
+indeseables. Esas cajas de registro serán de material aislante no propagador
+
+[Página PDF 57]
+4.2 Instalaciones de Enlace 55
+Figura 4.31: Distribución de la derivación individual en planta y sección de
+diferentes canaladuras conductoras [1].
+de llama y un grado de inflamabilidad V-1 (UNE-EN 60695-11-10). Las di-
+mensiones de sus tapas serán como mı́nimo de 30 cm de alto y del ancho de
+la canaladura.
+Las canaladuras o patinillos se ajustarán a las dimensiones que aparecen
+en la tabla 4.4 según marca la guı́a del REBT ITC-BT 15 y en función si esta
+compuesto por una o dos filas de tubos. Es necesario indicar que la distancia
+entre tubos es de 5 cm como mı́nimo.
+Número de Ancho (m)
+derivaciones Profundidad de 15 cm Profundidad 30 cm
+Hasta 12 0,65 0,50
+13-24 1,25 0,50
+25-36 1,85 0,95
+37-48 2,45 1,35
+Tabla 4.4: Anchura de los patinillos para DI.
+La distribución en cada planta a partir de los patinillo y hasta los cuadros
+de cada una de las viviendas se realizará, de forma generalizada mediante
+tubo empotrado.
+Todos los materiales de las conducciones como ocurre en las partes de la
+instalación deben no ser propagadores de llama..
+Los conductores de la derivación individual serán de cobre, con una ten-
+sión asiganda de protección de 450/750 V. Lo cual se designa para 450 V
+como 05kV; y para 750V como 07kV. En el caso que la DI sea enterrada el
+niel de protección será de 1000V o lo que es lo mismo 06/1kV.
+La nomenclatura utilizada es la misma que para la lı́nea general de ali-
+mentación, aunque existen otras designaciones para los conductores con el
+
+[Página PDF 58]
+56 Partes de la Instalación Eléctrica.
+nivel de aislamiento de 450/750V tal y como se verá en el apartado de los
+circuito interiores. Un ejemplo serı́a: D07Z1-U. La primera letra designa al
+aislante, los números a la tensión de protección y después la cubierta. Es la
+única diferencia con los de un nivel de aislamiento 06/1kV, en los cuales la
+designación de aislante y cubierta están juntas.
+En la tabla de la figura 4.32, se pueden ver los sistemas de canalización
+y cables más utilizados para esta parte de la instalación.
+Figura 4.32: Tipos de cables y sistemas de canalización para derivaciones
+individuales [2].
+
+[Página PDF 59]
+4.2 Instalaciones de Enlace 57
+4.2.5. Interruptor de Control de Potencia
+Es el final de la derivación individual y se encuentra justo antes del cua-
+dro general de los dispositivos de mando y protección. Sus caracterı́sticas se
+recogen en la ITC-BT 17. aunque es la empresa suministradora la que indica
+el tipo y ubicación de los mismos.
+(a) ICP de 10A (b) ICP precintado
+Figura 4.33: Interruptor de control de potencia monofásico [5].
+El cometido de este tipo de mecanismos es el control económico de la
+potencia máxima disponible o contratada a la empresa suministradora. Real-
+mente se trata de un interruptor magnetotérmico(figura 4.33(a)) que se in-
+tercala en las fases y que posee una curva caracterı́stica llamada ICP. Es-
+te mecanismo está precintado para evitar manipulaciones (figura 4.33(b) y
+4.34(b)).
+Se ubica según indica la compañı́a suministradora, pero en condiciones
+generales su lugar será anexo a los dispositivos de mando y protección de
+los cuadros, en una caja empotrada independiente o dentro de estos (figura
+4.34).
+(a) Caja para montaje [5]
+(b) ICP instalado
+Figura 4.34: Montaje del interruptor de control de potencia.
+La compañı́a distribuidora es la que en función del contrato establecido
+coloca un ICP con la intensidad adecuada, siendo el valor máximo de 63A.
+
+[Página PDF 60]
+58 Partes de la Instalación Eléctrica.
+Esta elección estará relacionada con la potencia máxima capaz de soportar el
+local, servicio o vivienda. La contratación se puede realizar considerando una
+simultaneidad, es decir que no toda la potencia de la que se puede disponer se
+va a utilizar a la vez. En la tabla de la figura 4.35, se puede ver la relación entre
+la potencia máxima en vivienda, el valor del interuptor general automático, la
+potencia de contratación y el valor del ICP. Estos valores han sido obtenidos
+de la empresa suministradora Unión Fenosa-Gas Natural [9].
+Figura 4.35: Potencias de contratación y valor del ICP [9].
+4.2.6. Cuadros de dispositivos generales de mando y
+protección(CGMP).
+Son cajas o pequeños armarios (cuadros de distribución) destinados a
+albergar los dispositivos de mando y protección de los circuitos interiores. Su
+instrucción técnica complementaria es la ITC-BT 17.
+Este elemento es el nexo de unión entre la instalación de enlace y la
+instalación interior, de hecho es difı́cil separarse de esta última, ya que los
+elementos que alberga protegerán y dependerán de los circuitos existentes.
+Normalmente el cuadro será para empotrar aunque en algunos casos se
+dispondrán superficiales, como es el caso de locales, naves industriales y en
+el interior de locales técnicos. Su emplazamiento apropiado es junto al acceso
+del local o vivienda, e inmediato a la caja del ICP, o una altura del paramento
+entre 1,4 Y 2 m, y para el caso de locales comerciales e industrias la altura
+mı́nima será 1m.
+Su material autoextinguible ajustándose a las normas UNE-EN 60439-3 y
+UNE 20451, con grados de protección IP30 e IK 07 (figura 4.36). Contará de
+soportes tipo omega-rail DIN en concordancia con los dispositivos de sujeción
+de los propios mecanismos. También incluirá una pletina de conexión común
+para todos los conductores de tierra.
+
+[Página PDF 61]
+4.2 Instalaciones de Enlace 59
+Figura 4.36: Caracterı́sticas de los cuadros generales de mando y protección
+o cuadros de distribución [2].
+Tipos de dispositivos de mando y protección
+Antes de entrar a definir los elementos mı́nimos que son necesarios de en
+interior de los cuadros generales es necesario definir cuales son los diferentes
+tipos de elementos que se utilizan de forma general.
+Una primera clasificación puede ser según el tipo potección que realiza.
+A. Interruptor Magnetotérmico(ITC-BT 22): Este tipo de elementos de
+protección reciben su nombre debido a su doble condición:
+Existe una protección fı́sica de tipo magnético que se dedica a la
+protección contra cortocircuitos;
+y una segunda protección de tipo térmico contra sobreintensidades.
+Este tipo de interruptores se pueden utilizar para lı́neas trifásicas y mo-
+nofásicas. Comercialmente se fabrican realizando una protección con sec-
+cionador del neutro o sin seccionarlo (figura 4.37). Vendrán definidos por
+la intensidad nominal máxima asociada a la potencia del circuito.
+Figura 4.37: Interruptores magnetotérmitos para lı́neas monofásicas y trifási-
+cas (Fuente: GE Electric [5]).
+
+[Página PDF 62]
+60 Partes de la Instalación Eléctrica.
+B. Interruptor Diferencial: Los interruptores diferenciales (ITC-BT 24)
+son los encargados de detectar corrientes de fuga o defecto. Estas corrien-
+tes son aquellas que se salen del circuito a través de contactos fortuitos
+con masas metálicas por defecto de aislamiento de los conductores ac-
+tivos. Existen interrupntores diferenciales para circuitos monofásicos y
+trifásicos (figura 4.38).
+La corriente de defecto máxima, es llamada intensidad de sensibilidad del
+diferencial y estará en combinación con la resistencia de tierra para que
+la tensión de contacto con cualquier masa metálica del edificio no supere
+los 24 V (en locales conductores húmedos) o los 50 V en el resto. Debido
+a esto los valores de esta corriente de sensibilidad van desde 0,01 A hasta
+0,5 A, siendo los más utilizados:
+0,01 A (10 mA): Muy alta sensibilidad, y
+0,03 (30 mA): Alta sensibilidad.
+Visto lo anterior, el diferencial se define mediante dos valores:
+La intensidad nominal: que se fija a través del valor de la potencia
+de la instalación, al igual que los interuptores magnetotérmicos; y
+La intensidad de sensibilidad: que se define por el umbral de fun-
+cionamiento por el que se corta automáticamente la alimentación
+cuando la corriente diferencial alcanza determinado valor.
+Figura 4.38: Interruptores diferenciales monofásicos y trifásicos (Fuente: GE
+Electric [5]).
+C. Limitador de Sobretensiones: El protector de sobretensiones (ITC-
+BT 23) (figura 4.39)está indicado en instalaciones eléctricas en donde su
+ubicación geográfica tenga riesgos altos de descargas atmosféricas (prin-
+cipalmente rayos).
+Cabe resaltar que a diferencia de los interruptores automáticos, el des-
+cargador no dispone de reposición automática, es decir, no tiene una
+palanca para activarlo de nuevo. Refuerza la protección del interruptor
+magnetotérmico.
+
+[Página PDF 63]
+4.2 Instalaciones de Enlace 61
+Figura 4.39: Limitador de sobretensiones (Fuente: GE Electric [5]).
+Otra clasificación se puede hacer en función del tipo de protección que
+se realiza a los locales, viviendas o servicios. Dentro de esta nos encontra-
+mos con elementos que se han definido en la otra clasificación pero según si
+la protección se realiza generalizada o sectorizada recibe diferentes nombre,
+de hay que tengamos dentro de los cuadros de mando y protección, como
+elementos más representativos los siguientes:
+1. Interruptor general automático (IGA): Es un interruptor magne-
+totérmico. Tiene como finalidad interrumpir el suministro de energı́a
+eléctrica a la instalación en el momento en que se supera la potencia
+para la que ha sido dimensionada la vivienda, local o servicio. Actúa
+sobre la totalidad de la instalación, de tal manera que abre el circui-
+to (generalmente con las palancas hacia abajo) dejaremos sin servicio
+a toda la instalación eléctrica interior. Deben de tener una capacidad
+de corte mı́nima para la intensidad de cortocircuito en punto de la
+instalación donde se encuentran de 6000 A (6 kA).
+Vendrán definidos por la intensidad nominal en función de la potencia
+máxima que alimentan. Los valores más utilizados son: 25A, 32A, 40A,
+50A y 63A.
+2. Interruptores automáticos diferenciales (ID):Como ya se ha de-
+finido anteriormente, el interruptor automático diferencial es un dispo-
+sitivo que corta el suministro de energı́a eléctrica al resto de la insta-
+lación cuando en la misma existe un fallo capaz de poner en peligro a
+las personas, animales o cosas. Este peligro puede ser ocasionado por
+electrocución o por incendio de origen eléctrico.
+En apariencia se distingue del resto de los automáticos en que el in-
+terruptor diferencial dispone de un pulsador de ”test”. Este pulsador
+sirve para comprobar la eficacia del interruptor diferencial. Si pulsándo-
+lo, el diferencial dispara y deja sin tensión al resto de la instalación este
+diferencial presumiblemente funciona correctamente. Si por el contra-
+rio al pulsarlo, el diferencial no dispara y sigue con tensión el resto
+de la instalación, ese diferencial hay que sustituirlo cuanto antes pues
+está defectuoso y el no cambiarlo podrı́a desencadenar serios daños.Si
+la instalación eléctrica tiene hasta cinco circuitos interiores diferentes,
+
+[Página PDF 64]
+62 Partes de la Instalación Eléctrica.
+deberá disponer de uno como mı́nimo. Sin embargo, si la instalación
+eléctrica tiene más de cinco circuitos, deberá de disponer, como mı́ni-
+mo, de uno por cada cinco circuitos. Aunque se pueden colocar tanto
+ID como se desee.
+Tendrán una capacidad de corte mı́nima para la intensidad de corto-
+circuito en punto de la instalación donde se encuentran de 6000 A (6
+kA), al igual que los interruptores generales automáticos y una corrien-
+te de sensibilidad de 30 mA con una respuesta de 50 ms, en el caso de
+viviendas.
+3. Interruptores automáticos individuales o Pequeños interrup-
+tores automáticos (IGA): Son interruptores magnetotérmicos al
+igual que el IGA. Tiene como finalidad interrumpir la energı́a eléctrica
+cuando en alguno de los circuitos interiores de la vivienda los cables
+no soportan la cantidad de energı́a eléctrica que están transportando.
+De esta manera se previene el deterioro de los cables que componen la
+instalación interior de la vivienda.
+El aumento de la energı́a eléctrica superior a la admitida por los cables
+se puede deber a dos causas: un cortocircuito o un aumento en la poten-
+cia eléctrica superior para la que estaba dimensionada la instalación.
+Disponen de curvas de disparo(EN 60898) que pueden ser de tipo ’C’
+que equivalen de 5 a 10 veces la intensidad nominal; o tipo ’D’ que
+soportan de 10 a 20 veces la intensidad nominal.
+4. Cortacircuito-fusibles: Es otro tipo de elementos que se puede en-
+contrar en los cuadros para la protección de los circuitos, pero que tiene
+un menor uso. Son más efectivos que los interruptores magnetotérmi-
+cos y son los elementos que se encuentran en el interior de las CGPs.
+Son elementos que se intercalan en los circuitos y que están constituidos
+por un elemento metálico, hilo o cartucho calibrado que están diseñados
+para soportar exclusivamente la intensidad nominal demandada por el
+circuito. Cuando ésta se supera el fusible se funde interrumpiendo el
+paso de la corriente. Su eficacia es, obviamente, total ya que siempre se
+funden antes que el conductor o elementos del circuito se vean afecta-
+dos. Pero presentan el inconveniente de que una vez que han operado
+se funden, por tanto son válidos para una sola operación quedando la
+instalación imposibilitada para funcionar hasta que no se haya repuesto
+el mismo.
+Tipos de cuadros generales de mando y protección
+Dentro de edificación y visto los dispositivos anteriores existen diferentes
+tipo de cuadros generales de mando y protección, que se pueden clasificar en
+función a los servicios que alimenta, pudiendo ser:
+1. Cuadros destinados a servicios generales.
+
+[Página PDF 65]
+4.2 Instalaciones de Enlace 63
+Cuadros principales.
+Cuadros secundarios.
+2. Cuadros destinados a viviendas.
+A continuación se va a dar determinadas nociones básicos de los elementos
+mı́nimos que deben incorporar cada uno de dichos cuadros:
+A) Cuadros destinados a servicios generales.
+La ubicación de este cuadro se encontrará próximo al local o armario
+de contadores e incluso en su interior, si es un local. De este cuadro
+se recogerán los elemenetos de mando y protección necesarios para los
+circuitos que alimentan los diferentes servicios genereales. Se verán que
+en algunos de los casos esos circuitos alimentarán a cuadros secundarios,
+debido al tipo de elementos a alimentar, a la potencia de los mismos o a
+ubicación de estos.
+En la figura 4.40 se puede ver un ejemplo de un cudro de servicios gene-
+rales, donde aparecen los diferentes dispositivos de mando y protección,
+necesarios para los circuitos que parten de él.
+Figura 4.40: Cuadro general de mando y protección de servicios generales [4].
+Existe una gran libertad para que el proyectista diseñe su contenido en
+cuanto al número ytipo de protecciones a utilizar. El cuadro mas genérico
+contendrı́a:
+interruptor general
+tantas parejas de diferenciales con magnetotérmicos, como circuitos
+sea necesario alimentar.
+Una propuesta de los diferentes circuitos básico necesarios en servicios
+generales, serı́a:
+
+[Página PDF 66]
+64 Partes de la Instalación Eléctrica.
+lı́neas de alumbrado.
+a) Lı́neas para alumbrado de zonas comunes del edificio, que fun-
+cionan con un temporizador (escaleras, portal, garajes, etc. )
+b) Lı́neas para alumbrado de zonas comunes que no funcionan tem-
+porizador ( cuartos de basura, trasteros, cuartos de instalacio-
+nes, etc.)
+c) Lı́neas auxiliares para instalaciones de interfonı́a colectiva, por-
+tero eléctrico,megafonı́a, antena, etc.
+lı́neas de fuerza motriz.
+a) Lı́nea por cada ascensor o montacargas.
+b) Lı́nea para cuarto de calderas de calefacción.
+c) Lı́nea para grupos de sobreelevación de agua.
+d ) Lı́nea por cada 46 kW o fracción de potencia destinada a otros
+usos.
+e) Lı́nea independiente si existen máquinas con potencia igual o
+superior a 46 kW.
+f ) Lı́neas independientes para cada local comercial.
+g) Lı́neas independienies para diferentes casos especı́ficos (calefac-
+ción, ventilación, piscinas comunitarios, etc.)
+Todos los circuitos partirı́an de un mismo elemento de medida estarán
+protegidas con interruptores automáticos independientes, pudiendo utili-
+zar interruptores diferenciales de forma independiente para cada circuito
+o agruparlo como en el caso de las lı́neas de alumbrado. El número de
+diferenciales dependerá del proyectista y de la importancia del circuito
+a proteger, siempre teniendo en cuenta que un diferencial no puede pro-
+teger a más de 5 circuitos. En el caso de las lı́neas de fuerza muchas de
+ellas dispondrán de cuadros secundarios en el lugar o local técnico donde
+se encuentren las máquinas que alimenta.
+Todas la lı́neas anteriores se pueden subdividir en tantas como se proyecte
+o se quiera sectorizar el edificio.
+Es necesario indicar que en la mayorı́a de los casos el garaje llevará una
+elemento de contabilización independiente por lo que se le tratarán de
+una lı́nea independiente de servicios generales, pudiendo tener un cuadro
+principal en la planta baja y un cuadro secundario en cada planta de
+garajes, o directamente llevarla a la planta primera de garajes. En el
+primer caso puede compartir el armario de los servicios generales del
+edificio pero alimentados de forma independiente.
+B) Cuadros secundarios. En el caso de locales y servicios generales, pue-
+den existir varios cicuitos que se alimenten de una determinada lı́nea por
+lo que es necesario sectorizarlos para aumentar el control y la protección
+de estos, de ahı́ que aparezcan los denominados cuadros secundarios. Su
+
+[Página PDF 67]
+4.2 Instalaciones de Enlace 65
+concepción es la mismo que la del general y en consecuencia deben cum-
+plir los mismos prescripciones.
+Posibles cuadros secundarios que nos podemos encontrar en un edificio
+de viviendas son:
+i) En el casetón del ascensor. En él que se instalarán casi obligatoria-
+mente:
+interruptor general
+al menos dos parejas de diferenciales y magnetotérmicos para
+alumbrado y motor de cada ascensor.
+ii) En cuadro para las instalaciones de cada recinto de telecomunica-
+ciones, en los que se instalará en cada uno:
+interruptor general
+un diferencial.
+un PIA para alumbrado de emergencia
+y la reserva de hueco para al menos un tanden como el anterior
+por cada posible operador.
+iii) En cuadro para las instalaciones de sobreelevación.
+interruptor general
+un diferencial.
+un PIA para alumbrado de emergencia
+y al menos dos PIAs para los motores de los aquipos de bombeo.
+Pudiendo llevar un ID independiente al anterior.
+C) Cuadros para viviendas. Se colocarán en el interior de las viviendas
+junto al cuadro de la ICP, a una altura entre 1,4 y 2 m. Se instala lo
+más próximo posible al exterior de la vivienda por lo que casi siempre
+se encuentra detrás de la puerta de entrada. Pueden ser superficiales o
+empotrados utilizándose esta segunda opción en vivienda.
+Figura 4.41: Cuadro general de mando y protección de vivienda.
+El número de dispositivos de mando y protección que se incluirán en él
+dependerá del número de circuitos que existan en vivienda, que como
+mı́nimo son 5 circuitos (figura 4.41). A su vez el número de circuitos

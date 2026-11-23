@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "instalaciones/index.html"
+        ],
+        "createdAt": "2026-11-23T16:26:05.408Z",
+        "reason": "Agente: Chromium confirmó títulos de 36–66 px frente a etiquetas de 14 px y preguntas de 31–49 px frente a opciones de 16 px."
+      }
+    ]
+  }
+}

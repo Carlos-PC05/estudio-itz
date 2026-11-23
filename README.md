@@ -70,3 +70,12 @@ La URL prevista es `https://carlos-pc05.github.io/estudio-itz/`; solo estará di
 GitHub Pages ya está configurado con GitHub Actions como fuente. Los pushes a `main` ejecutan el workflow automáticamente. Para subir cambios desde este proyecto, el remoto utiliza HTTPS con la cuenta activa de GitHub CLI.
 
 Referencias: [workflows de GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) y [despliegue de Vite en GitHub Pages](https://vite.dev/guide/static-deploy#github-pages).
+
+## Cuestionarios de Instalaciones
+
+Desde **Instalaciones → Cuestionarios interactivos**, elige entre 1 y 20 preguntas, 3 o 4 opciones por pregunta y, si quieres, un enfoque. Usa una clave personal de [OpenRouter](https://openrouter.ai/settings/keys) para generar el test con `openrouter/free`. La clave se conserva en memoria mientras la página está abierta. La generación envía a OpenRouter el texto del temario y las instrucciones. El botón **Probar test de ejemplo** permite practicar sin clave.
+
+El temario procede de *Instalaciones eléctricas en edificios de viviendas*, de Gemma Vázquez Arenas (UPCT). `data/instalaciones.txt` contiene el texto extraído hasta la página física 67 con marcadores del visor. Se omiten portada, índice y páginas sin texto. Las figuras quedan fuera de la extracción. Las explicaciones muestran la página citada.
+
+
+Para usar tu clave en desarrollo local, copia `.env.example` a `.env`, rellena `OPENROUTER_API_KEY` y reinicia `npm run dev`. El servidor local mantiene la clave fuera del navegador. En la compilación estática y en GitHub Pages, usa el campo de clave del formulario.

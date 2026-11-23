@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f2ec" />
+    <meta name="description" content="Genera y practica cuestionarios sobre instalaciones eléctricas en edificios de viviendas." />
+    <title>Instalaciones · Estudio de Itziar</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <a class="skip-link" href="#quiz-main">Ir al cuestionario</a>
+    <header class="site-header quiz-header">
+      <a class="brand" href="../">Asignaturas<span class="sr-only">, volver al menú</span></a>
+      <span class="course-label">Instalaciones</span>
+    </header>
+    <main class="quiz-main" id="quiz-main">
+      <section id="setup" aria-labelledby="setup-title">
+        <h1 id="setup-title" tabindex="-1">Prepara tu cuestionario.</h1>
+        <div class="planner">
+          <form id="quiz-form">
+            <div class="quiz-fields">
+              <label for="count">Preguntas
+                <input id="count" name="count" type="number" min="1" max="20" step="1" value="10" required />
+              </label>
+              <label for="options">Opciones por pregunta
+                <select id="options" name="options">
+                  <option value="3">3 opciones</option>
+                  <option value="4" selected>4 opciones</option>
+                </select>
+              </label>
+            </div>
+            <label for="instructions">Instrucciones <span class="optional">· Opcional</span>
+              <textarea id="instructions" name="instructions" rows="3" maxlength="1200" placeholder="Por ejemplo, céntrate en las instalaciones de enlace y plantea casos prácticos."></textarea>
+            </label>
+            <label for="key">Clave de OpenRouter
+              <input id="key" type="password" required autocomplete="off" spellcheck="false" aria-describedby="key-help" />
+            </label>
+            <p class="field-help" id="key-help">La clave se usa en esta sesión. Al generar, OpenRouter recibe el temario y tus instrucciones. <a href="https://openrouter.ai/settings/keys" target="_blank" rel="noopener noreferrer">Conseguir una clave</a></p>
+            <button class="button primary" id="generate" type="submit">Generar cuestionario</button>
+            <p id="generation-status" role="status"></p>
+          </form>
+          <aside class="quiz-source" aria-labelledby="source-title">
+            <h2 id="source-title">Temario del examen</h2>
+            <p>Instalaciones eléctricas en edificios de viviendas</p>
+            <p class="source-pages">Páginas 1–67 del PDF · Gemma Vázquez Arenas</p>
+            <button type="button" class="button secondary" id="demo">Probar test de ejemplo</button>
+          </aside>
+        </div>
+      </section>
+      <section class="quiz-sheet" id="practice" hidden aria-label="Cuestionario interactivo">
+        <div class="quiz-meta">
+          <span id="quiz-kind"></span>
+          <button class="button text-button" id="configure" type="button">Editar configuración</button>
+        </div>
+        <p id="quiz-position"></p>
+        <h1 id="question" tabindex="-1"></h1>
+        <div id="answers" role="group" aria-labelledby="question"></div>
+        <div id="feedback" role="status"></div>
+        <div class="quiz-actions">
+          <button class="button primary" id="next" type="button" hidden>Siguiente pregunta</button>
+          <button class="button secondary" id="restart" type="button" hidden>Repetir cuestionario</button>
+        </div>
+      </section>
+      <noscript>Activa JavaScript para generar y responder cuestionarios.</noscript>
+    </main>
+    <script type="module" src="/src/instalaciones.js"></script>
+  </body>
+</html>

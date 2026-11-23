@@ -7,3 +7,5 @@ Papel cálido y tinta oscura, con terracota para la acción principal y verde pa
 Las imágenes conservan su proporción y se muestran completas. La firma de interacción es el paso de una pregunta visual a una ficha de identificación en el mismo espacio; no se simula un giro que oculte las fotos. La ampliación usa un diálogo con foco y cierre mediante Escape.
 
 Los estados de práctica, respuesta, ronda terminada y repaso vacío tienen acciones claras. El progreso utiliza cantidades reales. El nombre del edificio nunca aparece en atributos accesibles de las imágenes antes de revelar la respuesta.
+
+En Instalaciones, la configuración usa una columna de trabajo y una referencia lateral al temario. En móvil se apilan. El cuestionario centra una pregunta a la vez y distingue la corrección mediante texto y color. La explicación y la página de referencia aparecen debajo de las opciones tras responder.
