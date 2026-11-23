@@ -51,7 +51,7 @@ export default defineConfig(({ mode }) => {
             res.end(JSON.stringify({ questions }));
           } catch (error) {
             const timedOut = error.name === 'TimeoutError';
-            res.statusCode = timedOut ? 504 : 502;
+            res.statusCode = timedOut ? 504 : (error.status ?? 502);
             res.end(JSON.stringify({ error: timedOut ? QUIZ_TIMEOUT_MESSAGE : error.message }));
           }
         });

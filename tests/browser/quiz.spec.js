@@ -4,7 +4,16 @@ test('Instalaciones envía la configuración y corrige el cuestionario', async (
   await page.route('https://openrouter.ai/api/v1/chat/completions', async route => {
     const request = route.request();
     const payload = request.postDataJSON();
-    expect(payload.model).toBe('openrouter/free');
+    expect(payload.models).toEqual([
+      'particle-ai/particle-1:free',
+      'inclusionai/ling-3.2-flash:free',
+    ]);
+    expect(payload.response_format.json_schema.schema.properties.questions).toMatchObject({
+      minItems: 1,
+      maxItems: 1,
+      items: { properties: { options: { minItems: 3, maxItems: 3 } } },
+    });
+    expect(payload.reasoning).toEqual({ enabled: false });
     expect(JSON.parse(payload.messages[1].content)).toEqual({
       preguntas: 1,
       opcionesPorPregunta: 3,
